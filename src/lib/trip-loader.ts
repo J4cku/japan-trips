@@ -88,7 +88,7 @@ function normalizeDays(days: any[]): Day[] {
     region: d.region || "default",
     tagline: d.tagline || "",
     stay: typeof d.stay === "string" ? d.stay : d.stay?.city ? `${d.stay.city}${d.stay.area ? ` (${d.stay.area})` : ""}` : d.stay || null,
-    highlights: d.highlights || normalizeHighlightsFromActivities(d.activities),
+    highlights: normalizeHighlights(d.highlights, d.activities),
     activities: normalizeActivities(d.activities),
     transport: d.transport || { mode: "car", duration: "" },
     food: d.food || "",
@@ -99,13 +99,25 @@ function normalizeDays(days: any[]): Day[] {
   }));
 }
 
-function normalizeHighlightsFromActivities(activities: any[]): string[] {
-  if (!activities || activities.length === 0) return [];
-  // Pick up to 4 activity titles as highlights
-  return activities
-    .slice(0, 4)
-    .map((a: any) => a.title || a.name || "")
-    .filter(Boolean);
+function normalizeHighlights(highlights: any, activities: any[]): string[] {
+  if (!highlights || !Array.isArray(highlights) || highlights.length === 0) {
+    // Fall back to activity names
+    if (!activities || activities.length === 0) return [];
+    return activities.slice(0, 4).map((a: any) => a.title || a.name || "").filter(Boolean);
+  }
+  return highlights.map((h: any) => {
+    if (typeof h === "string") {
+      // Detect stringified Python dicts: "{'name': 'Foo', ...}"
+      if (h.startsWith("{") && h.includes("'name'")) {
+        const m = h.match(/'name':\s*'([^']+)'/);
+        return m ? m[1] : h;
+      }
+      return h;
+    }
+    // Object with name field
+    if (h && typeof h === "object") return h.name || h.title || "";
+    return String(h);
+  }).filter(Boolean);
 }
 
 function normalizeActivities(activities: any[]): any[] {
