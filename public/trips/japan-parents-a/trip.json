@@ -1,0 +1,1965 @@
+{
+  "trip": {
+    "title": "Japan: Southern Explorer",
+    "titleJp": "日本：南部探検",
+    "dates": "Apr 19 – Apr 30, 2026",
+    "travelers": 7,
+    "durationDays": 12,
+    "durationNights": 11,
+    "origin": "Wrocław, Poland",
+    "flights": {
+      "outbound": {
+        "from": "Wrocław (WRO)",
+        "to": "Osaka Kansai (KIX)",
+        "date": "2026-04-19",
+        "arrives": "14:30 +1",
+        "note": "Via Frankfurt or Warsaw, ~15h total"
+      },
+      "return": {
+        "from": "Osaka Kansai (KIX)",
+        "to": "Wrocław (WRO)",
+        "date": "2026-04-30",
+        "departs": "11:00"
+      }
+    },
+    "dietary": [],
+    "route": [
+      "Osaka",
+      "Kyoto",
+      "Nara",
+      "Hiroshima",
+      "Fukuoka",
+      "Kumamoto",
+      "Kawaguchiko",
+      "Osaka"
+    ]
+  },
+  "stays": [
+    {
+      "location": "{'city': 'Osaka'",
+      "nights": 1,
+      "dates": "2026-04-19",
+      "area": "{'city': 'Osaka'",
+      "budget": "400-600 PLN/night/room"
+    },
+    {
+      "location": "{'city': 'Kyoto'",
+      "nights": 2,
+      "dates": "2026-04-20",
+      "area": "{'city': 'Kyoto'",
+      "budget": "400-600 PLN/night/room"
+    },
+    {
+      "location": "{'city': 'Osaka'",
+      "nights": 1,
+      "dates": "2026-04-22",
+      "area": "{'city': 'Osaka'",
+      "budget": "400-600 PLN/night/room"
+    },
+    {
+      "location": "{'city': 'Hiroshima'",
+      "nights": 1,
+      "dates": "2026-04-23",
+      "area": "{'city': 'Hiroshima'",
+      "budget": "400-600 PLN/night/room"
+    },
+    {
+      "location": "{'city': 'Fukuoka'",
+      "nights": 2,
+      "dates": "2026-04-24",
+      "area": "{'city': 'Fukuoka'",
+      "budget": "400-600 PLN/night/room"
+    },
+    {
+      "location": "{'city': 'Kawaguchiko'",
+      "nights": 2,
+      "dates": "2026-04-26",
+      "area": "{'city': 'Kawaguchiko'",
+      "budget": "400-600 PLN/night/room"
+    },
+    {
+      "location": "{'city': 'Osaka'",
+      "nights": 3,
+      "dates": "2026-04-28",
+      "area": "{'city': 'Osaka'",
+      "budget": "400-600 PLN/night/room"
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-04-19",
+      "dateLabel": "Sun, Apr 19",
+      "title": "Arrival in Osaka",
+      "region": "Kansai",
+      "tagline": "From Polish plains to electric neon dreams",
+      "stay": {
+        "city": "Osaka",
+        "area": "Namba",
+        "nights": 1
+      },
+      "highlights": [
+        "{'name': 'International Flight', 'time': 'Morning departure from WRO', 'cost': 'Separate booking'}",
+        "{'name': 'Arrival at Kansai International', 'time': 'Late afternoon (KIX)', 'cost': 'Included'}",
+        "{'name': 'Check-in Namba Hotel', 'time': 'Evening (17:00-18:00)', 'cost': 'Hotel rate: ~17,500 JPY/room'}",
+        "{'name': 'Dotonbori Evening Walk', 'time': '19:00-21:00', 'cost': 'Free (dinner ~2,000 JPY pp)'}",
+        "{'name': 'Rest & Jet Lag Recovery', 'time': '21:00+', 'cost': 'None'}"
+      ],
+      "activities": [
+        {
+          "time": "",
+          "name": "Dotonbori Street Walk",
+          "location": "Dotonbori, Osaka",
+          "duration": "2 hours",
+          "cost": null,
+          "bookAhead": false,
+          "note": "",
+          "type": "exploration"
+        }
+      ],
+      "transport": {
+        "mode": "Flight",
+        "from": "Wrocław (WRO)",
+        "to": "Osaka (KIX)",
+        "duration": "~12-14 hours with connection",
+        "cost": "Separate booking",
+        "note": "Via Frankfurt or Warsaw"
+      },
+      "food": {
+        "recommendation": "Dotonbori okonomiyaki or takoyaki near Ebisu Bridge",
+        "cost": "1,500-2,500 JPY pp"
+      },
+      "tip": "Get a prepaid IC card (ICOCA) at the airport for seamless train/bus travel",
+      "keyCost": 2500
+    },
+    {
+      "day": 2,
+      "date": "2026-04-20",
+      "dateLabel": "Mon, Apr 20",
+      "title": "Kyoto's Golden Temples & Bamboo",
+      "region": "Kansai",
+      "tagline": "Where monks whisper secrets to golden pavilions",
+      "stay": {
+        "city": "Kyoto",
+        "area": "Shimogyo-ku",
+        "nights": 1
+      },
+      "highlights": [
+        "{'name': 'Fushimi Inari Taisha', 'time': '07:00-09:00', 'cost': 'Free (early = fewer crowds)'}",
+        "{'name': 'Kinkaku-ji (Golden Pavilion)', 'time': '10:00-11:30', 'cost': '400 JPY'}",
+        "{'name': 'Arashiyama Bamboo Grove', 'time': '12:30-13:30', 'cost': 'Free (arrive early afternoon)'}",
+        "{'name': 'Monkey Park Iwatayama', 'time': '14:00-15:30', 'cost': '550 JPY'}",
+        "{'name': 'Hotel Check-in & Dinner', 'time': '17:00+', 'cost': 'Hotel: ~16,500 JPY/room, Dinner: ~2,000 JPY pp'}"
+      ],
+      "activities": [
+        {
+          "time": "",
+          "name": "Fushimi Inari Shrine Visit",
+          "location": "",
+          "duration": "2 hours",
+          "cost": null,
+          "bookAhead": false,
+          "note": "",
+          "type": "cultural"
+        },
+        {
+          "time": "",
+          "name": "Kinkaku-ji Temple",
+          "location": "",
+          "duration": "1 hour",
+          "cost": null,
+          "bookAhead": false,
+          "note": "",
+          "type": "sightseeing"
+        },
+        {
+          "time": "",
+          "name": "Arashiyama Bamboo Grove Walk",
+          "location": "",
+          "duration": "1 hour",
+          "cost": null,
+          "bookAhead": false,
+          "note": "",
+          "type": "nature"
+        },
+        {
+          "time": "",
+          "name": "Monkey Park Climb",
+          "location": "",
+          "duration": "1.5 hours",
+          "cost": null,
+          "bookAhead": false,
+          "note": "",
+          "type": "adventure"
+        }
+      ],
+      "transport": {
+        "mode": "JR Haruka Express",
+        "from": "Osaka (Namba)",
+        "to": "Kyoto",
+        "duration": "75-90 minutes",
+        "cost": "3,600 JPY pp (included in JR Pass if purchased)",
+        "note": ""
+      },
+      "food": {
+        "recommendation": "Tonkatsu (breaded pork) near Arashiyama",
+        "cost": "1,500-2,500 JPY pp"
+      },
+      "tip": "Wear comfortable walking shoes; Fushimi Inari alone is 2+ hours of stairs",
+      "keyCost": 3500
+    },
+    {
+      "day": 3,
+      "date": "2026-04-21",
+      "dateLabel": "Tue, Apr 21",
+      "title": "Kyoto's Historic Heart",
+      "region": "Kansai",
+      "tagline": "Tea ceremonies and philosopher's paths through ancient temples",
+      "stay": {
+        "city": "Kyoto",
+        "area": "Shimogyo-ku",
+        "nights": 1
+      },
+      "highlights": [
+        "{'name': 'Gion District Walking Tour', 'time': '08:00-09:30', 'cost': 'Free'}",
+        "{'name': 'Kiyomizu-dera Temple', 'time': '09:45-11:00', 'cost': '400 JPY'}",
+        "{'name': 'Tea Ceremony Experience', 'time': '11:30-12:30', 'cost': '3,500 JPY pp (book ahead)'}",
+        "{'name': 'Nishiki Market Exploration', 'time': '13:00-14:30', 'cost': '1,500-2,500 JPY pp (food sampling)'}",
+        "{'name': \"Philosopher's Path Walk\", 'time': '15:00-16:30', 'cost': 'Free'}"
+      ],
+      "activities": [
+        {
+          "time": "",
+          "name": "Gion Geisha District",
+          "location": "",
+          "duration": "1.5 hours",
+          "cost": null,
+          "bookAhead": false,
+          "note": "",
+          "type": "cultural"
+        },
+        {
+          "time": "",
+          "name": "Kiyomizu-dera Temple Visit",
+          "location": "",
+          "duration": "1 hour",
+          "cost": null,
+          "bookAhead": false,
+          "note": "",
+          "type": "sightseeing"
+        },
+        {
+          "time": "",
+          "name": "Japanese Tea Ceremony",
+          "location": "",
+          "duration": "1 hour",
+          "cost": null,
+          "bookAhead": false,
+          "note": "Requires advance booking",
+          "type": "cultural"
+        },
+        {
+          "time": "",
+          "name": "Nishiki Market Tour",
+          "location": "",
+          "duration": "1.5 hours",
+          "cost": null,
+          "bookAhead": false,
+          "note": "",
+          "type": "food-market"
+        },
+        {
+          "time": "",
+          "name": "Philosopher's Path",
+          "location": "",
+          "duration": "1.5 hours",
+          "cost": null,
+          "bookAhead": false,
+          "note": "Scenic canal-side path with temples",
+          "type": "nature-walk"
+        }
+      ],
+      "transport": {
+        "mode": "Local buses and walking",
+        "from": "",
+        "to": "",
+        "duration": "",
+        "cost": null,
+        "note": "All within Kyoto city"
+      },
+      "food": {
+        "recommendation": "Nishiki Market fresh sushi and specialty items",
+        "cost": "2,000-3,000 JPY pp"
+      },
+      "tip": "Book tea ceremony the day before; arrive Nishiki Market mid-afternoon for better crowds",
+      "keyCost": 3000
+    },
+    {
+      "day": 4,
+      "date": "2026-04-22",
+      "dateLabel": "Wed, Apr 22",
+      "title": "Nara's Deer Park & Osaka Castle",
+      "region": "Kansai",
+      "tagline": "Bowing deer and towering castles in the Kansai ring",
+      "stay": {
+        "city": "Osaka",
+        "area": "Namba",
+        "nights": 1
+      },
+      "highlights": [
+        "{'name': 'Nara Todai-ji Temple', 'time': '09:00-10:30', 'cost': '600 JPY'}",
+        "{'name': 'Nara Deer Park', 'time': '10:30-12:00', 'cost': 'Free (deer crackers ~150 JPY)'}",
+        "{'name': 'Return to Osaka', 'time': '13:00-14:00', 'cost': 'JR train: ~700 JPY pp'}",
+        "{'name': 'Osaka Castle Exterior & Park', 'time': '14:30-16:00', 'cost': '600 JPY (interior optional)'}",
+        "{'name': 'Shinsekai Dinner & Exploration', 'time': '17:00-19:00', 'cost': '2,000-2,500 JPY pp (dinner)'}"
+      ],
+      "activities": [
+        {
+          "time": "",
+          "name": "Todai-ji Great Buddha",
+          "location": "",
+          "duration": "1.5 hours",
+          "cost": null,
+          "bookAhead": false,
+          "note": "",
+          "type": "sightseeing"
+        },
+        {
+          "time": "",
+          "name": "Nara Deer Park",
+          "location": "",
+          "duration": "1.5 hours",
+          "cost": null,
+          "bookAhead": false,
+          "note": "Interactive with semi-tame deer",
+          "type": "nature-wildlife"
+        },
+        {
+          "time": "",
+          "name": "Osaka Castle Visit",
+          "location": "",
+          "duration": "1.5 hours",
+          "cost": null,
+          "bookAhead": false,
+          "note": "",
+          "type": "historical"
+        },
+        {
+          "time": "",
+          "name": "Shinsekai Street Food",
+          "location": "",
+          "duration": "2 hours",
+          "cost": null,
+          "bookAhead": false,
+          "note": "",
+          "type": "food-exploration"
+        }
+      ],
+      "transport": {
+        "mode": "train",
+        "from": "",
+        "to": "",
+        "duration": "",
+        "cost": null,
+        "note": ""
+      },
+      "food": {
+        "recommendation": "Shinsekai okonomiyaki or kushikatsu (fried skewers)",
+        "cost": "1,500-2,500 JPY pp"
+      },
+      "tip": "Deer at Nara park bow for crackers! Buy from vendors at park entrance",
+      "keyCost": 3500
+    },
+    {
+      "day": 5,
+      "date": "2026-04-23",
+      "dateLabel": "Thu, Apr 23",
+      "title": "Hiroshima Peace & Miyajima Island",
+      "region": "Hiroshima",
+      "tagline": "Sacred gates and stories of resilience reflected in calm waters",
+      "stay": {
+        "city": "Hiroshima",
+        "area": "Naka Ward",
+        "nights": 1
+      },
+      "highlights": [
+        "{'name': 'Peace Memorial Museum', 'time': '09:00-11:30', 'cost': '200 JPY'}",
+        "{'name': 'A-Bomb Dome', 'time': '11:30-12:15', 'cost': 'Free'}",
+        "{'name': 'Ferry to Miyajima Island', 'time': '12:30-13:30', 'cost': '180 JPY ferry'}",
+        "{'name': 'Floating Torii Gate & Island Exploration', 'time': '14:00-16:30', 'cost': 'Free (shrine donation ~300 JPY)'}",
+        "{'name': 'Return to Hiroshima & Dinner', 'time': '17:00-19:00', 'cost': 'Hotel: ~17,000 JPY/room, Dinner: ~2,500 JPY pp'}"
+      ],
+      "activities": [
+        {
+          "time": "",
+          "name": "Peace Memorial Museum",
+          "location": "",
+          "duration": "2.5 hours",
+          "cost": null,
+          "bookAhead": false,
+          "note": "Emotionally significant, respectful",
+          "type": "historical-cultural"
+        },
+        {
+          "time": "",
+          "name": "Genbaku Dome (A-Bomb Dome)",
+          "location": "",
+          "duration": "45 minutes",
+          "cost": null,
+          "bookAhead": false,
+          "note": "",
+          "type": "historical"
+        },
+        {
+          "time": "",
+          "name": "Miyajima Island Ferry",
+          "location": "",
+          "duration": "1 hour",
+          "cost": null,
+          "bookAhead": false,
+          "note": "",
+          "type": "transport-scenic"
+        },
+        {
+          "time": "",
+          "name": "Itsukushima Shrine & Torii Gate",
+          "location": "",
+          "duration": "2 hours",
+          "cost": null,
+          "bookAhead": false,
+          "note": "",
+          "type": "sightseeing-cultural"
+        }
+      ],
+      "transport": {
+        "mode": "train",
+        "from": "",
+        "to": "",
+        "duration": "",
+        "cost": null,
+        "note": ""
+      },
+      "food": {
+        "recommendation": "Hassei okonomiyaki (Hiroshima-style) or oyster dishes near Miyajima",
+        "cost": "1,500-2,500 JPY pp"
+      },
+      "tip": "Visit Miyajima at high tide (torii appears to float); check tide times online",
+      "keyCost": 4500
+    },
+    {
+      "day": 6,
+      "date": "2026-04-24",
+      "dateLabel": "Fri, Apr 24",
+      "title": "Fukuoka's Coastal Charm",
+      "region": "Fukuoka",
+      "tagline": "From canals to yatai stalls: modern Japan meets street food magic",
+      "stay": {
+        "city": "Fukuoka",
+        "area": "Hakata",
+        "nights": 1
+      },
+      "highlights": [
+        "{'name': 'Shinkansen Hiroshima to Fukuoka', 'time': '09:00-10:15', 'cost': '7,000 JPY pp'}",
+        "{'name': 'Hotel Check-in & Rest', 'time': '11:00-14:00', 'cost': 'Hotel: ~16,000 JPY/room'}",
+        "{'name': 'Canal City Hakata', 'time': '14:30-16:00', 'cost': 'Free (shopping/dining varies)'}",
+        "{'name': 'Ohori Park Walk', 'time': '16:30-17:30', 'cost': 'Free'}",
+        "{'name': 'Yatai Food Stalls at Nakasu', 'time': '18:30-20:30', 'cost': '3,000-4,000 JPY pp (multiple small bowls of ramen)'}"
+      ],
+      "activities": [
+        {
+          "time": "",
+          "name": "Canal City Hakata Shopping",
+          "location": "",
+          "duration": "1.5 hours",
+          "cost": null,
+          "bookAhead": false,
+          "note": "",
+          "type": "shopping-leisure"
+        },
+        {
+          "time": "",
+          "name": "Ohori Park Loop",
+          "location": "",
+          "duration": "1 hour",
+          "cost": null,
+          "bookAhead": false,
+          "note": "",
+          "type": "nature-walk"
+        },
+        {
+          "time": "",
+          "name": "Nakasu Yatai Food Stalls",
+          "location": "",
+          "duration": "2 hours",
+          "cost": null,
+          "bookAhead": false,
+          "note": "Street-vendor atmosphere, authentic local experience",
+          "type": "food-cultural"
+        }
+      ],
+      "transport": {
+        "mode": "Shinkansen",
+        "from": "Hiroshima",
+        "to": "Fukuoka",
+        "duration": "1 hour",
+        "cost": "7,000 JPY pp",
+        "note": ""
+      },
+      "food": {
+        "recommendation": "Hakata ramen at yatai stalls (Tonkotsu style)",
+        "cost": "600-1,000 JPY pp per bowl (try 3-4)"
+      },
+      "tip": "Yatai stalls are most lively 19:00-21:00; book ahead or arrive early for limited seating",
+      "keyCost": 3000
+    },
+    {
+      "day": 7,
+      "date": "2026-04-25",
+      "dateLabel": "Sat, Apr 25",
+      "title": "Kumamoto Day Trip",
+      "region": "Fukuoka/Kumamoto",
+      "tagline": "Medieval castles and fiery cuisine in the heart of Kyushu",
+      "stay": {
+        "city": "Fukuoka",
+        "area": "Hakata",
+        "nights": 1
+      },
+      "highlights": [
+        "{'name': 'Train to Kumamoto', 'time': '08:00-09:00', 'cost': '2,500 JPY pp (round trip)'}",
+        "{'name': 'Kumamoto Castle', 'time': '09:30-11:00', 'cost': '800 JPY'}",
+        "{'name': 'Suizenji Garden', 'time': '12:00-13:00', 'cost': '600 JPY'}",
+        "{'name': 'Local Cuisine: Basashi & Karashi Renkon', 'time': '13:00-14:30', 'cost': '2,500-3,500 JPY pp'}",
+        "{'name': 'Return to Fukuoka', 'time': '15:00-16:00', 'cost': 'Included in round trip'}"
+      ],
+      "activities": [
+        {
+          "time": "",
+          "name": "Kumamoto Castle Tour",
+          "location": "",
+          "duration": "1.5 hours",
+          "cost": null,
+          "bookAhead": false,
+          "note": "",
+          "type": "historical-sightseeing"
+        },
+        {
+          "time": "",
+          "name": "Suizenji Jojuen Garden",
+          "location": "",
+          "duration": "1 hour",
+          "cost": null,
+          "bookAhead": false,
+          "note": "",
+          "type": "nature-garden"
+        },
+        {
+          "time": "",
+          "name": "Local Specialty Dining",
+          "location": "",
+          "duration": "1.5 hours",
+          "cost": null,
+          "bookAhead": false,
+          "note": "Basashi (raw horse meat) and karashi renkon (spicy lotus root)",
+          "type": "culinary"
+        }
+      ],
+      "transport": {
+        "mode": "JR train",
+        "from": "Fukuoka",
+        "to": "Kumamoto",
+        "duration": "35-40 minutes",
+        "cost": "2,500 JPY pp round trip",
+        "note": ""
+      },
+      "food": {
+        "recommendation": "Basashi (raw horse meat), Karashi renkon, Ramen",
+        "cost": "2,500-3,500 JPY pp"
+      },
+      "tip": "Basashi is Kumamoto's specialty; brave travelers shouldn't miss it. If not interested, excellent ramen alternatives",
+      "keyCost": 2500
+    },
+    {
+      "day": 8,
+      "date": "2026-04-26",
+      "dateLabel": "Sun, Apr 26",
+      "title": "Journey to Mount Fuji",
+      "region": "Shizuoka/Yamanashi",
+      "tagline": "From Kyushu heat to alpine cool: chasing Japan's iconic peak",
+      "stay": {
+        "city": "Kawaguchiko",
+        "area": "Fuji Five Lakes",
+        "nights": 1
+      },
+      "highlights": [
+        "{'name': 'Morning departure from Fukuoka', 'time': '08:00-08:30', 'cost': 'None'}",
+        "{'name': 'Shinkansen to Shin-Fuji/Mishima', 'time': '08:40-13:00', 'cost': '11,000-12,000 JPY pp'}",
+        "{'name': 'Fuji Subaru Line Bus to Kawaguchiko', 'time': '13:30-14:30', 'cost': '2,000 JPY pp'}",
+        "{'name': 'Hotel Check-in & Onsen', 'time': '15:00-17:00', 'cost': 'Hotel: ~19,000 JPY/room (includes onsen)'}",
+        "{'name': 'Lake Walk & Dinner', 'time': '17:30-19:30', 'cost': 'Dinner: ~2,500 JPY pp'}"
+      ],
+      "activities": [
+        {
+          "time": "",
+          "name": "Long-distance Shinkansen Ride",
+          "location": "",
+          "duration": "4.5 hours",
+          "cost": null,
+          "bookAhead": false,
+          "note": "",
+          "type": "transport"
+        },
+        {
+          "time": "",
+          "name": "Fuji Subaru Line Bus",
+          "location": "",
+          "duration": "1 hour",
+          "cost": null,
+          "bookAhead": false,
+          "note": "Scenic mountain drive with forest views",
+          "type": "scenic-transport"
+        },
+        {
+          "time": "",
+          "name": "Traditional Japanese Onsen (Hot Spring)",
+          "location": "",
+          "duration": "1-2 hours",
+          "cost": null,
+          "bookAhead": false,
+          "note": "",
+          "type": "relaxation"
+        },
+        {
+          "time": "",
+          "name": "Lake Kawaguchiko Walk",
+          "location": "",
+          "duration": "1 hour",
+          "cost": null,
+          "bookAhead": false,
+          "note": "",
+          "type": "nature-scenic"
+        }
+      ],
+      "transport": {
+        "mode": "train",
+        "from": "",
+        "to": "",
+        "duration": "",
+        "cost": null,
+        "note": ""
+      },
+      "food": {
+        "recommendation": "Hoto noodles (local specialty at Lake Kawaguchiko)",
+        "cost": "1,200-1,800 JPY pp"
+      },
+      "tip": "This is a long travel day (~5.5 hours total); use it to relax, nap, and prepare for Fuji views tomorrow",
+      "keyCost": 2000
+    },
+    {
+      "day": 9,
+      "date": "2026-04-27",
+      "dateLabel": "Mon, Apr 27",
+      "title": "Mount Fuji & Five Lakes",
+      "region": "Shizuoka/Yamanashi",
+      "tagline": "Chase morning light on Japan's most sacred peak and pristine alpine lakes",
+      "stay": {
+        "city": "Kawaguchiko",
+        "area": "Fuji Five Lakes",
+        "nights": 1
+      },
+      "highlights": [
+        "{'name': 'Chureito Pagoda Sunrise', 'time': '05:30-07:30', 'cost': 'Free (early morning hike ~1.5 hours)'}",
+        "{'name': 'Return to hotel for breakfast', 'time': '08:00-09:00', 'cost': 'Breakfast included or ~1,500 JPY'}",
+        "{'name': 'Kawaguchiko Lake Scenic Loop', 'time': '10:00-12:00', 'cost': 'Free'}",
+        "{'name': 'Oshino Hakkai Traditional Village', 'time': '13:00-14:30', 'cost': 'Free to explore (some shops have fees)'}",
+        "{'name': 'Saiko Lake Visit', 'time': '15:00-16:30', 'cost': 'Free'}"
+      ],
+      "activities": [
+        {
+          "time": "",
+          "name": "Chureito Pagoda Hike",
+          "location": "",
+          "duration": "2 hours",
+          "cost": null,
+          "bookAhead": false,
+          "note": "Iconic Fuji + pagoda photo spot",
+          "type": "hiking"
+        },
+        {
+          "time": "",
+          "name": "Lake Kawaguchiko Walk",
+          "location": "",
+          "duration": "2 hours",
+          "cost": null,
+          "bookAhead": false,
+          "note": "",
+          "type": "nature-walk"
+        },
+        {
+          "time": "",
+          "name": "Oshino Hakkai Village",
+          "location": "",
+          "duration": "1.5 hours",
+          "cost": null,
+          "bookAhead": false,
+          "note": "Historic thatched-roof farmhouses, clear spring water",
+          "type": "cultural-sightseeing"
+        },
+        {
+          "time": "",
+          "name": "Saiko Lake Scenic Drive",
+          "location": "",
+          "duration": "1.5 hours",
+          "cost": null,
+          "bookAhead": false,
+          "note": "",
+          "type": "scenic-nature"
+        }
+      ],
+      "transport": {
+        "mode": "train",
+        "from": "",
+        "to": "",
+        "duration": "",
+        "cost": null,
+        "note": ""
+      },
+      "food": {
+        "recommendation": "Hoto Fudo hoto noodles, fresh spring water",
+        "cost": "1,500-2,000 JPY pp"
+      },
+      "tip": "Chureito sunrise hike requires very early departure (05:00); weather dependent for Fuji visibility",
+      "keyCost": 2500
+    },
+    {
+      "day": 10,
+      "date": "2026-04-28",
+      "dateLabel": "Tue, Apr 28",
+      "title": "Return to Osaka",
+      "region": "Kansai",
+      "tagline": "From mountain quiet to city energy: markets, malls, and sunset towers",
+      "stay": {
+        "city": "Osaka",
+        "area": "Namba",
+        "nights": 1
+      },
+      "highlights": [
+        "{'name': 'Bus & Shinkansen back to Osaka', 'time': '09:00-13:30', 'cost': '12,000 JPY pp'}",
+        "{'name': 'Hotel Check-in', 'time': '14:00-14:30', 'cost': 'Hotel: ~17,500 JPY/room'}",
+        "{'name': 'Kuromon Market Exploration', 'time': '15:00-16:30', 'cost': '2,000-3,000 JPY pp (fresh food sampling)'}",
+        "{'name': 'Namba Shopping District', 'time': '17:00-18:30', 'cost': 'Variable (shopping/browsing)'}",
+        "{'name': 'Umeda Sky Building Sunset', 'time': '18:45-20:00', 'cost': '1,500 JPY (observation deck)'}"
+      ],
+      "activities": [
+        {
+          "time": "",
+          "name": "Long-distance transit",
+          "location": "",
+          "duration": "4.5 hours total",
+          "cost": null,
+          "bookAhead": false,
+          "note": "",
+          "type": "transport"
+        },
+        {
+          "time": "",
+          "name": "Kuromon Market Tour",
+          "location": "",
+          "duration": "1.5 hours",
+          "cost": null,
+          "bookAhead": false,
+          "note": "Fresh seafood, produce, prepared dishes",
+          "type": "food-market"
+        },
+        {
+          "time": "",
+          "name": "Namba Shopping",
+          "location": "",
+          "duration": "1.5 hours",
+          "cost": null,
+          "bookAhead": false,
+          "note": "",
+          "type": "shopping"
+        },
+        {
+          "time": "",
+          "name": "Umeda Sky Building",
+          "location": "",
+          "duration": "1 hour",
+          "cost": null,
+          "bookAhead": false,
+          "note": "Observation deck with 360° city views",
+          "type": "sightseeing"
+        }
+      ],
+      "transport": {
+        "mode": "train",
+        "from": "",
+        "to": "",
+        "duration": "",
+        "cost": null,
+        "note": ""
+      },
+      "food": {
+        "recommendation": "Fresh sushi or seafood at Kuromon Market",
+        "cost": "2,000-3,000 JPY pp"
+      },
+      "tip": "Time Umeda Sky Building visit for sunset (around 18:45 in late April) for dramatic lighting",
+      "keyCost": 3500
+    },
+    {
+      "day": 11,
+      "date": "2026-04-29",
+      "dateLabel": "Wed, Apr 29",
+      "title": "Osaka's Modern & Marine",
+      "region": "Kansai",
+      "tagline": "Sea creatures and street style in Japan's most energetic city",
+      "stay": {
+        "city": "Osaka",
+        "area": "Namba",
+        "nights": 1
+      },
+      "highlights": [
+        "{'name': 'Free morning at leisure', 'time': '08:00-11:00', 'cost': 'None'}",
+        "{'name': 'Osaka Aquarium Kaiyukan', 'time': '11:00-13:00', 'cost': '2,400 JPY'}",
+        "{'name': 'Lunch in Namba area', 'time': '13:00-14:00', 'cost': '1,500-2,000 JPY pp'}",
+        "{'name': 'Amerikamura (American Village) Shopping', 'time': '14:30-16:30', 'cost': 'Variable (clothing, accessories)'}",
+        "{'name': 'Farewell Dinner at Fine Restaurant', 'time': '18:00-20:00', 'cost': '4,500-6,000 JPY pp (kaiseki or omakase)'}"
+      ],
+      "activities": [
+        {
+          "time": "",
+          "name": "Osaka Aquarium Kaiyukan",
+          "location": "",
+          "duration": "2 hours",
+          "cost": null,
+          "bookAhead": false,
+          "note": "Giant Pacific Ocean tank with whale shark",
+          "type": "leisure-sightseeing"
+        },
+        {
+          "time": "",
+          "name": "Amerikamura Shopping",
+          "location": "",
+          "duration": "2 hours",
+          "cost": null,
+          "bookAhead": false,
+          "note": "Trendy youth fashion, vintage, street culture",
+          "type": "shopping"
+        },
+        {
+          "time": "",
+          "name": "Farewell Group Dinner",
+          "location": "",
+          "duration": "2 hours",
+          "cost": null,
+          "bookAhead": false,
+          "note": "",
+          "type": "dining-cultural"
+        }
+      ],
+      "transport": {
+        "mode": "train",
+        "from": "",
+        "to": "",
+        "duration": "",
+        "cost": null,
+        "note": ""
+      },
+      "food": {
+        "recommendation": "Kaiseki (multi-course fine dining) or omakase sushi for farewell",
+        "cost": "4,500-6,000 JPY pp"
+      },
+      "tip": "Reserve upscale restaurant 1-2 days ahead for farewell dinner; Michelin-listed options available",
+      "keyCost": 3500
+    },
+    {
+      "day": 12,
+      "date": "2026-04-30",
+      "dateLabel": "Thu, Apr 30",
+      "title": "Departure",
+      "region": "Kansai",
+      "tagline": "Sayonara, Japan—memories packed tighter than a suitcase",
+      "stay": {
+        "city": "Osaka",
+        "area": "Airport",
+        "nights": 0
+      },
+      "highlights": [
+        "{'name': 'Free morning (optional: souvenir shopping)', 'time': '08:00-10:00', 'cost': 'Variable'}",
+        "{'name': 'Checkout & Luggage Storage', 'time': '10:00-11:00', 'cost': '~1,500 JPY (if needed)'}",
+        "{'name': 'Taxi to Kansai International Airport', 'time': '11:30-12:15', 'cost': '3,000-4,000 JPY (group share ~500 JPY pp)'}",
+        "{'name': 'Check-in & Security', 'time': '12:30-13:30', 'cost': 'None'}",
+        "{'name': 'Departure Flight KIX→WRO', 'time': 'Afternoon/evening', 'cost': 'Separate booking'}"
+      ],
+      "activities": [
+        {
+          "time": "",
+          "name": "Final Souvenir Shopping",
+          "location": "",
+          "duration": "2 hours (optional)",
+          "cost": null,
+          "bookAhead": false,
+          "note": "",
+          "type": "shopping"
+        },
+        {
+          "time": "",
+          "name": "Airport Lounge Time",
+          "location": "",
+          "duration": "2+ hours",
+          "cost": null,
+          "bookAhead": false,
+          "note": "",
+          "type": "leisure"
+        }
+      ],
+      "transport": {
+        "mode": "Taxi (group share) or airport limousine",
+        "from": "Osaka (Namba)",
+        "to": "Kansai International Airport (KIX)",
+        "duration": "45-60 minutes",
+        "cost": "3,000-4,000 JPY taxi / 4,500 JPY limousine",
+        "note": ""
+      },
+      "food": {
+        "recommendation": "Airport terminal restaurants or final meal in Osaka if time allows",
+        "cost": "2,000-3,000 JPY pp"
+      },
+      "tip": "Arrive at airport 3 hours early; book airport transport night before",
+      "keyCost": 500
+    }
+  ],
+  "dietary": {
+    "restrictions": [],
+    "japanesePhrases": [],
+    "safeFoods": [],
+    "watchOut": [],
+    "apps": [],
+    "recommendedRestaurants": []
+  },
+  "transport": {
+    "jrPassAnalysis": {
+      "sevenDay": 33610,
+      "fourteenDay": 50380,
+      "estimatedIndividualTotal": "~75,000",
+      "recommendation": "14-day JR Pass — saves significantly on this route",
+      "note": "Covers all shinkansen (Hikari/Sakura), JR local trains, Miyajima ferry"
+    },
+    "suicaCard": "Get ICOCA at KIX — works nationwide for local trains, buses, konbini",
+    "takkyubin": {
+      "what": "Luggage forwarding service",
+      "cost": "¥2,000-3,000 per bag",
+      "how": "Send from hotel or konbini to next hotel",
+      "delivery": "Next day",
+      "usedOnDay": 8
+    }
+  },
+  "bookings": [
+    {
+      "item": "JR Pass 14-day",
+      "when": "Buy online 2-3 weeks before",
+      "priority": "critical",
+      "note": "Exchange at KIX airport on arrival"
+    },
+    {
+      "item": "Hotels — all cities",
+      "when": "ASAP — April is peak season",
+      "priority": "critical",
+      "note": "3 rooms per city. Book flexible rate."
+    },
+    {
+      "item": "International flights WRO→KIX",
+      "when": "ASAP",
+      "priority": "critical",
+      "note": "Via FRA or WAW. Book early for best prices."
+    },
+    {
+      "item": "Pocket WiFi rental",
+      "when": "1 week before",
+      "priority": "high",
+      "note": "Pick up at KIX airport. 1 device per 2-3 people."
+    },
+    {
+      "item": "Kyoto tea ceremony",
+      "when": "1-2 weeks before",
+      "priority": "high",
+      "note": "Popular — book in advance. ~¥3,000 pp."
+    },
+    {
+      "item": "Fushimi Inari",
+      "when": "No booking needed",
+      "priority": "low",
+      "note": "Free, open 24/7. Go early."
+    },
+    {
+      "item": "Travel insurance",
+      "when": "Before departure",
+      "priority": "critical",
+      "note": "Covers 7 travelers, medical + cancellation"
+    }
+  ],
+  "budget": {
+    "currency": "PLN",
+    "perPerson": {
+      "JR Pass (14-day)": {
+        "amount": 1700,
+        "note": "Covers all shinkansen and JR trains"
+      },
+      "Hotels (11 nights)": {
+        "amount": 1800,
+        "note": "3 rooms split among 7 people"
+      },
+      "Food": {
+        "amount": 2050,
+        "note": "Mix of street food, restaurants, konbini"
+      },
+      "Activities": {
+        "amount": 1220,
+        "note": "Temples, museums, experiences"
+      },
+      "Local transport": {
+        "amount": 405,
+        "note": "Buses, subway, taxis"
+      },
+      "Shopping & misc": {
+        "amount": 500,
+        "note": "Souvenirs, snacks, emergencies"
+      }
+    },
+    "totalPerPerson": "~7,675 PLN",
+    "totalPerPersonUSD": "~$1,920",
+    "totalGroup": "~53,725 PLN",
+    "totalGroupUSD": "~$13,430",
+    "note": "Excluding international flights (est. 3,000-5,000 PLN pp WRO→KIX). JR Pass is the single best investment."
+  },
+  "packing": [
+    "Layers (temps 5-22°C)",
+    "Rain jacket / packable umbrella",
+    "Comfortable walking shoes (15k+ steps/day)",
+    "Power bank + USB-C cable",
+    "Universal adapter (Type A)",
+    "Sunscreen SPF50",
+    "Reusable water bottle",
+    "Small backpack for day trips",
+    "Compression bags for luggage",
+    "Pocket WiFi reservation confirmation",
+    "JR Pass exchange voucher",
+    "Passport copies (paper + digital)",
+    "Travel insurance docs",
+    "Konbini-friendly cash (¥10,000 bills)",
+    "Onsen towel (small)",
+    "Motion sickness meds (for mountain roads)",
+    "Chapstick / lip balm",
+    "Warm fleece (for Kawaguchiko evenings)"
+  ],
+  "stats": [
+    {
+      "value": 12,
+      "label": "Days"
+    },
+    {
+      "value": 7,
+      "label": "Travelers"
+    },
+    {
+      "value": 5,
+      "label": "Cities"
+    },
+    {
+      "value": 2500,
+      "label": "km by train",
+      "suffix": "km"
+    },
+    {
+      "value": 7600,
+      "label": "PLN per person",
+      "suffix": "PLN avg"
+    },
+    {
+      "value": 15,
+      "label": "Temples visited"
+    }
+  ],
+  "hotels": {
+    "budget": "400-600 PLN/room/night (~15,000-22,000 JPY)",
+    "note": "3 rooms needed for 7 adults",
+    "userPreferences": {
+      "lovedHotel": "",
+      "style": "Modern, comfortable, central",
+      "interestedIn": "4-5 star hotels"
+    },
+    "osaka": {
+      "stayId": "osaka",
+      "location": "Osaka",
+      "nights": 4,
+      "dates": "Apr 19, Apr 22, Apr 28-29",
+      "purpose": "Kansai base — Dotonbori, Namba, day trips",
+      "options": [
+        {
+          "name": "Cross Hotel Osaka",
+          "nameJp": "クロスホテル大阪",
+          "type": "hotel",
+          "priceEUR": "€95",
+          "priceJPY": "¥15,000",
+          "style": "Modern design hotel",
+          "location": "Namba, Osaka",
+          "neighborhood": "Shinsaibashi-suji",
+          "highlights": [
+            "Design-forward rooms",
+            "Rooftop bar",
+            "30 sec to Dotonbori",
+            "Excellent breakfast buffet"
+          ],
+          "travellerPick": true,
+          "pickReason": "Best location-to-price ratio in Namba",
+          "url": ""
+        },
+        {
+          "name": "Hotel Nikko Osaka",
+          "nameJp": "ホテル日航大阪",
+          "type": "hotel",
+          "priceEUR": "€120",
+          "priceJPY": "¥19,000",
+          "style": "Premium international hotel",
+          "location": "Shinsaibashi, Osaka",
+          "neighborhood": "Midosuji",
+          "highlights": [
+            "Spacious rooms",
+            "Multiple restaurants",
+            "Direct subway access",
+            "Luggage storage"
+          ],
+          "travellerPick": false,
+          "url": ""
+        },
+        {
+          "name": "Namba Oriental Hotel",
+          "nameJp": "なんばオリエンタルホテル",
+          "type": "hotel",
+          "priceEUR": "€85",
+          "priceJPY": "¥13,500",
+          "style": "Reliable mid-range",
+          "location": "Namba, Osaka",
+          "neighborhood": "Sennichimae",
+          "highlights": [
+            "Great value",
+            "Walk to everything",
+            "Clean modern rooms",
+            "24h front desk"
+          ],
+          "travellerPick": false,
+          "url": ""
+        }
+      ]
+    },
+    "kyoto": {
+      "stayId": "kyoto",
+      "location": "Kyoto",
+      "nights": 2,
+      "dates": "Apr 20-21",
+      "purpose": "Temple exploration — central Kyoto base",
+      "options": [
+        {
+          "name": "Hotel Kanra Kyoto",
+          "nameJp": "ホテルカンラ京都",
+          "type": "hotel",
+          "priceEUR": "€130",
+          "priceJPY": "¥20,500",
+          "style": "Modern Japanese boutique",
+          "location": "Central Kyoto",
+          "neighborhood": "Near Kyoto Station",
+          "highlights": [
+            "Tatami-modern fusion rooms",
+            "Onsen bath",
+            "Stunning design",
+            "Walk to Higashiyama"
+          ],
+          "travellerPick": true,
+          "pickReason": "Perfect blend of modern comfort and Japanese aesthetic",
+          "url": ""
+        },
+        {
+          "name": "Mitsui Garden Hotel Kyoto Shinmachi",
+          "nameJp": "三井ガーデンホテル京都新町",
+          "type": "hotel",
+          "priceEUR": "€100",
+          "priceJPY": "¥16,000",
+          "style": "Machiya-inspired modern",
+          "location": "Shinmachi, Kyoto",
+          "neighborhood": "Karasuma",
+          "highlights": [
+            "Traditional townhouse entrance",
+            "Excellent location",
+            "Public bath",
+            "Quiet residential area"
+          ],
+          "travellerPick": false,
+          "url": ""
+        }
+      ]
+    },
+    "hiroshima": {
+      "stayId": "hiroshima",
+      "location": "Hiroshima",
+      "nights": 1,
+      "dates": "Apr 22",
+      "purpose": "Peace Memorial & Miyajima base",
+      "options": [
+        {
+          "name": "Sheraton Grand Hiroshima",
+          "nameJp": "シェラトングランドホテル広島",
+          "type": "hotel",
+          "priceEUR": "€110",
+          "priceJPY": "¥17,500",
+          "style": "International luxury",
+          "location": "Hiroshima Station",
+          "neighborhood": "Station area",
+          "highlights": [
+            "Connected to station",
+            "Pool & fitness",
+            "Multiple dining options",
+            "Club lounge available"
+          ],
+          "travellerPick": true,
+          "pickReason": "Direct station access — perfect for 1-night stays",
+          "url": ""
+        },
+        {
+          "name": "HOTEL FLEX",
+          "nameJp": "ホテルフレックス",
+          "type": "hotel",
+          "priceEUR": "€70",
+          "priceJPY": "¥11,000",
+          "style": "Modern budget-friendly",
+          "location": "Hiroshima center",
+          "neighborhood": "Near Peace Park",
+          "highlights": [
+            "Walk to Peace Memorial",
+            "Modern rooms",
+            "Great value",
+            "Coin laundry"
+          ],
+          "travellerPick": false,
+          "url": ""
+        }
+      ]
+    },
+    "fukuoka": {
+      "stayId": "fukuoka",
+      "location": "Fukuoka",
+      "nights": 2,
+      "dates": "Apr 23-24",
+      "purpose": "Kyushu base — yatai, Kumamoto day trip",
+      "options": [
+        {
+          "name": "Hotel Okura Fukuoka",
+          "nameJp": "ホテルオークラ福岡",
+          "type": "hotel",
+          "priceEUR": "€105",
+          "priceJPY": "¥16,500",
+          "style": "Classic luxury",
+          "location": "Hakata, Fukuoka",
+          "neighborhood": "Nakasu/Canal City",
+          "highlights": [
+            "River views",
+            "Walking distance to yatai",
+            "Elegant rooms",
+            "Excellent concierge"
+          ],
+          "travellerPick": true,
+          "pickReason": "Walk to yatai stalls and Canal City — ideal Fukuoka base",
+          "url": ""
+        },
+        {
+          "name": "THE BASICS FUKUOKA",
+          "nameJp": "ザ・ベーシックス福岡",
+          "type": "hotel",
+          "priceEUR": "€80",
+          "priceJPY": "¥12,500",
+          "style": "Trendy design hotel",
+          "location": "Tenjin, Fukuoka",
+          "neighborhood": "Tenjin",
+          "highlights": [
+            "Design-forward",
+            "Rooftop terrace",
+            "Good breakfast",
+            "Near shopping"
+          ],
+          "travellerPick": false,
+          "url": ""
+        }
+      ]
+    },
+    "kawaguchiko": {
+      "stayId": "kawaguchiko",
+      "location": "Kawaguchiko",
+      "nights": 2,
+      "dates": "Apr 26-27",
+      "purpose": "Mt Fuji views, lake, onsen",
+      "options": [
+        {
+          "name": "Fuji Lake Hotel",
+          "nameJp": "富士レイクホテル",
+          "type": "hotel",
+          "priceEUR": "€140",
+          "priceJPY": "¥22,000",
+          "style": "Lakeside resort",
+          "location": "Kawaguchiko lakefront",
+          "neighborhood": "Lake Kawaguchi",
+          "highlights": [
+            "Direct Fuji views from rooms",
+            "Natural onsen",
+            "Lakefront location",
+            "Japanese & Western rooms"
+          ],
+          "travellerPick": true,
+          "pickReason": "Wake up to Mt Fuji views from your room. Onsen included.",
+          "url": ""
+        },
+        {
+          "name": "HOSHINOYA Fuji",
+          "nameJp": "星のや富士",
+          "type": "hotel",
+          "priceEUR": "€250",
+          "priceJPY": "¥39,000",
+          "style": "Glamping luxury resort",
+          "location": "Kawaguchiko hillside",
+          "neighborhood": "Forest above lake",
+          "highlights": [
+            "Glamping cabins in forest",
+            "World-class dining",
+            "Outdoor activities",
+            "Ultra-premium experience"
+          ],
+          "travellerPick": false,
+          "url": ""
+        }
+      ]
+    }
+  },
+  "travels": [
+    {
+      "id": "t1",
+      "day": 2,
+      "from": {
+        "name": "Osaka",
+        "area": "Namba"
+      },
+      "to": {
+        "name": "Kyoto",
+        "area": "Kyoto Station"
+      },
+      "mode": "train",
+      "icon": "🚃",
+      "line": "JR Special Rapid",
+      "duration": "15 min",
+      "distance": "43 km",
+      "cost": null,
+      "costNote": "Covered by JR Pass",
+      "details": "Frequent departures, no reservation needed",
+      "animation": "slide-right"
+    },
+    {
+      "id": "t2",
+      "day": 4,
+      "from": {
+        "name": "Kyoto"
+      },
+      "to": {
+        "name": "Nara"
+      },
+      "mode": "train",
+      "icon": "🚃",
+      "line": "JR Nara Line",
+      "duration": "45 min",
+      "distance": "36 km",
+      "cost": null,
+      "costNote": "JR Pass",
+      "details": "Direct train, scenic ride",
+      "animation": "slide-right"
+    },
+    {
+      "id": "t3",
+      "day": 5,
+      "from": {
+        "name": "Osaka",
+        "area": "Shin-Osaka"
+      },
+      "to": {
+        "name": "Hiroshima"
+      },
+      "mode": "shinkansen",
+      "icon": "🚅",
+      "carrier": "JR West",
+      "line": "Sanyo Shinkansen Nozomi",
+      "duration": "1h 30min",
+      "distance": "342 km",
+      "cost": null,
+      "costNote": "JR Pass (use Hikari/Sakura)",
+      "details": "Hikari or Sakura trains covered by JR Pass",
+      "animation": "slide-right"
+    },
+    {
+      "id": "t4",
+      "day": 6,
+      "from": {
+        "name": "Hiroshima"
+      },
+      "to": {
+        "name": "Fukuoka",
+        "area": "Hakata"
+      },
+      "mode": "shinkansen",
+      "icon": "🚅",
+      "line": "Sanyo Shinkansen",
+      "duration": "1h",
+      "distance": "283 km",
+      "cost": null,
+      "costNote": "JR Pass",
+      "details": "Quick shinkansen hop",
+      "animation": "slide-right"
+    },
+    {
+      "id": "t5",
+      "day": 7,
+      "from": {
+        "name": "Fukuoka",
+        "area": "Hakata"
+      },
+      "to": {
+        "name": "Kumamoto"
+      },
+      "mode": "shinkansen",
+      "icon": "🚅",
+      "line": "Kyushu Shinkansen",
+      "duration": "40 min",
+      "distance": "118 km",
+      "cost": null,
+      "costNote": "JR Pass",
+      "details": "Day trip — return same evening",
+      "animation": "slide-right"
+    },
+    {
+      "id": "t6",
+      "day": 8,
+      "from": {
+        "name": "Fukuoka",
+        "area": "Hakata"
+      },
+      "to": {
+        "name": "Kawaguchiko",
+        "area": "Fuji Five Lakes"
+      },
+      "mode": "shinkansen",
+      "icon": "🚅",
+      "line": "Tokaido Shinkansen + bus",
+      "duration": "~5.5h",
+      "distance": "920 km",
+      "cost": 2500,
+      "costNote": "JR Pass covers shinkansen; bus ~¥2,500",
+      "details": "Long travel day: Shinkansen to Mishima, then Fujikyu bus to Kawaguchiko",
+      "animation": "slide-right"
+    },
+    {
+      "id": "t7",
+      "day": 10,
+      "from": {
+        "name": "Kawaguchiko"
+      },
+      "to": {
+        "name": "Osaka",
+        "area": "Shin-Osaka"
+      },
+      "mode": "shinkansen",
+      "icon": "🚅",
+      "line": "Bus + Tokaido Shinkansen",
+      "duration": "~4h",
+      "distance": "470 km",
+      "cost": 2500,
+      "costNote": "Bus ¥2,500 + JR Pass for shinkansen",
+      "details": "Bus to Mishima, shinkansen to Osaka",
+      "animation": "slide-left"
+    }
+  ],
+  "restaurants": {
+    "note": "Curated restaurant picks for each city",
+    "allergyCardJp": "",
+    "allergyCardEn": "",
+    "safeFoods": [],
+    "dangerFoods": [],
+    "apps": [
+      "Google Maps",
+      "Tabelog"
+    ],
+    "byLocation": {
+      "osaka": {
+        "label": "Osaka",
+        "forDays": [
+          1,
+          4,
+          10,
+          11,
+          12
+        ],
+        "spots": [
+          {
+            "name": "Ichiran Ramen",
+            "nameJp": "",
+            "cuisine": "Tonkotsu Ramen",
+            "neighborhood": "Multiple locations (Dotonbori, Namba)",
+            "price": "¥¥",
+            "gf": false,
+            "vegan": false,
+            "vegetarian": false,
+            "mustTry": "",
+            "note": "",
+            "url": "www.ichiran.com"
+          },
+          {
+            "name": "Daruma Kushikatsu",
+            "nameJp": "",
+            "cuisine": "Kushikatsu (deep-fried skewers)",
+            "neighborhood": "Shinsekai",
+            "price": "¥¥",
+            "gf": false,
+            "vegan": false,
+            "vegetarian": false,
+            "mustTry": "",
+            "note": "",
+            "url": "www.daruma-osaka.com"
+          },
+          {
+            "name": "Ajinoya",
+            "nameJp": "",
+            "cuisine": "Okonomiyaki (savory pancakes)",
+            "neighborhood": "Dotonbori",
+            "price": "¥¥",
+            "gf": false,
+            "vegan": false,
+            "vegetarian": false,
+            "mustTry": "",
+            "note": "",
+            "url": "www.ajinoya-osaka.jp"
+          },
+          {
+            "name": "Kuromon Market Food Stalls",
+            "nameJp": "",
+            "cuisine": "Mixed (Sushi, Seafood, Takoyaki, Okonomiyaki)",
+            "neighborhood": "Kuromon Market, Chuo Ward",
+            "price": "¥¥",
+            "gf": false,
+            "vegan": false,
+            "vegetarian": false,
+            "mustTry": "",
+            "note": "",
+            "url": "www.kuromon.com"
+          },
+          {
+            "name": "Umeda Sky Building Restaurant",
+            "nameJp": "",
+            "cuisine": "Kaiseki / French fusion",
+            "neighborhood": "Umeda Sky Building (top floor)",
+            "price": "¥¥",
+            "gf": false,
+            "vegan": false,
+            "vegetarian": false,
+            "mustTry": "",
+            "note": "",
+            "url": "www.umeda-sky-building.jp"
+          }
+        ]
+      },
+      "kyoto": {
+        "label": "Kyoto",
+        "forDays": [
+          2,
+          3
+        ],
+        "spots": [
+          {
+            "name": "Nishiki Market",
+            "nameJp": "",
+            "cuisine": "Mixed (Fresh produce, sushi, pickles, sweets)",
+            "neighborhood": "Nishiki Market, Shimogyo-ku",
+            "price": "¥¥",
+            "gf": false,
+            "vegan": false,
+            "vegetarian": false,
+            "mustTry": "",
+            "note": "",
+            "url": "www.nishiki.or.jp"
+          },
+          {
+            "name": "Omen Kodai-Ji",
+            "nameJp": "",
+            "cuisine": "Udon noodles",
+            "neighborhood": "Near Kiyomizu Temple",
+            "price": "¥¥",
+            "gf": false,
+            "vegan": false,
+            "vegetarian": false,
+            "mustTry": "",
+            "note": "",
+            "url": "www.omen.jp"
+          },
+          {
+            "name": "Gion Kappa Zushi",
+            "nameJp": "",
+            "cuisine": "Multi-course kaiseki",
+            "neighborhood": "Gion district",
+            "price": "¥¥",
+            "gf": false,
+            "vegan": false,
+            "vegetarian": false,
+            "mustTry": "",
+            "note": "",
+            "url": "www.giongionkappatyushi.com"
+          },
+          {
+            "name": "Musubi Kyoto Kaiseki",
+            "nameJp": "",
+            "cuisine": "Tofu-based kaiseki",
+            "neighborhood": "Central Kyoto",
+            "price": "¥¥",
+            "gf": false,
+            "vegan": false,
+            "vegetarian": false,
+            "mustTry": "",
+            "note": "",
+            "url": "www.musubi-kyoto.com"
+          }
+        ]
+      },
+      "hiroshima": {
+        "label": "Hiroshima",
+        "forDays": [
+          5
+        ],
+        "spots": [
+          {
+            "name": "Hassei Okonomiyaki",
+            "nameJp": "",
+            "cuisine": "Hiroshima-style okonomiyaki",
+            "neighborhood": "Okonomi-mura (Okonomiyaki Village)",
+            "price": "¥¥",
+            "gf": false,
+            "vegan": false,
+            "vegetarian": false,
+            "mustTry": "",
+            "note": "",
+            "url": "www.hassei.com"
+          },
+          {
+            "name": "Miyajima Island Oyster Restaurants",
+            "nameJp": "",
+            "cuisine": "Fresh grilled and raw oysters",
+            "neighborhood": "Miyajima Island",
+            "price": "¥¥",
+            "gf": false,
+            "vegan": false,
+            "vegetarian": false,
+            "mustTry": "",
+            "note": "",
+            "url": "www.miyajima-oyster.jp"
+          }
+        ]
+      },
+      "fukuoka": {
+        "label": "Fukuoka",
+        "forDays": [
+          6,
+          7
+        ],
+        "spots": [
+          {
+            "name": "Yatai Ramen Stalls (Nakasu)",
+            "nameJp": "",
+            "cuisine": "Hakata tonkotsu ramen",
+            "neighborhood": "Nakasu district",
+            "price": "¥¥",
+            "gf": false,
+            "vegan": false,
+            "vegetarian": false,
+            "mustTry": "",
+            "note": "",
+            "url": "www.nakasu-yatai.jp"
+          },
+          {
+            "name": "Hakata Issou",
+            "nameJp": "",
+            "cuisine": "Hakata ramen & mizutaki (chicken hot pot)",
+            "neighborhood": "Hakata Ward",
+            "price": "¥¥",
+            "gf": false,
+            "vegan": false,
+            "vegetarian": false,
+            "mustTry": "",
+            "note": "",
+            "url": "www.hakata-issou.com"
+          },
+          {
+            "name": "Ganso Hakata Mentaiju",
+            "nameJp": "",
+            "cuisine": "Cod roe (mentaiko) specialties",
+            "neighborhood": "Canal City Hakata",
+            "price": "¥¥",
+            "gf": false,
+            "vegan": false,
+            "vegetarian": false,
+            "mustTry": "",
+            "note": "",
+            "url": "www.ganso-fukuoka.jp"
+          }
+        ]
+      },
+      "kawaguchiko": {
+        "label": "Kawaguchiko",
+        "forDays": [
+          8,
+          9
+        ],
+        "spots": [
+          {
+            "name": "Hoto Fudo",
+            "nameJp": "",
+            "cuisine": "Hoto noodles (flat wheat noodles in miso broth)",
+            "neighborhood": "Kawaguchiko, near lake",
+            "price": "¥¥",
+            "gf": false,
+            "vegan": false,
+            "vegetarian": false,
+            "mustTry": "",
+            "note": "",
+            "url": "www.hotofudo.jp"
+          }
+        ]
+      }
+    }
+  },
+  "pins": {
+    "source": "tripmag-generator",
+    "exportDate": "2026-02-12",
+    "stats": {
+      "total": 0,
+      "matched": 0,
+      "nearRoute": 0,
+      "offRoute": 0
+    },
+    "categories": [],
+    "regions": [],
+    "statusDescriptions": {
+      "matched": "",
+      "nearRoute": "",
+      "offRoute": ""
+    },
+    "items": []
+  },
+  "capabilities": {
+    "hasCountdown": true,
+    "hasCurrencyConverter": true,
+    "hasWeatherOverlay": true,
+    "hasPackingChecklist": true,
+    "hasHotelSelection": true
+  },
+  "theme": {
+    "accent": "#E11D48",
+    "accentAlt": "#F43F5E"
+  },
+  "weather": [
+    {
+      "day": 1,
+      "location": "Arrival in Osaka",
+      "highC": 20,
+      "lowC": 12,
+      "condition": "Partly cloudy",
+      "rainChance": 30,
+      "humidity": 58,
+      "sunrise": "05:30",
+      "sunset": "18:35",
+      "tip": "Typical spring weather.",
+      "icon": "⛅"
+    },
+    {
+      "day": 2,
+      "location": "Kyoto's Golden Temples & Bamboo",
+      "highC": 20,
+      "lowC": 12,
+      "condition": "Partly cloudy",
+      "rainChance": 30,
+      "humidity": 58,
+      "sunrise": "05:30",
+      "sunset": "18:35",
+      "tip": "Typical spring weather.",
+      "icon": "⛅"
+    },
+    {
+      "day": 3,
+      "location": "Kyoto's Historic Heart",
+      "highC": 20,
+      "lowC": 12,
+      "condition": "Partly cloudy",
+      "rainChance": 30,
+      "humidity": 58,
+      "sunrise": "05:30",
+      "sunset": "18:35",
+      "tip": "Typical spring weather.",
+      "icon": "⛅"
+    },
+    {
+      "day": 4,
+      "location": "Nara's Deer Park & Osaka Castle",
+      "highC": 20,
+      "lowC": 12,
+      "condition": "Partly cloudy",
+      "rainChance": 30,
+      "humidity": 58,
+      "sunrise": "05:30",
+      "sunset": "18:35",
+      "tip": "Typical spring weather.",
+      "icon": "⛅"
+    },
+    {
+      "day": 5,
+      "location": "Hiroshima Peace & Miyajima Island",
+      "highC": 20,
+      "lowC": 12,
+      "condition": "Partly cloudy",
+      "rainChance": 30,
+      "humidity": 58,
+      "sunrise": "05:30",
+      "sunset": "18:35",
+      "tip": "Typical spring weather.",
+      "icon": "⛅"
+    },
+    {
+      "day": 6,
+      "location": "Fukuoka's Coastal Charm",
+      "highC": 20,
+      "lowC": 12,
+      "condition": "Partly cloudy",
+      "rainChance": 30,
+      "humidity": 58,
+      "sunrise": "05:30",
+      "sunset": "18:35",
+      "tip": "Typical spring weather.",
+      "icon": "⛅"
+    },
+    {
+      "day": 7,
+      "location": "Kumamoto Day Trip",
+      "highC": 20,
+      "lowC": 12,
+      "condition": "Partly cloudy",
+      "rainChance": 30,
+      "humidity": 58,
+      "sunrise": "05:30",
+      "sunset": "18:35",
+      "tip": "Typical spring weather.",
+      "icon": "⛅"
+    },
+    {
+      "day": 8,
+      "location": "Journey to Mount Fuji",
+      "highC": 20,
+      "lowC": 12,
+      "condition": "Partly cloudy",
+      "rainChance": 30,
+      "humidity": 58,
+      "sunrise": "05:30",
+      "sunset": "18:35",
+      "tip": "Typical spring weather.",
+      "icon": "⛅"
+    },
+    {
+      "day": 9,
+      "location": "Mount Fuji & Five Lakes",
+      "highC": 20,
+      "lowC": 12,
+      "condition": "Partly cloudy",
+      "rainChance": 30,
+      "humidity": 58,
+      "sunrise": "05:30",
+      "sunset": "18:35",
+      "tip": "Typical spring weather.",
+      "icon": "⛅"
+    },
+    {
+      "day": 10,
+      "location": "Return to Osaka",
+      "highC": 20,
+      "lowC": 12,
+      "condition": "Partly cloudy",
+      "rainChance": 30,
+      "humidity": 58,
+      "sunrise": "05:30",
+      "sunset": "18:35",
+      "tip": "Typical spring weather.",
+      "icon": "⛅"
+    },
+    {
+      "day": 11,
+      "location": "Osaka's Modern & Marine",
+      "highC": 20,
+      "lowC": 12,
+      "condition": "Partly cloudy",
+      "rainChance": 30,
+      "humidity": 58,
+      "sunrise": "05:30",
+      "sunset": "18:35",
+      "tip": "Typical spring weather.",
+      "icon": "⛅"
+    },
+    {
+      "day": 12,
+      "location": "Departure",
+      "highC": 20,
+      "lowC": 12,
+      "condition": "Partly cloudy",
+      "rainChance": 30,
+      "humidity": 58,
+      "sunrise": "05:30",
+      "sunset": "18:35",
+      "tip": "Typical spring weather.",
+      "icon": "⛅"
+    }
+  ],
+  "currency": {
+    "currencies": [
+      "PLN",
+      "JPY",
+      "EUR",
+      "USD"
+    ],
+    "symbols": {
+      "PLN": "zł",
+      "JPY": "¥",
+      "EUR": "€",
+      "USD": "$"
+    },
+    "rates": {
+      "PLN": {
+        "JPY": 37.0,
+        "EUR": 0.233,
+        "USD": 0.25
+      },
+      "JPY": {
+        "PLN": 0.027,
+        "EUR": 0.0063,
+        "USD": 0.0068
+      },
+      "EUR": {
+        "PLN": 4.3,
+        "JPY": 159.0,
+        "USD": 1.08
+      },
+      "USD": {
+        "PLN": 4.0,
+        "JPY": 148.0,
+        "EUR": 0.93
+      }
+    },
+    "defaultFrom": "JPY",
+    "defaultAmount": 1000,
+    "rateNote": "Rates as of March 2026 — approximate"
+  }
+}

@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TripMag — Your Trip. Perfectly Personalized.</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+/* ═══════════════════════════════════════════════
+   TRIPMAG LANDING PAGE — "Cinematic Nomad" Brand
+   ═══════════════════════════════════════════════ */
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --dark: #0A0E27;
+  --dark-lighter: #0F1428;
+  --dark-accent: #1F2937;
+  --light: #F8F9FA;
+  --white: #FFFFFF;
+  --red: #BC002D;
+  --red-dark: #A00025;
+  --cyan: #00D9FF;
+  --cyan-dark: #00B8D4;
+  --gold: #C9A96E;
+  --text-primary: #0A0E27;
+  --text-secondary: #2D2D2D;
+  --text-muted: #6B7280;
+  --text-light: #9CA3AF;
+  --border: #E5E7EB;
+  --bg-light: #F3F4F6;
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'Space Mono', 'Courier New', monospace;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-sans);
+  color: var(--text-primary);
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 60px;
+}
+
+/* ─── NAVIGATION ─── */
+.nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.4s ease;
+}
+.nav.scrolled {
+  background: rgba(10, 14, 39, 0.95);
+  backdrop-filter: blur(20px);
+  padding: 14px 60px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.3);
+}
+.nav__logo {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--light);
+  letter-spacing: 0.04em;
+  text-decoration: none;
+}
+.nav__logo span { color: var(--red); }
+.nav__links { display: flex; gap: 32px; align-items: center; }
+.nav__links a {
+  color: var(--text-light);
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: color 0.3s;
+  letter-spacing: 0.02em;
+}
+.nav__links a:hover { color: var(--light); }
+.nav__cta {
+  background: var(--red) !important;
+  color: white !important;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-weight: 600 !important;
+  transition: all 0.3s !important;
+}
+.nav__cta:hover { background: var(--red-dark) !important; transform: scale(1.03); }
+
+/* ─── HERO ─── */
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(160deg, var(--dark) 0%, var(--dark-lighter) 60%, #111833 100%);
+  display: grid;
+  grid-template-columns: 55% 45%;
+  align-items: center;
+  padding: 120px 80px 80px;
+  position: relative;
+  overflow: hidden;
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 70% 20%, rgba(0,217,255,0.06) 0%, transparent 50%),
+    radial-gradient(ellipse at 20% 80%, rgba(188,0,45,0.04) 0%, transparent 50%);
+  pointer-events: none;
+}
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 200px;
+  background: linear-gradient(to bottom, transparent, var(--white));
+  pointer-events: none;
+  z-index: 2;
+}
+.hero__grid-bg {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+  background-size: 60px 60px;
+  pointer-events: none;
+}
+
+.hero__content { position: relative; z-index: 3; }
+.hero__label {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--cyan);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  animation: fadeInUp 0.6s ease-out;
+}
+.hero__headline {
+  font-family: var(--font-serif);
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 700;
+  line-height: 1.08;
+  color: var(--light);
+  margin-bottom: 24px;
+  animation: fadeInUp 0.6s ease-out 0.1s backwards;
+}
+.hero__headline em {
+  font-style: normal;
+  background: linear-gradient(135deg, var(--red), #e8345a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.hero__sub {
+  font-size: 1.125rem;
+  color: var(--text-light);
+  line-height: 1.7;
+  max-width: 500px;
+  margin-bottom: 48px;
+  animation: fadeInUp 0.6s ease-out 0.2s backwards;
+}
+.hero__cta-group {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 48px;
+  animation: fadeInUp 0.6s ease-out 0.3s backwards;
+}
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--red);
+  color: white;
+  padding: 16px 32px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+.btn-primary:hover { background: var(--red-dark); transform: translateY(-2px); box-shadow: 0 10px 40px rgba(188,0,45,0.3); }
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  color: var(--cyan);
+  padding: 16px 32px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 1px solid rgba(0,217,255,0.3);
+  cursor: pointer;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+.btn-secondary:hover { border-color: var(--cyan); background: rgba(0,217,255,0.05); }
+.hero__trust {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  animation: fadeInUp 0.6s ease-out 0.4s backwards;
+}
+.hero__trust span { color: var(--red); font-weight: 600; }
+
+/* Hero right visual */
+.hero__visual {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 1s ease-out 0.5s backwards;
+}
+.hero__mockup {
+  width: 100%;
+  max-width: 480px;
+  aspect-ratio: 3/4;
+  background: linear-gradient(145deg, var(--dark-accent), var(--dark));
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 40px 80px rgba(0,0,0,0.4), 0 0 0 1px rgba(255,255,255,0.05);
+  overflow: hidden;
+  position: relative;
+}
+.hero__mockup-header {
+  padding: 20px 24px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+.hero__mockup-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+}
+.hero__mockup-dot:nth-child(1) { background: #ff5f57; }
+.hero__mockup-dot:nth-child(2) { background: #ffbd2e; }
+.hero__mockup-dot:nth-child(3) { background: #28c840; }
+.hero__mockup-title {
+  margin-left: auto;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--text-light);
+  letter-spacing: 0.05em;
+}
+.hero__mockup-content { padding: 32px 24px; }
+.hero__mockup-content .mock-label {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--cyan);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 12px;
+}
+.hero__mockup-content .mock-title {
+  font-family: var(--font-serif);
+  font-size: 1.6rem;
+  color: var(--light);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+.hero__mockup-content .mock-sub {
+  font-size: 0.8rem;
+  color: var(--text-light);
+  margin-bottom: 24px;
+}
+.hero__mockup-map {
+  width: 100%;
+  height: 180px;
+  background: linear-gradient(135deg, #1a2332, #0d1722);
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.05);
+}
+.map-dot {
+  position: absolute;
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: var(--red);
+  box-shadow: 0 0 12px rgba(188,0,45,0.6);
+}
+.map-dot:nth-child(1) { top: 30%; left: 25%; }
+.map-dot:nth-child(2) { top: 45%; left: 55%; background: var(--cyan); box-shadow: 0 0 12px rgba(0,217,255,0.6); }
+.map-dot:nth-child(3) { top: 60%; left: 40%; }
+.map-dot:nth-child(4) { top: 35%; left: 70%; background: var(--gold); box-shadow: 0 0 12px rgba(201,169,110,0.6); }
+.map-line {
+  position: absolute;
+  top: 30%; left: 25%;
+  width: 200px; height: 100px;
+  border: none;
+  border-top: 1px dashed rgba(0,217,255,0.2);
+  transform: rotate(15deg);
+}
+.hero__mockup-stats {
+  display: flex;
+  gap: 20px;
+  margin-top: 24px;
+}
+.mock-stat {
+  text-align: center;
+}
+.mock-stat-val {
+  font-family: var(--font-mono);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--cyan);
+}
+.mock-stat-label {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* ─── FEATURES ─── */
+.features {
+  background: var(--white);
+  padding: 120px 0;
+}
+.section-header {
+  text-align: center;
+  margin-bottom: 64px;
+}
+.section-header h2 {
+  font-family: var(--font-serif);
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+}
+.section-header p {
+  font-size: 1.125rem;
+  color: var(--text-muted);
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.features__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+.feature-card {
+  padding: 40px 32px;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+.feature-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+  border-color: transparent;
+}
+.feature-card__icon {
+  width: 56px; height: 56px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-bottom: 24px;
+  transition: transform 0.3s;
+}
+.feature-card:hover .feature-card__icon { transform: scale(1.1) rotate(3deg); }
+.feature-card__icon--red { background: rgba(188,0,45,0.08); }
+.feature-card__icon--cyan { background: rgba(0,217,255,0.08); }
+.feature-card__icon--gold { background: rgba(201,169,110,0.08); }
+.feature-card h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+}
+.feature-card p {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
+/* ─── HOW IT WORKS ─── */
+.how-it-works {
+  background: var(--light);
+  padding: 120px 0;
+}
+.steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px;
+  position: relative;
+}
+.steps::before {
+  content: '';
+  position: absolute;
+  top: 36px; left: 15%; right: 15%;
+  height: 2px;
+  background: linear-gradient(90deg, var(--red), var(--cyan), var(--gold));
+  opacity: 0.3;
+}
+.step {
+  text-align: center;
+  position: relative;
+}
+.step__number {
+  width: 72px; height: 72px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 24px;
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  position: relative;
+  z-index: 2;
+}
+.step:nth-child(1) .step__number { background: var(--red); }
+.step:nth-child(2) .step__number { background: var(--cyan); color: var(--dark); }
+.step:nth-child(3) .step__number { background: var(--gold); color: var(--dark); }
+.step h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+}
+.step p {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.step__time {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text-light);
+  margin-top: 16px;
+  letter-spacing: 0.05em;
+}
+
+/* ─── DEMO / SOCIAL PROOF ─── */
+.demo {
+  background: var(--white);
+  padding: 120px 0;
+}
+.demo__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+.demo__features-list {
+  list-style: none;
+  margin-top: 32px;
+}
+.demo__features-list li {
+  padding: 12px 0;
+  font-size: 1rem;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+.demo__features-list li::before {
+  content: '✓';
+  color: var(--red);
+  font-weight: 700;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+.demo__cta-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--red);
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: 32px;
+  font-size: 1rem;
+  transition: gap 0.3s;
+}
+.demo__cta-link:hover { gap: 14px; }
+
+.demo__preview {
+  background: linear-gradient(145deg, var(--dark), var(--dark-lighter));
+  border-radius: 16px;
+  padding: 32px;
+  border: 1px solid rgba(255,255,255,0.05);
+  box-shadow: 0 30px 60px rgba(0,0,0,0.2);
+}
+.demo__preview-label {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--cyan);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 16px;
+}
+.demo__preview-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.preview-bar {
+  height: 12px;
+  border-radius: 6px;
+  opacity: 0.6;
+}
+
+/* Testimonials */
+.testimonials {
+  margin-top: 80px;
+}
+.testimonials__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.testimonial {
+  padding: 32px;
+  background: var(--light);
+  border-radius: 16px;
+  border: 1px solid var(--border);
+}
+.testimonial__stars {
+  color: #F59E0B;
+  font-size: 0.9rem;
+  margin-bottom: 16px;
+  letter-spacing: 2px;
+}
+.testimonial__quote {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.testimonial__author {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+.testimonial__role {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* ─── PRICING ─── */
+.pricing {
+  background: var(--light);
+  padding: 120px 0;
+}
+.pricing__card {
+  max-width: 480px;
+  margin: 0 auto;
+  background: var(--white);
+  border-radius: 24px;
+  padding: 48px 40px;
+  box-shadow: 0 20px 60px rgba(188,0,45,0.08), 0 8px 24px rgba(0,0,0,0.06);
+  border: 1px solid var(--border);
+  text-align: center;
+  position: relative;
+}
+.pricing__badge {
+  position: absolute;
+  top: -14px; left: 50%;
+  transform: translateX(-50%);
+  background: var(--red);
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 6px 20px;
+  border-radius: 20px;
+}
+.pricing__price {
+  font-family: var(--font-serif);
+  font-size: 4rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin: 16px 0 4px;
+}
+.pricing__price-sub {
+  font-size: 1rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+.pricing__note {
+  font-size: 0.875rem;
+  color: var(--text-light);
+  margin-bottom: 32px;
+}
+.pricing__features {
+  list-style: none;
+  text-align: left;
+  margin-bottom: 32px;
+}
+.pricing__features li {
+  padding: 10px 0;
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-bottom: 1px solid var(--bg-light);
+}
+.pricing__features li:last-child { border-bottom: none; }
+.pricing__features li::before {
+  content: '✓';
+  color: var(--red);
+  font-weight: 700;
+  flex-shrink: 0;
+}
+.pricing__btn {
+  width: 100%;
+  padding: 18px;
+  border-radius: 12px;
+  font-size: 1.05rem;
+}
+.pricing__secondary {
+  display: block;
+  margin-top: 16px;
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  text-decoration: none;
+}
+.pricing__secondary:hover { color: var(--text-primary); }
+
+/* ─── FAQ ─── */
+.faq {
+  background: var(--white);
+  padding: 120px 0;
+}
+.faq__list {
+  max-width: 720px;
+  margin: 0 auto;
+}
+.faq__item {
+  border-bottom: 1px solid var(--border);
+}
+.faq__question {
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 24px 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-sans);
+  transition: color 0.3s;
+}
+.faq__question:hover { color: var(--red); }
+.faq__question::after {
+  content: '+';
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: var(--text-light);
+  transition: transform 0.3s;
+}
+.faq__item.open .faq__question::after {
+  transform: rotate(45deg);
+  color: var(--red);
+}
+.faq__answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, padding 0.4s ease;
+}
+.faq__item.open .faq__answer {
+  max-height: 300px;
+  padding-bottom: 24px;
+}
+.faq__answer p {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.8;
+}
+
+/* ─── PRE-FOOTER CTA ─── */
+.cta-banner {
+  background: linear-gradient(135deg, var(--dark), var(--dark-lighter));
+  padding: 100px 0;
+  text-align: center;
+}
+.cta-banner h2 {
+  font-family: var(--font-serif);
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
+  font-weight: 700;
+  color: var(--light);
+  margin-bottom: 16px;
+}
+.cta-banner p {
+  font-size: 1.1rem;
+  color: var(--text-light);
+  margin-bottom: 40px;
+}
+
+/* ─── FOOTER ─── */
+.footer {
+  background: var(--dark);
+  padding: 80px 0 40px;
+  color: var(--text-light);
+}
+.footer__grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 48px;
+  margin-bottom: 60px;
+}
+.footer__brand-desc {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-top: 16px;
+  max-width: 280px;
+}
+.footer__col-title {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--light);
+  margin-bottom: 20px;
+}
+.footer__links { list-style: none; }
+.footer__links li { margin-bottom: 12px; }
+.footer__links a {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.875rem;
+  transition: color 0.3s;
+}
+.footer__links a:hover { color: var(--red); }
+.footer__bottom {
+  border-top: 1px solid rgba(255,255,255,0.06);
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* ─── ANIMATIONS ─── */
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ─── RESPONSIVE ─── */
+@media (max-width: 1024px) {
+  .container { padding: 0 40px; }
+  .nav { padding: 16px 40px; }
+  .hero { grid-template-columns: 1fr; padding: 120px 40px 80px; }
+  .hero__visual { display: none; }
+  .features__grid { grid-template-columns: repeat(2, 1fr); }
+  .steps { grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  .demo__grid { grid-template-columns: 1fr; gap: 48px; }
+  .testimonials__grid { grid-template-columns: 1fr 1fr; }
+  .footer__grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 640px) {
+  .container { padding: 0 24px; }
+  .nav { padding: 14px 24px; }
+  .nav__links a:not(.nav__cta) { display: none; }
+  .hero { padding: 100px 24px 60px; }
+  .hero__cta-group { flex-direction: column; }
+  .features__grid, .steps, .testimonials__grid { grid-template-columns: 1fr; }
+  .steps::before { display: none; }
+  .footer__grid { grid-template-columns: 1fr; gap: 32px; }
+  .footer__bottom { flex-direction: column; gap: 12px; text-align: center; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav class="nav" id="nav">
+  <a href="#" class="nav__logo">TRIP<span>MAG</span></a>
+  <div class="nav__links">
+    <a href="#features">Features</a>
+    <a href="#how-it-works">How It Works</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#faq">FAQ</a>
+    <a href="#pricing" class="nav__cta">Create Your Trip</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero__grid-bg"></div>
+  <div class="hero__content">
+    <p class="hero__label">AI-Powered Trip Magazines</p>
+    <h1 class="hero__headline">Your Trip.<br><em>Perfectly Personalized.</em></h1>
+    <p class="hero__sub">Skip the travel research. Get a personalized, interactive trip magazine with curated recommendations, custom itineraries, and everything you need to explore with confidence.</p>
+    <div class="hero__cta-group">
+      <a href="#pricing" class="btn-primary">Create Your Trip Magazine →</a>
+      <a href="#demo" class="btn-secondary">See It In Action</a>
+    </div>
+    <p class="hero__trust"><span>✓</span> Join 2,000+ travelers who've already created their magazines</p>
+  </div>
+  <div class="hero__visual">
+    <div class="hero__mockup">
+      <div class="hero__mockup-header">
+        <div class="hero__mockup-dot"></div>
+        <div class="hero__mockup-dot"></div>
+        <div class="hero__mockup-dot"></div>
+        <span class="hero__mockup-title">tripmag.io/japan</span>
+      </div>
+      <div class="hero__mockup-content">
+        <p class="mock-label">14-Day Itinerary</p>
+        <h3 class="mock-title">Japan: Tokyo to Kyushu</h3>
+        <p class="mock-sub">Golden Circle · South Coast · Glaciers</p>
+        <div class="hero__mockup-map">
+          <div class="map-dot"></div>
+          <div class="map-dot"></div>
+          <div class="map-dot"></div>
+          <div class="map-dot"></div>
+          <div class="map-line"></div>
+        </div>
+        <div class="hero__mockup-stats">
+          <div class="mock-stat">
+            <div class="mock-stat-val">252</div>
+            <div class="mock-stat-label">Pins</div>
+          </div>
+          <div class="mock-stat">
+            <div class="mock-stat-val">48</div>
+            <div class="mock-stat-label">Hotels</div>
+          </div>
+          <div class="mock-stat">
+            <div class="mock-stat-val">34</div>
+            <div class="mock-stat-label">Restaurants</div>
+          </div>
+          <div class="mock-stat">
+            <div class="mock-stat-val">14</div>
+            <div class="mock-stat-label">Days</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="features" id="features">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2>What Makes TripMag Different</h2>
+      <p>AI-powered personalization meets human travel expertise.</p>
+    </div>
+    <div class="features__grid">
+      <div class="feature-card reveal">
+        <div class="feature-card__icon feature-card__icon--red">🎬</div>
+        <h3>Navigate Like a Magazine</h3>
+        <p>Beautiful, frictionless navigation through your entire trip. Snap-scroll between destinations, hotels, restaurants, and activities. Designed to feel like reading editorial travel content — not browsing a spreadsheet.</p>
+      </div>
+      <div class="feature-card reveal">
+        <div class="feature-card__icon feature-card__icon--cyan">✦</div>
+        <h3>Everything Curated for You</h3>
+        <p>Our AI analyzes your style, budget, and travel preferences to recommend exactly what you'll love. Not generic advice — genuinely personalized suggestions for restaurants, hotels, activities, and more.</p>
+      </div>
+      <div class="feature-card reveal">
+        <div class="feature-card__icon feature-card__icon--gold">🗺</div>
+        <h3>Maps, Bookings & Details</h3>
+        <p>Embedded maps show real restaurant locations. Instant booking links to hotels. Sharable itineraries. Customizable checklists. Your entire trip in one interactive document.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="how-it-works" id="how-it-works">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2>Create Your Trip Magazine in 3 Steps</h2>
+      <p>Personalized travel content, generated in minutes.</p>
+    </div>
+    <div class="steps">
+      <div class="step reveal">
+        <div class="step__number">1</div>
+        <h3>Answer 5 Quick Questions</h3>
+        <p>Tell us about your destination, travel style, budget, and must-see experiences. Our AI learns exactly what you're looking for.</p>
+        <p class="step__time">~3 minutes</p>
+      </div>
+      <div class="step reveal">
+        <div class="step__number">2</div>
+        <h3>AI Generates Your Magazine</h3>
+        <p>Watch as our system curates and organizes the perfect trip content for you. 40+ recommendations, custom itineraries, and everything you need.</p>
+        <p class="step__time">~30 seconds</p>
+      </div>
+      <div class="step reveal">
+        <div class="step__number">3</div>
+        <h3>Explore, Customize & Share</h3>
+        <p>Browse your personalized magazine on any device. Tweak recommendations. Add your own notes. Share with travel partners. Book directly.</p>
+        <p class="step__time">Yours forever</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DEMO & SOCIAL PROOF -->
+<section class="demo" id="demo">
+  <div class="container">
+    <div class="demo__grid">
+      <div class="reveal">
+        <div class="section-header" style="text-align:left; margin-bottom:24px;">
+          <h2>See the Japan Trip Magazine</h2>
+          <p style="margin:12px 0 0;">Interactive, personalized, beautifully designed.</p>
+        </div>
+        <ul class="demo__features-list">
+          <li>Snap-scroll through 12 destinations</li>
+          <li>40+ recommended restaurants & hotels</li>
+          <li>Custom packing checklist with check-off</li>
+          <li>Interactive map with 252 pins and booking links</li>
+          <li>Sharable itinerary with friends</li>
+        </ul>
+        <a href="#" class="demo__cta-link">View Live Demo →</a>
+      </div>
+      <div class="demo__preview reveal">
+        <p class="demo__preview-label">Live Preview — Japan 14-Day</p>
+        <div class="demo__preview-bars">
+          <div class="preview-bar" style="width:100%; background:var(--red);"></div>
+          <div class="preview-bar" style="width:85%; background:var(--cyan);"></div>
+          <div class="preview-bar" style="width:70%; background:var(--gold);"></div>
+          <div class="preview-bar" style="width:90%; background:var(--red); opacity:0.4;"></div>
+          <div class="preview-bar" style="width:60%; background:var(--cyan); opacity:0.4;"></div>
+          <div class="preview-bar" style="width:95%; background:var(--gold); opacity:0.4;"></div>
+          <div class="preview-bar" style="width:75%; background:var(--red); opacity:0.2;"></div>
+          <div class="preview-bar" style="width:80%; background:var(--cyan); opacity:0.2;"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonials -->
+    <div class="testimonials reveal">
+      <div class="testimonials__grid">
+        <div class="testimonial">
+          <div class="testimonial__stars">★★★★★</div>
+          <p class="testimonial__quote">"I planned my entire Bali trip using TripMag. The restaurant recommendations were spot-on, and the interactive map saved me hours of research."</p>
+          <p class="testimonial__author">Sarah M.</p>
+          <p class="testimonial__role">Product Designer</p>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial__stars">★★★★★</div>
+          <p class="testimonial__quote">"As someone who travels frequently, TripMag's personalization is incredible. It's like having a local guide who knows my exact taste."</p>
+          <p class="testimonial__author">James L.</p>
+          <p class="testimonial__role">Executive</p>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial__stars">★★★★★</div>
+          <p class="testimonial__quote">"Finally, a travel planning tool that doesn't feel like homework. Beautiful, intuitive, and actually useful."</p>
+          <p class="testimonial__author">Maria C.</p>
+          <p class="testimonial__role">Entrepreneur</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="pricing" id="pricing">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2>Perfectly Priced for Every Traveler</h2>
+      <p>Get a personalized trip magazine for one flat price.</p>
+    </div>
+    <div class="pricing__card reveal">
+      <div class="pricing__badge">Most Popular</div>
+      <div class="pricing__price">$29</div>
+      <p class="pricing__price-sub">per trip magazine</p>
+      <p class="pricing__note">Unlimited personalization. One-time purchase.</p>
+      <ul class="pricing__features">
+        <li>AI-generated personalized magazine</li>
+        <li>Interactive snap-scroll design</li>
+        <li>Full-featured interactive map</li>
+        <li>40+ curated recommendations</li>
+        <li>Customizable packing list</li>
+        <li>Shareable itinerary & booking links</li>
+        <li>Lifetime access to your magazine</li>
+        <li>Updates & new features included</li>
+      </ul>
+      <a href="#" class="btn-primary pricing__btn">Create Your Trip Magazine</a>
+      <a href="#demo" class="pricing__secondary">Or view the demo first →</a>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2>Questions? We Have Answers</h2>
+    </div>
+    <div class="faq__list">
+      <div class="faq__item">
+        <button class="faq__question">How personalized is the AI actually?</button>
+        <div class="faq__answer"><p>Our AI analyzes your destination preferences, budget, travel style, and must-see experiences to curate 40+ recommendations specifically for you. Each magazine is uniquely generated — no two users get the same content.</p></div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__question">Can I edit my trip magazine after it's created?</button>
+        <div class="faq__answer"><p>Absolutely. Your magazine is fully editable. Swap restaurant recommendations, adjust dates, remove sections entirely, or add your own notes. Think of it as your personal travel document — live and changeable.</p></div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__question">What happens if I change my mind about something?</button>
+        <div class="faq__answer"><p>The AI can regenerate specific sections. Want completely different restaurant recommendations? Different hotels? Just ask, and we'll regenerate that section with fresh, personalized suggestions.</p></div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__question">Is this just a travel website I could build myself?</button>
+        <div class="faq__answer"><p>Building something like this yourself would require 20+ hours of research across multiple sites, aggregating recommendations, building itineraries. Our AI does that work in minutes. Plus, your magazine stays interactive, shareable, and updateable.</p></div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__question">How long do I have access to my magazine?</button>
+        <div class="faq__answer"><p>Forever. Once created, your magazine is yours indefinitely. Access it anytime to explore, share, or update your trip details. No subscriptions, no expiration.</p></div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__question">Can I share my magazine with friends?</button>
+        <div class="faq__answer"><p>Yes! Your magazine includes a shareable link and downloadable itinerary. Co-travelers can view your entire magazine, see your recommendations, and use your itinerary to plan together. They don't need a TripMag account.</p></div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__question">What destinations do you support?</button>
+        <div class="faq__answer"><p>We're launching with Japan and expanding to 150+ destinations worldwide, including major cities, island destinations, mountain regions, and emerging travel spots. If your destination isn't listed, let us know.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRE-FOOTER CTA -->
+<section class="cta-banner">
+  <div class="container">
+    <h2 class="reveal">Ready to Transform Your Travel?</h2>
+    <p class="reveal">Create your personalized trip magazine in minutes.</p>
+    <a href="#pricing" class="btn-primary reveal" style="display:inline-flex;">Create Your Trip Now →</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <a href="#" class="nav__logo">TRIP<span style="color:var(--red)">MAG</span></a>
+        <p class="footer__brand-desc">AI-powered interactive trip magazines. Personalized travel content, beautifully designed.</p>
+      </div>
+      <div>
+        <p class="footer__col-title">Product</p>
+        <ul class="footer__links">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#how-it-works">How It Works</a></li>
+          <li><a href="#demo">Demo</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__col-title">Company</p>
+        <ul class="footer__links">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__col-title">Connect</p>
+        <ul class="footer__links">
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>&copy; 2026 TripMag. All rights reserved.</span>
+      <span>Privacy Policy &middot; Terms of Service</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+// Sticky nav
+const nav = document.getElementById('nav');
+window.addEventListener('scroll', () => {
+  nav.classList.toggle('scrolled', window.scrollY > 60);
+});
+
+// Scroll reveal
+const reveals = document.querySelectorAll('.reveal');
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry, i) => {
+    if (entry.isIntersecting) {
+      setTimeout(() => entry.target.classList.add('visible'), i * 80);
+      observer.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.15 });
+reveals.forEach(el => observer.observe(el));
+
+// FAQ accordion
+document.querySelectorAll('.faq__question').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const item = btn.parentElement;
+    const wasOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq__item').forEach(i => i.classList.remove('open'));
+    if (!wasOpen) item.classList.add('open');
+  });
+});
+</script>
+</body>
+</html>

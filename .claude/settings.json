@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(npx next *)",
+      "Bash(kill *)",
+      "Bash(lsof *)",
+      "Bash(mcp-cli *)",
+      "Read(*)",
+      "Glob(*)",
+      "Grep(*)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": ".claude/hooks/check-css-patterns.sh",
+            "timeout": 5,
+            "statusMessage": "Checking CSS patterns..."
+          },
+          {
+            "type": "command",
+            "command": ".claude/hooks/check-leaflet-import.sh",
+            "timeout": 5,
+            "statusMessage": "Checking Leaflet imports..."
+          }
+        ]
+      }
+    ]
+  }
+}
