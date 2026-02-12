@@ -1826,30 +1826,36 @@
     "source": "generated",
     "exportDate": "2026-02-12",
     "stats": {
-      "total": 17,
-      "matched": 17,
+      "total": 35,
+      "matched": 35,
       "nearRoute": 0,
       "offRoute": 0
     },
     "categories": [
+      "attraction",
+      "district",
+      "food",
       "hotel",
-      "itinerary"
+      "landmark",
+      "museum",
+      "nature",
+      "shopping",
+      "temple",
+      "transport"
     ],
     "regions": [
-      "okinawa",
-      "Okinawa (Ryukyu Islands)",
-      "Okinawa / Osaka (Kansai)",
-      "Kyoto / Nara (Kansai)",
-      "hiroshima",
+      "Fukuoka",
+      "Hiroshima",
+      "Kumamoto",
+      "Kyoto",
+      "Nara",
+      "Okinawa",
+      "Osaka",
       "fukuoka",
-      "Hiroshima (Chugoku)",
-      "osaka",
-      "Kyoto (Kansai)",
-      "Fukuoka / Okinawa (Ryukyu Islands)",
-      "Fukuoka (Kyushu)",
-      "Osaka (Kansai)",
+      "hiroshima",
       "kyoto",
-      "Fukuoka / Kumamoto (Kyushu)"
+      "okinawa",
+      "osaka"
     ],
     "statusDescriptions": {
       "matched": "On itinerary",
@@ -1859,13 +1865,35 @@
     "items": [
       {
         "id": 1,
-        "name": "Arrival in Osaka",
-        "note": "Welcome to Japan: Neon lights and noodle dreams",
-        "lat": 34.6937,
-        "lng": 135.5023,
+        "name": "Dotonbori",
+        "note": null,
+        "lat": 34.6687,
+        "lng": 135.5031,
         "googleMapsUrl": null,
-        "region": "Osaka (Kansai)",
-        "category": "itinerary",
+        "region": "Osaka",
+        "category": "district",
+        "status": "matched",
+        "day": 1,
+        "dayLabel": "Day 1",
+        "possibleDays": [
+          1,
+          11
+        ],
+        "possibleDayLabels": [
+          "Day 1",
+          "Day 11"
+        ],
+        "source": "itinerary"
+      },
+      {
+        "id": 2,
+        "name": "Namba",
+        "note": null,
+        "lat": 34.6627,
+        "lng": 135.5013,
+        "googleMapsUrl": null,
+        "region": "Osaka",
+        "category": "district",
         "status": "matched",
         "day": 1,
         "dayLabel": "Day 1",
@@ -1878,14 +1906,36 @@
         "source": "itinerary"
       },
       {
-        "id": 2,
-        "name": "Kyoto: Temples & Traditions",
-        "note": "10,000 vermillion gates and golden pavilions",
-        "lat": 35.0121,
-        "lng": 135.7686,
+        "id": 3,
+        "name": "Kansai International Airport",
+        "note": null,
+        "lat": 34.4347,
+        "lng": 135.2441,
         "googleMapsUrl": null,
-        "region": "Kyoto (Kansai)",
-        "category": "itinerary",
+        "region": "Osaka",
+        "category": "transport",
+        "status": "matched",
+        "day": 1,
+        "dayLabel": "Day 1",
+        "possibleDays": [
+          1,
+          12
+        ],
+        "possibleDayLabels": [
+          "Day 1",
+          "Day 12"
+        ],
+        "source": "itinerary"
+      },
+      {
+        "id": 4,
+        "name": "Fushimi Inari Shrine",
+        "note": null,
+        "lat": 34.9671,
+        "lng": 135.7727,
+        "googleMapsUrl": null,
+        "region": "Kyoto",
+        "category": "temple",
         "status": "matched",
         "day": 2,
         "dayLabel": "Day 2",
@@ -1898,14 +1948,54 @@
         "source": "itinerary"
       },
       {
-        "id": 3,
-        "name": "Kyoto & Nara: Sacred Deer & Colossal Buddha",
-        "note": "1,300 deer bow for crackers; a bronze Buddha watches silently",
-        "lat": 35.0126,
-        "lng": 135.7691,
+        "id": 5,
+        "name": "Kinkaku-ji (Golden Pavilion)",
+        "note": null,
+        "lat": 35.0394,
+        "lng": 135.7292,
         "googleMapsUrl": null,
-        "region": "Kyoto / Nara (Kansai)",
-        "category": "itinerary",
+        "region": "Kyoto",
+        "category": "temple",
+        "status": "matched",
+        "day": 2,
+        "dayLabel": "Day 2",
+        "possibleDays": [
+          2
+        ],
+        "possibleDayLabels": [
+          "Day 2"
+        ],
+        "source": "itinerary"
+      },
+      {
+        "id": 6,
+        "name": "Arashiyama Bamboo Grove",
+        "note": null,
+        "lat": 35.0094,
+        "lng": 135.6672,
+        "googleMapsUrl": null,
+        "region": "Kyoto",
+        "category": "nature",
+        "status": "matched",
+        "day": 2,
+        "dayLabel": "Day 2",
+        "possibleDays": [
+          2
+        ],
+        "possibleDayLabels": [
+          "Day 2"
+        ],
+        "source": "itinerary"
+      },
+      {
+        "id": 7,
+        "name": "Todai-ji (Great Buddha)",
+        "note": null,
+        "lat": 34.689,
+        "lng": 135.8398,
+        "googleMapsUrl": null,
+        "region": "Nara",
+        "category": "temple",
         "status": "matched",
         "day": 3,
         "dayLabel": "Day 3",
@@ -1918,14 +2008,54 @@
         "source": "itinerary"
       },
       {
-        "id": 4,
-        "name": "Hiroshima: History & Peace",
-        "note": "A city of remembrance, phoenix-like resilience, and perfect okonomiyaki",
-        "lat": 34.3868,
-        "lng": 132.4568,
+        "id": 8,
+        "name": "Nara Deer Park",
+        "note": null,
+        "lat": 34.6851,
+        "lng": 135.843,
         "googleMapsUrl": null,
-        "region": "Hiroshima (Chugoku)",
-        "category": "itinerary",
+        "region": "Nara",
+        "category": "nature",
+        "status": "matched",
+        "day": 3,
+        "dayLabel": "Day 3",
+        "possibleDays": [
+          3
+        ],
+        "possibleDayLabels": [
+          "Day 3"
+        ],
+        "source": "itinerary"
+      },
+      {
+        "id": 9,
+        "name": "Gion District",
+        "note": null,
+        "lat": 35.0036,
+        "lng": 135.7748,
+        "googleMapsUrl": null,
+        "region": "Kyoto",
+        "category": "district",
+        "status": "matched",
+        "day": 3,
+        "dayLabel": "Day 3",
+        "possibleDays": [
+          3
+        ],
+        "possibleDayLabels": [
+          "Day 3"
+        ],
+        "source": "itinerary"
+      },
+      {
+        "id": 10,
+        "name": "Peace Memorial Museum",
+        "note": null,
+        "lat": 34.3915,
+        "lng": 132.4536,
+        "googleMapsUrl": null,
+        "region": "Hiroshima",
+        "category": "museum",
         "status": "matched",
         "day": 4,
         "dayLabel": "Day 4",
@@ -1938,14 +2068,54 @@
         "source": "itinerary"
       },
       {
-        "id": 5,
-        "name": "Fukuoka: City Charm & Ramen Culture",
-        "note": "Where 1,000-year-old temples meet bustling yatai ramen stalls",
-        "lat": 33.5924,
-        "lng": 130.4037,
+        "id": 11,
+        "name": "A-Bomb Dome",
+        "note": null,
+        "lat": 34.3955,
+        "lng": 132.4536,
         "googleMapsUrl": null,
-        "region": "Fukuoka (Kyushu)",
-        "category": "itinerary",
+        "region": "Hiroshima",
+        "category": "landmark",
+        "status": "matched",
+        "day": 4,
+        "dayLabel": "Day 4",
+        "possibleDays": [
+          4
+        ],
+        "possibleDayLabels": [
+          "Day 4"
+        ],
+        "source": "itinerary"
+      },
+      {
+        "id": 12,
+        "name": "Itsukushima Shrine",
+        "note": null,
+        "lat": 34.2961,
+        "lng": 132.3196,
+        "googleMapsUrl": null,
+        "region": "Hiroshima",
+        "category": "temple",
+        "status": "matched",
+        "day": 4,
+        "dayLabel": "Day 4",
+        "possibleDays": [
+          4
+        ],
+        "possibleDayLabels": [
+          "Day 4"
+        ],
+        "source": "itinerary"
+      },
+      {
+        "id": 13,
+        "name": "Canal City Hakata",
+        "note": null,
+        "lat": 33.5897,
+        "lng": 130.411,
+        "googleMapsUrl": null,
+        "region": "Fukuoka",
+        "category": "shopping",
         "status": "matched",
         "day": 5,
         "dayLabel": "Day 5",
@@ -1958,14 +2128,54 @@
         "source": "itinerary"
       },
       {
-        "id": 6,
-        "name": "Kumamoto Day Trip: Castles & Gardens",
-        "note": "Japan's most impressive castle and a stroll through paradise gardens",
-        "lat": 33.5929,
-        "lng": 130.4042,
+        "id": 14,
+        "name": "Nakasu Yatai Stalls",
+        "note": null,
+        "lat": 33.5936,
+        "lng": 130.4053,
         "googleMapsUrl": null,
-        "region": "Fukuoka / Kumamoto (Kyushu)",
-        "category": "itinerary",
+        "region": "Fukuoka",
+        "category": "food",
+        "status": "matched",
+        "day": 5,
+        "dayLabel": "Day 5",
+        "possibleDays": [
+          5
+        ],
+        "possibleDayLabels": [
+          "Day 5"
+        ],
+        "source": "itinerary"
+      },
+      {
+        "id": 15,
+        "name": "Ohori Park",
+        "note": null,
+        "lat": 33.5862,
+        "lng": 130.3778,
+        "googleMapsUrl": null,
+        "region": "Fukuoka",
+        "category": "nature",
+        "status": "matched",
+        "day": 5,
+        "dayLabel": "Day 5",
+        "possibleDays": [
+          5
+        ],
+        "possibleDayLabels": [
+          "Day 5"
+        ],
+        "source": "itinerary"
+      },
+      {
+        "id": 16,
+        "name": "Kumamoto Castle",
+        "note": null,
+        "lat": 32.806,
+        "lng": 130.7058,
+        "googleMapsUrl": null,
+        "region": "Kumamoto",
+        "category": "landmark",
         "status": "matched",
         "day": 6,
         "dayLabel": "Day 6",
@@ -1978,14 +2188,34 @@
         "source": "itinerary"
       },
       {
-        "id": 7,
-        "name": "Flight to Okinawa: Tropical Paradise Awaits",
-        "note": "Trading castles for coral: welcome to Japan's Caribbean",
-        "lat": 33.5934,
-        "lng": 130.4047,
+        "id": 17,
+        "name": "Suizenji Garden",
+        "note": null,
+        "lat": 32.788,
+        "lng": 130.7286,
         "googleMapsUrl": null,
-        "region": "Fukuoka / Okinawa (Ryukyu Islands)",
-        "category": "itinerary",
+        "region": "Kumamoto",
+        "category": "nature",
+        "status": "matched",
+        "day": 6,
+        "dayLabel": "Day 6",
+        "possibleDays": [
+          6
+        ],
+        "possibleDayLabels": [
+          "Day 6"
+        ],
+        "source": "itinerary"
+      },
+      {
+        "id": 18,
+        "name": "Shuri Castle",
+        "note": null,
+        "lat": 26.2171,
+        "lng": 127.7195,
+        "googleMapsUrl": null,
+        "region": "Okinawa",
+        "category": "landmark",
         "status": "matched",
         "day": 7,
         "dayLabel": "Day 7",
@@ -1998,14 +2228,54 @@
         "source": "itinerary"
       },
       {
-        "id": 8,
-        "name": "Okinawa North: Marine Wonders & Pineapples",
-        "note": "Whale sharks in the world's largest reef tank, sunrise views, and pineapple wine",
-        "lat": 26.5048,
-        "lng": 127.9489,
+        "id": 19,
+        "name": "Kokusai Street",
+        "note": null,
+        "lat": 26.337,
+        "lng": 127.6861,
         "googleMapsUrl": null,
-        "region": "Okinawa (Ryukyu Islands)",
-        "category": "itinerary",
+        "region": "Okinawa",
+        "category": "shopping",
+        "status": "matched",
+        "day": 7,
+        "dayLabel": "Day 7",
+        "possibleDays": [
+          7
+        ],
+        "possibleDayLabels": [
+          "Day 7"
+        ],
+        "source": "itinerary"
+      },
+      {
+        "id": 20,
+        "name": "Makishi Public Market",
+        "note": null,
+        "lat": 26.215,
+        "lng": 127.6877,
+        "googleMapsUrl": null,
+        "region": "Okinawa",
+        "category": "food",
+        "status": "matched",
+        "day": 7,
+        "dayLabel": "Day 7",
+        "possibleDays": [
+          7
+        ],
+        "possibleDayLabels": [
+          "Day 7"
+        ],
+        "source": "itinerary"
+      },
+      {
+        "id": 21,
+        "name": "Churaumi Aquarium",
+        "note": null,
+        "lat": 26.6944,
+        "lng": 127.878,
+        "googleMapsUrl": null,
+        "region": "Okinawa",
+        "category": "attraction",
         "status": "matched",
         "day": 8,
         "dayLabel": "Day 8",
@@ -2018,14 +2288,34 @@
         "source": "itinerary"
       },
       {
-        "id": 9,
-        "name": "Okinawa Beach Day: Islands, Snorkeling & Sunset",
-        "note": "Crystal-clear waters, vibrant coral, and island time",
-        "lat": 26.5053,
-        "lng": 127.9494,
+        "id": 22,
+        "name": "Nago Pineapple Park",
+        "note": null,
+        "lat": 26.61,
+        "lng": 127.96,
         "googleMapsUrl": null,
-        "region": "Okinawa (Ryukyu Islands)",
-        "category": "itinerary",
+        "region": "Okinawa",
+        "category": "attraction",
+        "status": "matched",
+        "day": 8,
+        "dayLabel": "Day 8",
+        "possibleDays": [
+          8
+        ],
+        "possibleDayLabels": [
+          "Day 8"
+        ],
+        "source": "itinerary"
+      },
+      {
+        "id": 23,
+        "name": "Kerama Islands",
+        "note": null,
+        "lat": 26.2,
+        "lng": 127.3,
+        "googleMapsUrl": null,
+        "region": "Okinawa",
+        "category": "nature",
         "status": "matched",
         "day": 9,
         "dayLabel": "Day 9",
@@ -2038,14 +2328,54 @@
         "source": "itinerary"
       },
       {
-        "id": 10,
-        "name": "Return to Osaka: Modern City Pulse",
-        "note": "From island tranquility back to neon energy",
-        "lat": 34.6982,
-        "lng": 135.5068,
+        "id": 24,
+        "name": "Naminoue Shrine & Beach",
+        "note": null,
+        "lat": 26.2232,
+        "lng": 127.67,
         "googleMapsUrl": null,
-        "region": "Okinawa / Osaka (Kansai)",
-        "category": "itinerary",
+        "region": "Okinawa",
+        "category": "nature",
+        "status": "matched",
+        "day": 9,
+        "dayLabel": "Day 9",
+        "possibleDays": [
+          9
+        ],
+        "possibleDayLabels": [
+          "Day 9"
+        ],
+        "source": "itinerary"
+      },
+      {
+        "id": 25,
+        "name": "American Village",
+        "note": null,
+        "lat": 26.3276,
+        "lng": 127.7579,
+        "googleMapsUrl": null,
+        "region": "Okinawa",
+        "category": "shopping",
+        "status": "matched",
+        "day": 9,
+        "dayLabel": "Day 9",
+        "possibleDays": [
+          9
+        ],
+        "possibleDayLabels": [
+          "Day 9"
+        ],
+        "source": "itinerary"
+      },
+      {
+        "id": 26,
+        "name": "Osaka Castle",
+        "note": null,
+        "lat": 34.6873,
+        "lng": 135.5259,
+        "googleMapsUrl": null,
+        "region": "Osaka",
+        "category": "landmark",
         "status": "matched",
         "day": 10,
         "dayLabel": "Day 10",
@@ -2058,14 +2388,54 @@
         "source": "itinerary"
       },
       {
-        "id": 11,
-        "name": "Osaka: Final Adventures & Celebration",
-        "note": "Last day: aquariums, shopping, skyscraper sunsets, and gratitude",
-        "lat": 34.6987,
+        "id": 27,
+        "name": "Shinsekai",
+        "note": null,
+        "lat": 34.6522,
+        "lng": 135.5062,
+        "googleMapsUrl": null,
+        "region": "Osaka",
+        "category": "district",
+        "status": "matched",
+        "day": 10,
+        "dayLabel": "Day 10",
+        "possibleDays": [
+          10
+        ],
+        "possibleDayLabels": [
+          "Day 10"
+        ],
+        "source": "itinerary"
+      },
+      {
+        "id": 28,
+        "name": "Kuromon Market",
+        "note": null,
+        "lat": 34.6625,
         "lng": 135.5073,
         "googleMapsUrl": null,
-        "region": "Osaka (Kansai)",
-        "category": "itinerary",
+        "region": "Osaka",
+        "category": "food",
+        "status": "matched",
+        "day": 10,
+        "dayLabel": "Day 10",
+        "possibleDays": [
+          10
+        ],
+        "possibleDayLabels": [
+          "Day 10"
+        ],
+        "source": "itinerary"
+      },
+      {
+        "id": 29,
+        "name": "Umeda Sky Building",
+        "note": null,
+        "lat": 34.7052,
+        "lng": 135.4905,
+        "googleMapsUrl": null,
+        "region": "Osaka",
+        "category": "landmark",
         "status": "matched",
         "day": 11,
         "dayLabel": "Day 11",
@@ -2078,31 +2448,31 @@
         "source": "itinerary"
       },
       {
-        "id": 12,
-        "name": "Departure: Last Moments of Japan",
-        "note": "One last konbini coffee before takeoff",
-        "lat": 34.6992,
-        "lng": 135.5078,
+        "id": 30,
+        "name": "Amerikamura",
+        "note": null,
+        "lat": 34.672,
+        "lng": 135.498,
         "googleMapsUrl": null,
-        "region": "Osaka (Kansai)",
-        "category": "itinerary",
+        "region": "Osaka",
+        "category": "shopping",
         "status": "matched",
-        "day": 12,
-        "dayLabel": "Day 12",
+        "day": 11,
+        "dayLabel": "Day 11",
         "possibleDays": [
-          12
+          11
         ],
         "possibleDayLabels": [
-          "Day 12"
+          "Day 11"
         ],
         "source": "itinerary"
       },
       {
-        "id": 13,
-        "name": "Osaka",
-        "note": "Hotel area",
-        "lat": 34.6937,
-        "lng": 135.5023,
+        "id": 31,
+        "name": "Osaka Hotels",
+        "note": "2 options",
+        "lat": 34.6717,
+        "lng": 135.50609999999998,
         "googleMapsUrl": null,
         "region": "osaka",
         "category": "hotel",
@@ -2115,11 +2485,11 @@
         "hotelLocation": "osaka"
       },
       {
-        "id": 14,
-        "name": "Kyoto",
-        "note": "Hotel area",
-        "lat": 35.0116,
-        "lng": 135.7681,
+        "id": 32,
+        "name": "Kyoto Hotels",
+        "note": "2 options",
+        "lat": 34.9701,
+        "lng": 135.77569999999997,
         "googleMapsUrl": null,
         "region": "kyoto",
         "category": "hotel",
@@ -2132,11 +2502,11 @@
         "hotelLocation": "kyoto"
       },
       {
-        "id": 15,
-        "name": "Hiroshima",
-        "note": "Hotel area",
-        "lat": 34.3853,
-        "lng": 132.4553,
+        "id": 33,
+        "name": "Hiroshima Hotels",
+        "note": "1 options",
+        "lat": 34.3945,
+        "lng": 132.45659999999998,
         "googleMapsUrl": null,
         "region": "hiroshima",
         "category": "hotel",
@@ -2149,11 +2519,11 @@
         "hotelLocation": "hiroshima"
       },
       {
-        "id": 16,
-        "name": "Fukuoka",
-        "note": "Hotel area",
-        "lat": 33.5904,
-        "lng": 130.4017,
+        "id": 34,
+        "name": "Fukuoka Hotels",
+        "note": "2 options",
+        "lat": 33.5927,
+        "lng": 130.414,
         "googleMapsUrl": null,
         "region": "fukuoka",
         "category": "hotel",
@@ -2166,11 +2536,11 @@
         "hotelLocation": "fukuoka"
       },
       {
-        "id": 17,
-        "name": "Naha / Okinawa",
-        "note": "Hotel area",
-        "lat": 26.3344,
-        "lng": 127.7671,
+        "id": 35,
+        "name": "Naha / Okinawa Hotels",
+        "note": "3 options",
+        "lat": 26.3374,
+        "lng": 127.7701,
         "googleMapsUrl": null,
         "region": "okinawa",
         "category": "hotel",
@@ -2520,5 +2890,89 @@
         "delay": "0.3s"
       }
     }
+  },
+  "routes": {
+    "main": {
+      "label": "Main Route",
+      "color": "#BC002D",
+      "opacity": 0.6,
+      "weight": 2,
+      "dashArray": "8, 6",
+      "coordinates": [
+        {
+          "lat": 34.4347,
+          "lng": 135.2441,
+          "label": "Kansai Airport"
+        },
+        {
+          "lat": 34.6937,
+          "lng": 135.5023,
+          "label": "Osaka"
+        },
+        {
+          "lat": 35.0116,
+          "lng": 135.7681,
+          "label": "Kyoto"
+        },
+        {
+          "lat": 34.3853,
+          "lng": 132.4553,
+          "label": "Hiroshima"
+        },
+        {
+          "lat": 33.5904,
+          "lng": 130.4017,
+          "label": "Fukuoka"
+        },
+        {
+          "lat": 26.3344,
+          "lng": 127.7671,
+          "label": "Okinawa"
+        },
+        {
+          "lat": 34.6937,
+          "lng": 135.5023,
+          "label": "Osaka"
+        }
+      ]
+    },
+    "dayTrips": [
+      {
+        "label": "Kyoto → Nara",
+        "day": 3,
+        "from": {
+          "lat": 35.0116,
+          "lng": 135.7681
+        },
+        "to": {
+          "lat": 34.6851,
+          "lng": 135.8048
+        }
+      },
+      {
+        "label": "Hiroshima → Miyajima",
+        "day": 4,
+        "from": {
+          "lat": 34.3853,
+          "lng": 132.4553
+        },
+        "to": {
+          "lat": 34.2961,
+          "lng": 132.3196
+        }
+      },
+      {
+        "label": "Fukuoka → Kumamoto",
+        "day": 6,
+        "from": {
+          "lat": 33.5904,
+          "lng": 130.4017
+        },
+        "to": {
+          "lat": 32.8032,
+          "lng": 130.7079
+        }
+      }
+    ]
   }
 }
