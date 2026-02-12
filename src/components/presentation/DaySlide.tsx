@@ -39,7 +39,7 @@ export function DaySlide({
 
   // Derive hotel data from tag's hotelKey or stay field matching
   let hotelData: HotelCity | undefined;
-  if (hotels && day.stay) {
+  if (hotels && day.stay && typeof day.stay === "string") {
     const stayLower = day.stay.toLowerCase();
     for (const val of Object.values(hotels)) {
       if (val && typeof val === "object" && "options" in val && "location" in val) {

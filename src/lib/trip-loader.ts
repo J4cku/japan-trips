@@ -87,7 +87,7 @@ function normalizeDays(days: any[]): Day[] {
     title: d.title || "",
     region: d.region || "default",
     tagline: d.tagline || "",
-    stay: d.stay || null,
+    stay: typeof d.stay === "string" ? d.stay : d.stay?.city ? `${d.stay.city}${d.stay.area ? ` (${d.stay.area})` : ""}` : d.stay || null,
     highlights: d.highlights || normalizeHighlightsFromActivities(d.activities),
     activities: normalizeActivities(d.activities),
     transport: d.transport || { mode: "car", duration: "" },
