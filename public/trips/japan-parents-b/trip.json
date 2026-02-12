@@ -1317,29 +1317,388 @@
     }
   },
   "pins": {
-    "source": "tripmag-generator",
+    "source": "generated",
     "exportDate": "2026-02-12",
     "stats": {
-      "total": 0,
-      "matched": 0,
+      "total": 18,
+      "matched": 18,
       "nearRoute": 0,
       "offRoute": 0
     },
-    "categories": [],
-    "regions": [],
+    "categories": [
+      "hotel",
+      "itinerary"
+    ],
+    "regions": [
+      "okinawa",
+      "Kansai",
+      "hiroshima",
+      "kawaguchiko",
+      "Chugoku",
+      "Kyushu",
+      "Shizuoka",
+      "fukuoka",
+      "osaka",
+      "Okinawa",
+      "kyoto"
+    ],
     "statusDescriptions": {
-      "matched": "",
-      "nearRoute": "",
-      "offRoute": ""
+      "matched": "On itinerary",
+      "nearRoute": "Near route",
+      "offRoute": "Off route"
     },
-    "items": []
+    "items": [
+      {
+        "id": 1,
+        "name": "Arrival in Osaka",
+        "note": "Touch down in the chaos—welcome to Japan's kitchen",
+        "lat": 34.6937,
+        "lng": 135.5023,
+        "googleMapsUrl": null,
+        "region": "Kansai",
+        "category": "itinerary",
+        "status": "matched",
+        "day": 1,
+        "dayLabel": "Day 1",
+        "possibleDays": [
+          1
+        ],
+        "possibleDayLabels": [
+          "Day 1"
+        ],
+        "source": "itinerary"
+      },
+      {
+        "id": 2,
+        "name": "Kyoto: Temple Overload",
+        "note": "Golden temples, bamboo forests, and 1000 years of beauty—all in one day",
+        "lat": 35.0121,
+        "lng": 135.7686,
+        "googleMapsUrl": null,
+        "region": "Kansai",
+        "category": "itinerary",
+        "status": "matched",
+        "day": 2,
+        "dayLabel": "Day 2",
+        "possibleDays": [
+          2
+        ],
+        "possibleDayLabels": [
+          "Day 2"
+        ],
+        "source": "itinerary"
+      },
+      {
+        "id": 3,
+        "name": "Nara & Kyoto: Temples & Deer",
+        "note": "Sacred deer roam freely, temples touch the sky, philosophers contemplate riverside",
+        "lat": 35.0126,
+        "lng": 135.7691,
+        "googleMapsUrl": null,
+        "region": "Kansai",
+        "category": "itinerary",
+        "status": "matched",
+        "day": 3,
+        "dayLabel": "Day 3",
+        "possibleDays": [
+          3
+        ],
+        "possibleDayLabels": [
+          "Day 3"
+        ],
+        "source": "itinerary"
+      },
+      {
+        "id": 4,
+        "name": "Hiroshima: Peace & Miyajima",
+        "note": "Reflect on history, then float under the world's most photogenic torii",
+        "lat": 34.3868,
+        "lng": 132.4568,
+        "googleMapsUrl": null,
+        "region": "Chugoku",
+        "category": "itinerary",
+        "status": "matched",
+        "day": 4,
+        "dayLabel": "Day 4",
+        "possibleDays": [
+          4
+        ],
+        "possibleDayLabels": [
+          "Day 4"
+        ],
+        "source": "itinerary"
+      },
+      {
+        "id": 5,
+        "name": "Fukuoka: Food Capital",
+        "note": "One city, infinite flavors—Fukuoka's food scene is legendary",
+        "lat": 33.5924,
+        "lng": 130.4037,
+        "googleMapsUrl": null,
+        "region": "Kyushu",
+        "category": "itinerary",
+        "status": "matched",
+        "day": 5,
+        "dayLabel": "Day 5",
+        "possibleDays": [
+          5
+        ],
+        "possibleDayLabels": [
+          "Day 5"
+        ],
+        "source": "itinerary"
+      },
+      {
+        "id": 6,
+        "name": "Kumamoto Day Trip",
+        "note": "Castle, gardens, and a volcano's edge—squeeze it all in before flying south",
+        "lat": 32.8057,
+        "lng": 130.7104,
+        "googleMapsUrl": null,
+        "region": "Kyushu",
+        "category": "itinerary",
+        "status": "matched",
+        "day": 6,
+        "dayLabel": "Day 6",
+        "possibleDays": [
+          6
+        ],
+        "possibleDayLabels": [
+          "Day 6"
+        ],
+        "source": "itinerary"
+      },
+      {
+        "id": 7,
+        "name": "Flight to Okinawa",
+        "note": "Trade mainland temples for subtropical beaches and American heritage",
+        "lat": 26.5043,
+        "lng": 127.9484,
+        "googleMapsUrl": null,
+        "region": "Okinawa",
+        "category": "itinerary",
+        "status": "matched",
+        "day": 7,
+        "dayLabel": "Day 7",
+        "possibleDays": [
+          7
+        ],
+        "possibleDayLabels": [
+          "Day 7"
+        ],
+        "source": "itinerary"
+      },
+      {
+        "id": 8,
+        "name": "Okinawa: Islands & Aquarium",
+        "note": "Dive into the second-largest aquarium, explore capes, and chase American nostalgia",
+        "lat": 26.5048,
+        "lng": 127.9489,
+        "googleMapsUrl": null,
+        "region": "Okinawa",
+        "category": "itinerary",
+        "status": "matched",
+        "day": 8,
+        "dayLabel": "Day 8",
+        "possibleDays": [
+          8
+        ],
+        "possibleDayLabels": [
+          "Day 8"
+        ],
+        "source": "itinerary"
+      },
+      {
+        "id": 9,
+        "name": "Flight Back & Mt Fuji Gateway",
+        "note": "Leave tropical island life, race back to mainland, catch Japan's most iconic peak at sunset",
+        "lat": 35.3646,
+        "lng": 138.7314,
+        "googleMapsUrl": null,
+        "region": "Shizuoka",
+        "category": "itinerary",
+        "status": "matched",
+        "day": 9,
+        "dayLabel": "Day 9",
+        "possibleDays": [
+          9
+        ],
+        "possibleDayLabels": [
+          "Day 9"
+        ],
+        "source": "itinerary"
+      },
+      {
+        "id": 10,
+        "name": "Mt Fuji: Iconic Views & Lakes",
+        "note": "Sacred mountain dawn, mirror lakes, and mountain village charm—Japan's zen moment",
+        "lat": 35.3651,
+        "lng": 138.7319,
+        "googleMapsUrl": null,
+        "region": "Shizuoka",
+        "category": "itinerary",
+        "status": "matched",
+        "day": 10,
+        "dayLabel": "Day 10",
+        "possibleDays": [
+          10
+        ],
+        "possibleDayLabels": [
+          "Day 10"
+        ],
+        "source": "itinerary"
+      },
+      {
+        "id": 11,
+        "name": "Osaka: Finale & Celebration",
+        "note": "Markets, castles, and skyscrapers—Osaka's chaotic energy one last time",
+        "lat": 34.6987,
+        "lng": 135.5073,
+        "googleMapsUrl": null,
+        "region": "Kansai",
+        "category": "itinerary",
+        "status": "matched",
+        "day": 11,
+        "dayLabel": "Day 11",
+        "possibleDays": [
+          11
+        ],
+        "possibleDayLabels": [
+          "Day 11"
+        ],
+        "source": "itinerary"
+      },
+      {
+        "id": 12,
+        "name": "Departure",
+        "note": "Safe travels home—carrying memories of temples, food, and Japan's heartbeat",
+        "lat": 34.6992,
+        "lng": 135.5078,
+        "googleMapsUrl": null,
+        "region": "Kansai",
+        "category": "itinerary",
+        "status": "matched",
+        "day": 12,
+        "dayLabel": "Day 12",
+        "possibleDays": [
+          12
+        ],
+        "possibleDayLabels": [
+          "Day 12"
+        ],
+        "source": "itinerary"
+      },
+      {
+        "id": 13,
+        "name": "Osaka",
+        "note": "Hotel area",
+        "lat": 34.6937,
+        "lng": 135.5023,
+        "googleMapsUrl": null,
+        "region": "osaka",
+        "category": "hotel",
+        "status": "matched",
+        "day": null,
+        "dayLabel": null,
+        "possibleDays": [],
+        "possibleDayLabels": [],
+        "source": "hotels",
+        "hotelLocation": "osaka"
+      },
+      {
+        "id": 14,
+        "name": "Kyoto",
+        "note": "Hotel area",
+        "lat": 35.0116,
+        "lng": 135.7681,
+        "googleMapsUrl": null,
+        "region": "kyoto",
+        "category": "hotel",
+        "status": "matched",
+        "day": null,
+        "dayLabel": null,
+        "possibleDays": [],
+        "possibleDayLabels": [],
+        "source": "hotels",
+        "hotelLocation": "kyoto"
+      },
+      {
+        "id": 15,
+        "name": "Hiroshima",
+        "note": "Hotel area",
+        "lat": 34.3853,
+        "lng": 132.4553,
+        "googleMapsUrl": null,
+        "region": "hiroshima",
+        "category": "hotel",
+        "status": "matched",
+        "day": null,
+        "dayLabel": null,
+        "possibleDays": [],
+        "possibleDayLabels": [],
+        "source": "hotels",
+        "hotelLocation": "hiroshima"
+      },
+      {
+        "id": 16,
+        "name": "Fukuoka",
+        "note": "Hotel area",
+        "lat": 33.5904,
+        "lng": 130.4017,
+        "googleMapsUrl": null,
+        "region": "fukuoka",
+        "category": "hotel",
+        "status": "matched",
+        "day": null,
+        "dayLabel": null,
+        "possibleDays": [],
+        "possibleDayLabels": [],
+        "source": "hotels",
+        "hotelLocation": "fukuoka"
+      },
+      {
+        "id": 17,
+        "name": "Naha, Okinawa",
+        "note": "Hotel area",
+        "lat": 26.3344,
+        "lng": 127.7671,
+        "googleMapsUrl": null,
+        "region": "okinawa",
+        "category": "hotel",
+        "status": "matched",
+        "day": null,
+        "dayLabel": null,
+        "possibleDays": [],
+        "possibleDayLabels": [],
+        "source": "hotels",
+        "hotelLocation": "okinawa"
+      },
+      {
+        "id": 18,
+        "name": "Kawaguchiko",
+        "note": "Hotel area",
+        "lat": 35.511,
+        "lng": 138.763,
+        "googleMapsUrl": null,
+        "region": "kawaguchiko",
+        "category": "hotel",
+        "status": "matched",
+        "day": null,
+        "dayLabel": null,
+        "possibleDays": [],
+        "possibleDayLabels": [],
+        "source": "hotels",
+        "hotelLocation": "kawaguchiko"
+      }
+    ]
   },
   "capabilities": {
     "hasCountdown": true,
     "hasCurrencyConverter": true,
     "hasWeatherOverlay": true,
     "hasPackingChecklist": true,
-    "hasHotelSelection": true
+    "hasHotelSelection": true,
+    "hasLuggageTags": true
   },
   "theme": {
     "accent": "#7C3AED",
@@ -1541,5 +1900,133 @@
     "defaultFrom": "JPY",
     "defaultAmount": 1000,
     "rateNote": "Rates as of March 2026 — approximate"
+  },
+  "mapConfig": {
+    "defaultCenter": [
+      30.9227,
+      133.2651
+    ],
+    "defaultZoom": 6,
+    "minZoom": 4,
+    "maxZoom": 18,
+    "fitBoundsFromPins": true,
+    "fitBoundsPadding": [
+      50,
+      50
+    ]
+  },
+  "luggageTags": {
+    "hero": [],
+    "closing": [],
+    "days": {
+      "01": {
+        "city": "Daiwa Roynet Osaka-Kitahama",
+        "code": "KIX",
+        "date": "Sun, Apr 19",
+        "bottom": "8%",
+        "left": "8%",
+        "rot": "-1deg",
+        "delay": "0.3s"
+      },
+      "02": {
+        "city": "The Ritz-Carlton Kyoto",
+        "code": "KYO",
+        "date": "Mon, Apr 20",
+        "bottom": "8%",
+        "left": "8%",
+        "rot": "0deg",
+        "delay": "0.3s"
+      },
+      "03": {
+        "city": "The Ritz-Carlton Kyoto",
+        "code": "KYO",
+        "date": "Tue, Apr 21",
+        "bottom": "8%",
+        "left": "8%",
+        "rot": "1deg",
+        "delay": "0.3s"
+      },
+      "04": {
+        "city": "Gracery Hiroshima",
+        "code": "HIJ",
+        "date": "Wed, Apr 22",
+        "bottom": "8%",
+        "left": "8%",
+        "rot": "2deg",
+        "delay": "0.3s"
+      },
+      "05": {
+        "city": "Hilton Fukuoka Sea Hawk",
+        "code": "FUK",
+        "date": "Thu, Apr 23",
+        "bottom": "8%",
+        "left": "8%",
+        "rot": "-2deg",
+        "delay": "0.3s"
+      },
+      "06": {
+        "city": "Hilton Fukuoka Sea Hawk",
+        "code": "FUK",
+        "date": "Fri, Apr 24",
+        "bottom": "8%",
+        "left": "8%",
+        "rot": "-1deg",
+        "delay": "0.3s"
+      },
+      "07": {
+        "city": "Hyatt Regency Naha",
+        "code": "OKA",
+        "date": "Sat, Apr 25",
+        "bottom": "8%",
+        "left": "8%",
+        "rot": "0deg",
+        "delay": "0.3s"
+      },
+      "08": {
+        "city": "Hyatt Regency Naha",
+        "code": "OKA",
+        "date": "Sun, Apr 26",
+        "bottom": "8%",
+        "left": "8%",
+        "rot": "1deg",
+        "delay": "0.3s"
+      },
+      "09": {
+        "city": "Fuji Lake",
+        "code": "FUJ",
+        "date": "Mon, Apr 27",
+        "bottom": "8%",
+        "left": "8%",
+        "rot": "2deg",
+        "delay": "0.3s"
+      },
+      "10": {
+        "city": "Fuji Lake",
+        "code": "FUJ",
+        "date": "Tue, Apr 28",
+        "bottom": "8%",
+        "left": "8%",
+        "rot": "-2deg",
+        "delay": "0.3s"
+      },
+      "11": {
+        "city": "Daiwa Roynet Osaka-Kitahama",
+        "code": "KIX",
+        "date": "Wed, Apr 29",
+        "bottom": "8%",
+        "left": "8%",
+        "rot": "-1deg",
+        "delay": "0.3s"
+      },
+      "12": {
+        "city": "Departure",
+        "code": "JPN",
+        "date": "Thu, Apr 30",
+        "bottom": "8%",
+        "left": "8%",
+        "rot": "0deg",
+        "delay": "0.3s"
+      }
+    }
   }
 }
