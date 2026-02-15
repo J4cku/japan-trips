@@ -1,0 +1,2293 @@
+{
+  "trip": {
+    "title": "Korea & Japan: The Grand Tour",
+    "titleJp": "韓国と日本：大旅行",
+    "dates": "Apr 16 – May 3, 2026",
+    "travelers": 7,
+    "durationDays": 18,
+    "durationNights": 15,
+    "origin": "Wrocław, Poland",
+    "flights": {
+      "outbound": {
+        "from": "Wrocław (WRO)",
+        "to": "Seoul (ICN) via Copenhagen",
+        "date": "2026-04-16",
+        "arrives": "18:35 +1 (Apr 17)",
+        "note": "Via Copenhagen, overnight"
+      },
+      "return": {
+        "from": "Seoul (ICN)",
+        "to": "Wrocław (WRO) via Copenhagen",
+        "date": "2026-05-02",
+        "departs": "23:45"
+      }
+    },
+    "dietary": [],
+    "route": [
+      "Seoul",
+      "Tokyo",
+      "Kamakura",
+      "Kawaguchiko",
+      "Kyoto",
+      "Nara",
+      "Osaka",
+      "Himeji",
+      "Onomichi",
+      "Hiroshima",
+      "Fukuoka",
+      "Kumamoto",
+      "Beppu",
+      "Takachiho",
+      "Okinawa",
+      "Seoul"
+    ]
+  },
+  "stays": [
+    {
+      "location": "Seoul",
+      "nights": 2,
+      "dates": "Apr 17-19",
+      "area": "Namsan / Jung-gu",
+      "budget": "₩1,200,000 total"
+    },
+    {
+      "location": "Tokyo",
+      "nights": 3,
+      "dates": "Apr 19-22",
+      "area": "Kōtō-ku",
+      "budget": "¥1,000 total"
+    },
+    {
+      "location": "Kyoto",
+      "nights": 4,
+      "dates": "Apr 22-26",
+      "area": "Nijō-jō / Nakagyō-ku",
+      "budget": "¥900 total"
+    },
+    {
+      "location": "Fukuoka",
+      "nights": 3,
+      "dates": "Apr 26-29",
+      "area": "Hakata",
+      "budget": "¥800 total"
+    },
+    {
+      "location": "Okinawa",
+      "nights": 2,
+      "dates": "Apr 29 – May 1",
+      "area": "Itoman (Southern Beach)",
+      "budget": "¥700 total"
+    },
+    {
+      "location": "Seoul",
+      "nights": 1,
+      "dates": "May 1-2",
+      "area": "TBD",
+      "budget": "TBD"
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-04-16",
+      "dateLabel": "Thu, Apr 16",
+      "title": "Departure from Wrocław",
+      "region": "transit",
+      "tagline": "Two flights, one dream. Korea & Japan, here we come.",
+      "stay": null,
+      "highlights": [
+        "10:35 — Fly from Wrocław",
+        "Layover in Copenhagen",
+        "23:45 — Depart Copenhagen to Seoul",
+        "Pack snacks — it's a long journey!"
+      ],
+      "activities": [
+        {
+          "time": "10:35",
+          "name": "Flight WRO → Copenhagen",
+          "type": "transport"
+        },
+        {
+          "time": "23:45",
+          "name": "Flight Copenhagen → Seoul",
+          "type": "transport"
+        }
+      ],
+      "transport": {
+        "mode": "plane",
+        "from": "Wrocław (WRO)",
+        "to": "Copenhagen (CPH)",
+        "duration": "~1.5h"
+      },
+      "food": "Airport food in Copenhagen. Stock up on snacks for the long haul to Seoul.",
+      "tip": "Copenhagen has good duty-free. Grab Danish pastries for the Seoul flight.",
+      "keyCost": 350
+    },
+    {
+      "day": 2,
+      "date": "2026-04-17",
+      "dateLabel": "Fri, Apr 17",
+      "title": "Arrival in Seoul",
+      "region": "seoul",
+      "tagline": "Annyeonghaseyo! Landing in the city that never sleeps.",
+      "stay": "Bilribeu Indosity Namsan, Seoul",
+      "highlights": [
+        "18:35 — Arrive at Incheon Airport",
+        "AREX train to Seoul Station — 43 min, ₩9,500",
+        "Check into hotel near Namsan",
+        "Evening walk — Myeongdong or Namdaemun Market"
+      ],
+      "activities": [
+        {
+          "time": "18:35",
+          "name": "Arrive Seoul Incheon",
+          "type": "transport"
+        },
+        {
+          "time": "19:30",
+          "name": "AREX to Seoul Station",
+          "type": "transport",
+          "cost": 9500
+        },
+        {
+          "time": "20:30",
+          "name": "Hotel check-in",
+          "type": "accommodation"
+        },
+        {
+          "time": "21:00",
+          "name": "Evening walk — Myeongdong",
+          "type": "sightseeing"
+        }
+      ],
+      "transport": {
+        "mode": "train",
+        "from": "Incheon Airport",
+        "to": "Seoul Station",
+        "duration": "43 min"
+      },
+      "food": "Late dinner: Korean BBQ near hotel, or street food at Myeongdong (tteokbokki, hotteok).",
+      "tip": "Get a T-money card at the airport for all public transport in Seoul.",
+      "keyCost": 50000
+    },
+    {
+      "day": 3,
+      "date": "2026-04-18",
+      "dateLabel": "Sat, Apr 18",
+      "title": "Seoul: Palaces & K-Culture",
+      "region": "seoul",
+      "tagline": "Ancient palaces meet neon-lit streets. Seoul is a time machine.",
+      "stay": "Bilribeu Indosity Namsan, Seoul",
+      "highlights": [
+        "09:00 — Gyeongbokgung Palace — ₩3,000 (free in hanbok!)",
+        "11:00 — Bukchon Hanok Village — traditional alleyways",
+        "13:00 — Insadong — art galleries, tea houses, street food",
+        "15:00 — Namsan Tower (N Seoul Tower) — city panorama",
+        "19:00 — Hongdae area — nightlife, buskers, K-culture"
+      ],
+      "activities": [
+        {
+          "time": "09:00",
+          "name": "Gyeongbokgung Palace",
+          "type": "sightseeing",
+          "cost": 3000
+        },
+        {
+          "time": "11:00",
+          "name": "Bukchon Hanok Village",
+          "type": "sightseeing"
+        },
+        {
+          "time": "13:00",
+          "name": "Insadong",
+          "type": "shopping"
+        },
+        {
+          "time": "15:00",
+          "name": "N Seoul Tower (Namsan)",
+          "type": "sightseeing",
+          "cost": 16000
+        },
+        {
+          "time": "19:00",
+          "name": "Hongdae evening",
+          "type": "nightlife"
+        }
+      ],
+      "transport": {
+        "mode": "subway",
+        "note": "Seoul Metro — T-money card works everywhere"
+      },
+      "food": "Lunch: bibimbap at Insadong. Dinner: Korean fried chicken in Hongdae (try Kyochon or BBQ).",
+      "tip": "Rent hanbok near Gyeongbokgung for free palace entry + amazing photo ops.",
+      "keyCost": 40000
+    },
+    {
+      "day": 4,
+      "date": "2026-04-19",
+      "dateLabel": "Sun, Apr 19",
+      "title": "Seoul → Tokyo",
+      "region": "tokyo",
+      "tagline": "Two capitals in one day. Seoul to Tokyo in 2 hours flat.",
+      "stay": "Hotel Jō, Kōtō-ku, Tokyo",
+      "highlights": [
+        "06:00 — Early check-out, taxi to Gimpo/Incheon",
+        "08:50 — Fly Seoul → Tokyo",
+        "10:20 — Arrive Tokyo, train to hotel in Kōtō-ku",
+        "14:00 — Settle in, explore Kōtō-ku neighborhood",
+        "18:00 — First ramen in Tokyo. Welcome to Japan."
+      ],
+      "activities": [
+        {
+          "time": "08:50",
+          "name": "Flight Seoul → Tokyo",
+          "type": "transport"
+        },
+        {
+          "time": "10:20",
+          "name": "Arrive Tokyo",
+          "type": "transport"
+        },
+        {
+          "time": "12:00",
+          "name": "Train to hotel, check-in",
+          "type": "accommodation"
+        },
+        {
+          "time": "14:00",
+          "name": "Neighborhood exploration",
+          "type": "sightseeing"
+        },
+        {
+          "time": "18:00",
+          "name": "First Tokyo ramen",
+          "type": "food"
+        }
+      ],
+      "transport": {
+        "mode": "plane",
+        "from": "Seoul (ICN/GMP)",
+        "to": "Tokyo (NRT/HND)",
+        "duration": "2h"
+      },
+      "food": "Welcome-to-Japan ramen — find a local spot near the hotel. Konbini for snacks.",
+      "tip": "Buy Suica/PASMO card at the airport. Get pocket WiFi too.",
+      "keyCost": 5000
+    },
+    {
+      "day": 5,
+      "date": "2026-04-20",
+      "dateLabel": "Mon, Apr 20",
+      "title": "Tokyo: Full Immersion",
+      "region": "tokyo",
+      "tagline": "From kitchen streets to Shibuya crossing. Tokyo at full speed.",
+      "stay": "Hotel Jō, Kōtō-ku, Tokyo",
+      "highlights": [
+        "09:00 — Intermediatheque museum (free! — stunning natural history)",
+        "10:30 — Kappabashi Dōgugai Kitchen Town — knife shopping!",
+        "12:00 — Ueno Park — temples, shrines, cherry trees",
+        "14:00 — Gotokuji Temple — the lucky cat temple",
+        "16:00 — Tokyo Tower — ¥1,200",
+        "18:00 — Shibuya Crossing → Shibuya Sky observation deck — ¥2,000"
+      ],
+      "activities": [
+        {
+          "time": "09:00",
+          "name": "Intermediatheque",
+          "type": "sightseeing",
+          "cost": 0
+        },
+        {
+          "time": "10:30",
+          "name": "Kappabashi Kitchen Town",
+          "type": "shopping"
+        },
+        {
+          "time": "12:00",
+          "name": "Ueno Park",
+          "type": "sightseeing"
+        },
+        {
+          "time": "14:00",
+          "name": "Gotokuji Temple",
+          "type": "sightseeing"
+        },
+        {
+          "time": "15:00",
+          "name": "Ad Museum Tokyo",
+          "type": "sightseeing"
+        },
+        {
+          "time": "16:00",
+          "name": "Tokyo Tower",
+          "type": "sightseeing",
+          "cost": 1200
+        },
+        {
+          "time": "17:00",
+          "name": "Meiji Jingu Gaien Ginkgo Avenue",
+          "type": "sightseeing"
+        },
+        {
+          "time": "17:30",
+          "name": "Togo Shrine",
+          "type": "sightseeing"
+        },
+        {
+          "time": "18:00",
+          "name": "MEGA Don Quijote shopping",
+          "type": "shopping"
+        },
+        {
+          "time": "19:00",
+          "name": "Shibuya Crossing",
+          "type": "sightseeing"
+        },
+        {
+          "time": "19:30",
+          "name": "Shibuya Sky",
+          "type": "sightseeing",
+          "cost": 2000
+        }
+      ],
+      "transport": {
+        "mode": "subway",
+        "note": "Tokyo Metro — Suica card. Lots of walking!"
+      },
+      "food": "Kappabashi area for lunch. Shibuya for dinner — try tonkatsu or gyudon. FamilyMart for midnight snacks.",
+      "tip": "This is an INTENSE day. Prioritize your top 6-7 spots and save the rest for Day 7.",
+      "keyCost": 8000
+    },
+    {
+      "day": 6,
+      "date": "2026-04-21",
+      "dateLabel": "Tue, Apr 21",
+      "title": "Kamakura & Mount Fuji",
+      "region": "fuji",
+      "tagline": "Zen temples in the morning, Fuji-san by afternoon. Epic day trip.",
+      "stay": "Hotel Jō, Kōtō-ku, Tokyo",
+      "highlights": [
+        "07:30 — Train to Kamakura — ~1h from Tokyo",
+        "08:30 — Hōkoku-ji (Bamboo Temple) — ¥300, serene bamboo grove",
+        "09:30 — Meigetsu-in (Hydrangea Temple)",
+        "10:30 — Tsurugaoka Hachimangū — grand Shinto shrine",
+        "12:00 — Yūgyō-ji temple, lunch in Kamakura",
+        "14:00 — Drive/train to Fuji-Q Highland area",
+        "15:30 — Ōishi Park — lakeside flower park with Fuji views",
+        "16:30 — Mt. Fuji Panoramic Ropeway — cable car over Kawaguchiko"
+      ],
+      "activities": [
+        {
+          "time": "07:30",
+          "name": "Train to Kamakura",
+          "type": "transport"
+        },
+        {
+          "time": "08:30",
+          "name": "Hōkoku-ji (Bamboo Temple)",
+          "type": "sightseeing",
+          "cost": 300
+        },
+        {
+          "time": "09:30",
+          "name": "Meigetsu-in",
+          "type": "sightseeing"
+        },
+        {
+          "time": "10:30",
+          "name": "Tsurugaoka Hachimangū",
+          "type": "sightseeing"
+        },
+        {
+          "time": "12:00",
+          "name": "Yūgyō-ji",
+          "type": "sightseeing"
+        },
+        {
+          "time": "14:00",
+          "name": "Fuji-Q Highland area",
+          "type": "sightseeing"
+        },
+        {
+          "time": "15:30",
+          "name": "Ōishi Park",
+          "type": "sightseeing"
+        },
+        {
+          "time": "16:30",
+          "name": "Mt. Fuji Panoramic Ropeway",
+          "type": "sightseeing",
+          "cost": 900
+        }
+      ],
+      "transport": {
+        "mode": "train",
+        "from": "Tokyo",
+        "to": "Kamakura → Kawaguchiko",
+        "duration": "Full day trip"
+      },
+      "food": "Kamakura: shirasu-don (whitebait rice bowl) — local specialty. Fuji area: hōtō noodles.",
+      "tip": "This is geographically ambitious (Kamakura is south, Fuji is west). Consider splitting or renting a car for Fuji portion.",
+      "keyCost": 8000
+    },
+    {
+      "day": 7,
+      "date": "2026-04-22",
+      "dateLabel": "Wed, Apr 22",
+      "title": "Tokyo Morning → Kyoto",
+      "region": "kyoto",
+      "tagline": "Imperial gardens, then shinkansen west. Next stop: ancient capital.",
+      "stay": "KOKO Residence, Nijō-jō, Kyoto",
+      "highlights": [
+        "08:30 — Imperial Palace East Gardens — free, beautiful",
+        "10:00 — Chidorigafuchi — moat walk, iconic cherry blossom spot",
+        "12:00 — Lunch in Tokyo, pack up hotel",
+        "14:00 — Shinkansen Tokyo → Kyoto — 2h 15min (JR Pass!)",
+        "16:15 — Arrive Kyoto, check into KOKO Residence near Nijō-jō"
+      ],
+      "activities": [
+        {
+          "time": "08:30",
+          "name": "Imperial Palace East Gardens",
+          "type": "sightseeing",
+          "cost": 0
+        },
+        {
+          "time": "10:00",
+          "name": "Chidorigafuchi moat walk",
+          "type": "sightseeing"
+        },
+        {
+          "time": "12:00",
+          "name": "Lunch + hotel checkout",
+          "type": "food"
+        },
+        {
+          "time": "14:00",
+          "name": "Shinkansen to Kyoto",
+          "type": "transport"
+        },
+        {
+          "time": "16:15",
+          "name": "Arrive Kyoto, check-in",
+          "type": "accommodation"
+        },
+        {
+          "time": "18:00",
+          "name": "Evening walk around Nijō-jō area",
+          "type": "sightseeing"
+        }
+      ],
+      "transport": {
+        "mode": "shinkansen",
+        "from": "Tokyo",
+        "to": "Kyoto",
+        "duration": "2h 15min"
+      },
+      "food": "Last Tokyo lunch — sushi near the station. Kyoto evening: tofu kaiseki or simple ramen.",
+      "tip": "Shinkansen tickets with JR Pass — take Hikari (not Nozomi). Reserve window seat for views.",
+      "keyCost": 5000
+    },
+    {
+      "day": 8,
+      "date": "2026-04-23",
+      "dateLabel": "Thu, Apr 23",
+      "title": "Kyoto: Temples, Art & Geisha Streets",
+      "region": "kyoto",
+      "tagline": "Golden pavilions, digital art, and the sound of wooden geta on stone.",
+      "stay": "KOKO Residence, Nijō-jō, Kyoto",
+      "highlights": [
+        "08:30 — Kinkaku-ji (Golden Pavilion) — ¥500, arrive early",
+        "10:00 — teamLab Biovortex Kyoto — immersive digital art",
+        "12:00 — Kyoto Imperial Palace — free, reserve online",
+        "14:00 — Hanamikoji Street — geisha district, traditional feel",
+        "15:00 — Yasaka Shrine → Kōdai-ji → Yasaka Pagoda walk",
+        "17:00 — Kiyomizu-dera — ¥400, sunset views over Kyoto"
+      ],
+      "activities": [
+        {
+          "time": "08:30",
+          "name": "Kinkaku-ji (Golden Pavilion)",
+          "type": "sightseeing",
+          "cost": 500
+        },
+        {
+          "time": "10:00",
+          "name": "teamLab Biovortex Kyoto",
+          "type": "experience",
+          "cost": 2400
+        },
+        {
+          "time": "12:00",
+          "name": "Kyoto Imperial Palace",
+          "type": "sightseeing",
+          "cost": 0
+        },
+        {
+          "time": "14:00",
+          "name": "Hanamikoji Street (Gion)",
+          "type": "sightseeing"
+        },
+        {
+          "time": "15:00",
+          "name": "Yasaka Shrine",
+          "type": "sightseeing"
+        },
+        {
+          "time": "15:30",
+          "name": "Kōdai-ji Temple",
+          "type": "sightseeing",
+          "cost": 600
+        },
+        {
+          "time": "16:00",
+          "name": "Hōkan-ji (Yasaka Pagoda)",
+          "type": "sightseeing"
+        },
+        {
+          "time": "17:00",
+          "name": "Kiyomizu-dera",
+          "type": "sightseeing",
+          "cost": 400
+        },
+        {
+          "time": "18:30",
+          "name": "Nanzen-ji",
+          "type": "sightseeing"
+        },
+        {
+          "time": "19:30",
+          "name": "Heian-jingū Shrine",
+          "type": "sightseeing"
+        }
+      ],
+      "transport": {
+        "mode": "bus",
+        "note": "Kyoto city buses + walking. Buy a bus day pass ¥700."
+      },
+      "food": "Nishiki Market for lunch grazing. Evening: Pontocho alley along the river.",
+      "tip": "Kinkaku-ji at 8:30am is magical with morning light. teamLab books out — get tickets in advance!",
+      "keyCost": 10000
+    },
+    {
+      "day": 9,
+      "date": "2026-04-24",
+      "dateLabel": "Fri, Apr 24",
+      "title": "Nara: Sacred Deer & Giant Buddha",
+      "region": "nara",
+      "tagline": "Bow to the deer, they bow back. Then meet the world's largest bronze Buddha.",
+      "stay": "KOKO Residence, Nijō-jō, Kyoto",
+      "highlights": [
+        "08:30 — JR train Kyoto → Nara — 45 min",
+        "09:30 — Tōdai-ji — world's largest wooden building, giant Buddha — ¥600",
+        "11:00 — Todaiji Kaidan Hall — quieter, beautiful statues",
+        "12:00 — Kasuga Taisha — 3,000 stone lanterns — ¥500",
+        "14:00 — Mount Wakakusa — panoramic hike (30 min climb, free)"
+      ],
+      "activities": [
+        {
+          "time": "08:30",
+          "name": "Train to Nara",
+          "type": "transport"
+        },
+        {
+          "time": "09:30",
+          "name": "Tōdai-ji (Great Buddha)",
+          "type": "sightseeing",
+          "cost": 600
+        },
+        {
+          "time": "11:00",
+          "name": "Todaiji Kaidan Hall",
+          "type": "sightseeing"
+        },
+        {
+          "time": "12:00",
+          "name": "Kasuga Taisha shrine",
+          "type": "sightseeing",
+          "cost": 500
+        },
+        {
+          "time": "14:00",
+          "name": "Mount Wakakusa hike",
+          "type": "hiking",
+          "cost": 0
+        },
+        {
+          "time": "16:00",
+          "name": "Nara Park — deer feeding",
+          "type": "sightseeing"
+        },
+        {
+          "time": "17:30",
+          "name": "Train back to Kyoto",
+          "type": "transport"
+        }
+      ],
+      "transport": {
+        "mode": "train",
+        "from": "Kyoto",
+        "to": "Nara",
+        "duration": "45 min (JR Pass)"
+      },
+      "food": "Nara: kakinoha-zushi (leaf-wrapped sushi), mochi from street vendors. Dinner back in Kyoto.",
+      "tip": "Buy deer crackers (shika senbei, ¥200) at official stands only. Deer are gentle but persistent!",
+      "keyCost": 5000
+    },
+    {
+      "day": 10,
+      "date": "2026-04-25",
+      "dateLabel": "Sat, Apr 25",
+      "title": "Osaka: Food Capital of Japan",
+      "region": "osaka",
+      "tagline": "Kuidaore — eat until you drop. Osaka takes this literally.",
+      "stay": "KOKO Residence, Nijō-jō, Kyoto",
+      "highlights": [
+        "09:00 — Shinkansen Kyoto → Osaka — 15 min",
+        "09:30 — Umeda Sky Building — floating garden observatory — ¥1,500",
+        "11:00 — Osaka Castle — ¥600, park is free and gorgeous",
+        "13:00 — Dōtonbori — neon madness, street food heaven",
+        "14:30 — Kuromon Market — sashimi, wagyu, fruit",
+        "16:00 — Namba Yasaka Jinja — giant lion head shrine",
+        "17:00 — Shitennō-ji — Japan's oldest temple",
+        "18:00 — Shinsekai — retro district, kushikatsu",
+        "19:30 — Harukas 300 — Japan's tallest building observation deck — ¥1,500"
+      ],
+      "activities": [
+        {
+          "time": "09:30",
+          "name": "Umeda Sky Building",
+          "type": "sightseeing",
+          "cost": 1500
+        },
+        {
+          "time": "11:00",
+          "name": "Osaka Castle",
+          "type": "sightseeing",
+          "cost": 600
+        },
+        {
+          "time": "13:00",
+          "name": "Dōtonbori",
+          "type": "food"
+        },
+        {
+          "time": "14:30",
+          "name": "Kuromon Market",
+          "type": "food"
+        },
+        {
+          "time": "16:00",
+          "name": "Namba Yasaka Jinja",
+          "type": "sightseeing"
+        },
+        {
+          "time": "17:00",
+          "name": "Shitennō-ji",
+          "type": "sightseeing"
+        },
+        {
+          "time": "18:00",
+          "name": "Shinsekai",
+          "type": "sightseeing"
+        },
+        {
+          "time": "19:30",
+          "name": "Harukas 300",
+          "type": "sightseeing",
+          "cost": 1500
+        }
+      ],
+      "transport": {
+        "mode": "train",
+        "from": "Kyoto",
+        "to": "Osaka",
+        "duration": "15 min (JR Pass)"
+      },
+      "food": "Dōtonbori: takoyaki (Kukuru), okonomiyaki (Mizuno), gyoza. Kuromon: fresh sashimi. Shinsekai: kushikatsu at Daruma.",
+      "tip": "Dōtonbori at night is ELECTRIC. Come back after Harukas for the neon madness.",
+      "keyCost": 12000
+    },
+    {
+      "day": 11,
+      "date": "2026-04-26",
+      "dateLabel": "Sun, Apr 26",
+      "title": "Epic West: Himeji → Onomichi → Hiroshima → Fukuoka",
+      "region": "hiroshima",
+      "tagline": "Four cities, one day. The shinkansen earns its keep today.",
+      "stay": "Hotel in Fukuoka",
+      "highlights": [
+        "07:30 — Shinkansen Kyoto → Himeji — 50 min",
+        "08:30 — Himeji Castle — Japan's most beautiful castle — ¥1,000",
+        "10:30 — Train to Onomichi — ~1.5h — charming port town",
+        "12:00 — Onomichi Temple Walk — hillside path with sea views",
+        "14:00 — Shinkansen Onomichi → Hiroshima — 30 min",
+        "14:30 — A-Bomb Dome & Peace Memorial — powerful, essential",
+        "16:30 — Shinkansen Hiroshima → Fukuoka — 1h",
+        "18:00 — Arrive Fukuoka, check in. Yatai ramen dinner!"
+      ],
+      "activities": [
+        {
+          "time": "07:30",
+          "name": "Shinkansen to Himeji",
+          "type": "transport"
+        },
+        {
+          "time": "08:30",
+          "name": "Himeji Castle",
+          "type": "sightseeing",
+          "cost": 1000
+        },
+        {
+          "time": "10:30",
+          "name": "Train to Onomichi",
+          "type": "transport"
+        },
+        {
+          "time": "12:00",
+          "name": "Onomichi Temple Walk",
+          "type": "sightseeing"
+        },
+        {
+          "time": "14:00",
+          "name": "Shinkansen to Hiroshima",
+          "type": "transport"
+        },
+        {
+          "time": "14:30",
+          "name": "A-Bomb Dome & Peace Memorial",
+          "type": "sightseeing",
+          "cost": 200
+        },
+        {
+          "time": "16:30",
+          "name": "Shinkansen to Fukuoka",
+          "type": "transport"
+        },
+        {
+          "time": "18:00",
+          "name": "Arrive Fukuoka, hotel check-in",
+          "type": "accommodation"
+        },
+        {
+          "time": "19:30",
+          "name": "Yatai ramen stalls at Nakasu",
+          "type": "food"
+        }
+      ],
+      "transport": {
+        "mode": "shinkansen",
+        "from": "Kyoto",
+        "to": "Himeji → Onomichi → Hiroshima → Fukuoka",
+        "duration": "Full day rail odyssey"
+      },
+      "food": "Onomichi: onomichi ramen (pork back fat!). Hiroshima: quick okonomiyaki. Fukuoka: yatai Hakata ramen — the grand finale.",
+      "tip": "This is the marathon day. Pack light, send big luggage via takkyubin (luggage forwarding) to Fukuoka hotel.",
+      "keyCost": 8000
+    },
+    {
+      "day": 12,
+      "date": "2026-04-27",
+      "dateLabel": "Mon, Apr 27",
+      "title": "Kyushu Adventures: Rice Terraces to Hot Hells",
+      "region": "fukuoka",
+      "tagline": "Terraced rice fields, samurai castles, and boiling hot springs from hell.",
+      "stay": "Hotel in Fukuoka",
+      "highlights": [
+        "07:30 — Drive/train to Eriyama Rice Terraces — stunning sunrise paddy views",
+        "09:00 — Dazaifu Tenmangu — shrine of the learning god",
+        "10:30 — Nyoirinji Frog Temple — quirky, thousands of frog statues",
+        "12:00 — Shinkansen to Kumamoto — 40 min",
+        "12:45 — Kumamoto Castle — rebuilt after 2016 earthquake — ¥800",
+        "14:30 — Train to Yufuin — charming onsen town",
+        "16:00 — Beppu Jigoku (Hells of Beppu) — steaming hot spring pools — ¥2,000"
+      ],
+      "activities": [
+        {
+          "time": "07:30",
+          "name": "Eriyama Rice Terraces",
+          "type": "sightseeing"
+        },
+        {
+          "time": "09:00",
+          "name": "Dazaifu Tenmangu",
+          "type": "sightseeing"
+        },
+        {
+          "time": "10:30",
+          "name": "Nyoirinji Frog Temple",
+          "type": "sightseeing"
+        },
+        {
+          "time": "12:00",
+          "name": "Shinkansen to Kumamoto",
+          "type": "transport"
+        },
+        {
+          "time": "12:45",
+          "name": "Kumamoto Castle",
+          "type": "sightseeing",
+          "cost": 800
+        },
+        {
+          "time": "14:30",
+          "name": "Yufuincho Kawakami / Yufuin",
+          "type": "sightseeing"
+        },
+        {
+          "time": "16:00",
+          "name": "Beppu Jigoku (Hells of Beppu)",
+          "type": "sightseeing",
+          "cost": 2000
+        }
+      ],
+      "transport": {
+        "mode": "train",
+        "from": "Fukuoka",
+        "to": "Dazaifu → Kumamoto → Yufuin → Beppu",
+        "duration": "Full day rail circuit"
+      },
+      "food": "Kumamoto: basashi (horse sashimi) & karashi renkon. Beppu: jigoku-mushi (hell-steamed food — cooked in hot spring steam!).",
+      "tip": "This is VERY ambitious. Consider splitting: Dazaifu+Kumamoto one day, Yufuin+Beppu another. Or rent a car.",
+      "keyCost": 9000
+    },
+    {
+      "day": 13,
+      "date": "2026-04-28",
+      "dateLabel": "Tue, Apr 28",
+      "title": "Takachiho Gorge & Mount Aso",
+      "region": "kumamoto",
+      "tagline": "Mythological gorges and an active volcano. Nature at its most dramatic.",
+      "stay": "Hotel in Fukuoka",
+      "highlights": [
+        "07:00 — Private day tour from Kumamoto (GetYourGuide)",
+        "09:00 — Takachiho Gorge — boat ride through volcanic ravine — ¥5,100/3 people",
+        "11:00 — Amano Iwato Shrine — cave of the sun goddess",
+        "13:00 — Lunch in Takachiho — local chicken nanban",
+        "14:30 — Aso-Kuju National Park — volcanic crater views",
+        "16:00 — Kusasenri grasslands — horseback riding option"
+      ],
+      "activities": [
+        {
+          "time": "07:00",
+          "name": "Private tour departure",
+          "type": "transport"
+        },
+        {
+          "time": "09:00",
+          "name": "Takachiho Gorge boat ride",
+          "type": "experience",
+          "cost": 5100
+        },
+        {
+          "time": "11:00",
+          "name": "Amano Iwato Shrine",
+          "type": "sightseeing"
+        },
+        {
+          "time": "13:00",
+          "name": "Takachiho lunch",
+          "type": "food"
+        },
+        {
+          "time": "14:30",
+          "name": "Aso-Kuju National Park",
+          "type": "nature"
+        },
+        {
+          "time": "16:00",
+          "name": "Kusasenri grasslands",
+          "type": "nature"
+        }
+      ],
+      "transport": {
+        "mode": "bus",
+        "from": "Fukuoka/Kumamoto",
+        "to": "Takachiho → Aso",
+        "duration": "Private day tour",
+        "note": "GetYourGuide private tour booked"
+      },
+      "food": "Takachiho: chicken nanban, nagashi somen (flowing noodles). Aso: red beef (akaushi).",
+      "tip": "Takachiho boat ride books out fast! The gorge is otherworldly — worth every yen.",
+      "keyCost": 15000
+    },
+    {
+      "day": 14,
+      "date": "2026-04-29",
+      "dateLabel": "Wed, Apr 29",
+      "title": "Fukuoka Chill → Okinawa",
+      "region": "okinawa",
+      "tagline": "Zoo monkeys in the morning, tropical beaches by evening.",
+      "stay": "Southern Beach Hotel, Okinawa",
+      "highlights": [
+        "08:30 — Fukuoka Zoo & Botanical Garden — ¥600, pandas!",
+        "10:30 — Atago Shrine — hilltop shrine with city views",
+        "11:30 — Aburayama Citizen's Forest — nature walk",
+        "13:00 — Lunch in Fukuoka, pack up",
+        "15:00 — Flight Fukuoka → Okinawa",
+        "17:00 — Arrive Naha, check into Southern Beach Hotel"
+      ],
+      "activities": [
+        {
+          "time": "08:30",
+          "name": "Fukuoka Zoo & Botanical Garden",
+          "type": "sightseeing",
+          "cost": 600
+        },
+        {
+          "time": "10:30",
+          "name": "Atago Shrine",
+          "type": "sightseeing"
+        },
+        {
+          "time": "11:30",
+          "name": "Aburayama Citizen's Forest",
+          "type": "nature"
+        },
+        {
+          "time": "15:00",
+          "name": "Flight FUK → OKA",
+          "type": "transport"
+        },
+        {
+          "time": "17:00",
+          "name": "Arrive Okinawa, check-in",
+          "type": "accommodation"
+        },
+        {
+          "time": "19:00",
+          "name": "Beach sunset walk",
+          "type": "sightseeing"
+        }
+      ],
+      "transport": {
+        "mode": "plane",
+        "from": "Fukuoka (FUK)",
+        "to": "Naha, Okinawa (OKA)",
+        "duration": "2h"
+      },
+      "food": "Fukuoka last lunch: mentaiko (spicy cod roe) everything. Okinawa dinner: goya champuru, Orion beer.",
+      "tip": "Southern Beach Hotel has a great beach. Relax — you've earned it after the Kyushu marathon.",
+      "keyCost": 8000
+    },
+    {
+      "day": 15,
+      "date": "2026-04-30",
+      "dateLabel": "Thu, Apr 30",
+      "title": "Okinawa: Island Paradise",
+      "region": "okinawa",
+      "tagline": "Tropical Japan. Turquoise water, Ryukyu castles, and island time.",
+      "stay": "Southern Beach Hotel, Okinawa",
+      "highlights": [
+        "09:00 — Shuri Castle — UNESCO World Heritage, Ryukyu Kingdom — ¥400",
+        "11:00 — Kokusai Street — souvenirs, Okinawan craft beer",
+        "12:30 — Makishi Public Market — fresh seafood upstairs cooking",
+        "14:00 — Churaumi Aquarium — whale sharks! — ¥2,180 (book online)",
+        "17:00 — Cape Manzamo — dramatic cliff sunset",
+        "19:00 — Farewell Okinawa dinner — Ryukyu cuisine"
+      ],
+      "activities": [
+        {
+          "time": "09:00",
+          "name": "Shuri Castle",
+          "type": "sightseeing",
+          "cost": 400
+        },
+        {
+          "time": "11:00",
+          "name": "Kokusai Street",
+          "type": "shopping"
+        },
+        {
+          "time": "12:30",
+          "name": "Makishi Public Market",
+          "type": "food"
+        },
+        {
+          "time": "14:00",
+          "name": "Churaumi Aquarium",
+          "type": "sightseeing",
+          "cost": 2180
+        },
+        {
+          "time": "17:00",
+          "name": "Cape Manzamo sunset",
+          "type": "sightseeing"
+        },
+        {
+          "time": "19:00",
+          "name": "Ryukyu cuisine dinner",
+          "type": "food"
+        }
+      ],
+      "transport": {
+        "mode": "bus",
+        "note": "Okinawa has no trains outside Naha monorail. Rent a car for Churaumi (2h drive) or take express bus."
+      },
+      "food": "Makishi Market: pick fish downstairs, they cook it upstairs. Dinner: umibudo (sea grapes), rafute (pork belly), Okinawa soba.",
+      "tip": "Churaumi Aquarium is 2h from Naha. Start early or rent a car. The whale shark tank is breathtaking.",
+      "keyCost": 10000
+    },
+    {
+      "day": 16,
+      "date": "2026-05-01",
+      "dateLabel": "Fri, May 1",
+      "title": "Okinawa → Seoul",
+      "region": "seoul",
+      "tagline": "One last island morning, then back to Seoul for the final night.",
+      "stay": "Hotel in Seoul (1 night)",
+      "highlights": [
+        "08:00 — Last beach walk & hotel breakfast",
+        "10:00 — Pack up, check out",
+        "14:53 — Flight Okinawa → Seoul",
+        "16:55 — Arrive Seoul Incheon",
+        "18:00 — Quick hotel check-in near Gangnam or Myeongdong",
+        "19:00 — Final Korean BBQ feast — go all out!"
+      ],
+      "activities": [
+        {
+          "time": "08:00",
+          "name": "Beach morning",
+          "type": "sightseeing"
+        },
+        {
+          "time": "14:53",
+          "name": "Flight OKA → Seoul",
+          "type": "transport"
+        },
+        {
+          "time": "16:55",
+          "name": "Arrive Seoul",
+          "type": "transport"
+        },
+        {
+          "time": "18:00",
+          "name": "Hotel check-in",
+          "type": "accommodation"
+        },
+        {
+          "time": "19:00",
+          "name": "Farewell Korean BBQ dinner",
+          "type": "food"
+        }
+      ],
+      "transport": {
+        "mode": "plane",
+        "from": "Naha, Okinawa (OKA)",
+        "to": "Seoul (ICN)",
+        "duration": "2h"
+      },
+      "food": "Last Korean BBQ: try samgyeopsal (pork belly) with soju. This is the farewell feast.",
+      "tip": "Seoul is a great city for a final night out. Gangnam or Itaewon for nightlife.",
+      "keyCost": 556
+    },
+    {
+      "day": 17,
+      "date": "2026-05-02",
+      "dateLabel": "Sat, May 2",
+      "title": "Seoul Last Day & Departure",
+      "region": "seoul",
+      "tagline": "Morning kimchi, afternoon shopping, midnight flight home.",
+      "stay": null,
+      "highlights": [
+        "09:00 — Late breakfast — Korean juk (porridge) or brunch",
+        "10:00 — Myeongdong shopping — K-beauty, souvenirs",
+        "12:00 — Gwangjang Market — bindaetteok (mung bean pancakes)",
+        "14:00 — Dongdaemun Design Plaza — futuristic architecture",
+        "16:00 — Pack up, hotel checkout, head to airport",
+        "23:45 — Night flight Seoul → Copenhagen/Wrocław"
+      ],
+      "activities": [
+        {
+          "time": "09:00",
+          "name": "Korean breakfast",
+          "type": "food"
+        },
+        {
+          "time": "10:00",
+          "name": "Myeongdong shopping",
+          "type": "shopping"
+        },
+        {
+          "time": "12:00",
+          "name": "Gwangjang Market",
+          "type": "food"
+        },
+        {
+          "time": "14:00",
+          "name": "Dongdaemun Design Plaza",
+          "type": "sightseeing"
+        },
+        {
+          "time": "20:00",
+          "name": "AREX to Incheon Airport",
+          "type": "transport"
+        },
+        {
+          "time": "23:45",
+          "name": "Night flight to Europe",
+          "type": "transport"
+        }
+      ],
+      "transport": {
+        "mode": "plane",
+        "from": "Seoul (ICN)",
+        "to": "Copenhagen → Wrocław",
+        "duration": "Overnight"
+      },
+      "food": "Gwangjang Market is a MUST — bibimbap, japchae, sundae (blood sausage). K-beauty shopping on the side.",
+      "tip": "Late flight means a full day in Seoul! Use it. Leave bags at hotel or station lockers.",
+      "keyCost": 800
+    },
+    {
+      "day": 18,
+      "date": "2026-05-03",
+      "dateLabel": "Sun, May 3",
+      "title": "Welcome Home",
+      "region": "transit",
+      "tagline": "18 days. 2 countries. 1,000 memories. Welcome home.",
+      "stay": null,
+      "highlights": [
+        "10:00 — Arrive Wrocław",
+        "Taxi/train home",
+        "Unpack, sort photos, start planning the next trip"
+      ],
+      "activities": [
+        {
+          "time": "10:00",
+          "name": "Arrive Wrocław (WRO)",
+          "type": "transport"
+        }
+      ],
+      "transport": {
+        "mode": "plane",
+        "from": "Copenhagen",
+        "to": "Wrocław (WRO)"
+      },
+      "food": "Home-cooked comfort food. You deserve it.",
+      "tip": "Start a shared photo album ASAP while memories are fresh. And wash everything — 18 days!",
+      "keyCost": 0
+    }
+  ],
+  "dietary": {
+    "restrictions": [],
+    "japanesePhrases": [],
+    "safeFoods": [],
+    "watchOut": [],
+    "apps": [],
+    "recommendedRestaurants": []
+  },
+  "transport": {
+    "jrPassAnalysis": {
+      "sevenDay": 33610,
+      "fourteenDay": 50380,
+      "estimatedIndividualTotal": "~60,000",
+      "recommendation": "7-day or 14-day JR Pass depending on activation date strategy",
+      "note": "Activate on Day 7 (Tokyo→Kyoto) for 7-day. Covers through Day 13."
+    },
+    "suicaCard": "Buy Suica at Tokyo airport, T-money at Seoul airport",
+    "takkyubin": {
+      "what": "Luggage forwarding",
+      "cost": "¥2,000-3,000/bag",
+      "how": "Send from hotel or konbini",
+      "delivery": "Next day",
+      "usedOnDay": 11
+    }
+  },
+  "bookings": [
+    {
+      "item": "Flights WRO → CPH → Seoul",
+      "when": "Already booked",
+      "priority": "critical",
+      "note": "350 PLN pp"
+    },
+    {
+      "item": "Seoul hotel (Bilribeu Indosity Namsan)",
+      "when": "Already booked",
+      "priority": "critical",
+      "note": "₩1,200,000 total, Apr 17-19",
+      "url": "https://www.booking.com/hotel/kr/bilribeu-indeositi-namsan.pl.html"
+    },
+    {
+      "item": "Seoul → Tokyo flight",
+      "when": "Booked",
+      "priority": "critical"
+    },
+    {
+      "item": "Tokyo hotel (Hotel Jō)",
+      "when": "Already booked",
+      "priority": "critical",
+      "note": "¥1,000 total, Apr 19-22",
+      "url": "https://www.booking.com/hotel/jp/hoteljiang-dong-jing-du-gang-qu.pl.html"
+    },
+    {
+      "item": "JR Shinkansen Pass",
+      "when": "Buy 2-3 weeks before",
+      "priority": "critical",
+      "note": "1,300 PLN pp — exchange at Tokyo station"
+    },
+    {
+      "item": "Kyoto apartment (KOKO Residence)",
+      "when": "Already booked",
+      "priority": "critical",
+      "note": "¥900 total, Apr 22-26",
+      "url": "https://www.booking.com/hotel/jp/koko-residence-jing-du-er-tiao-cheng.pl.html"
+    },
+    {
+      "item": "Fukuoka hotel",
+      "when": "BOOK NOW",
+      "priority": "critical",
+      "note": "¥800 budget, Apr 26-29. Not yet booked!"
+    },
+    {
+      "item": "Okinawa hotel (Southern Beach)",
+      "when": "Already booked",
+      "priority": "critical",
+      "note": "¥700 total, Apr 29 – May 1",
+      "url": "https://www.booking.com/hotel/jp/southern-beach.pl.html"
+    },
+    {
+      "item": "Takachiho Gorge private tour",
+      "when": "Book 2 weeks before",
+      "priority": "high",
+      "note": "GetYourGuide, Day 13",
+      "url": "https://www.getyourguide.pl/kumamoto-l143234/z-kumamoto-aso-i-takachiho-prywatna-1-dniowa-wycieczka-t943737/"
+    },
+    {
+      "item": "teamLab Biovortex Kyoto tickets",
+      "when": "Book online ASAP",
+      "priority": "high",
+      "note": "Sells out! Day 8."
+    },
+    {
+      "item": "Churaumi Aquarium tickets",
+      "when": "Buy online",
+      "priority": "high",
+      "note": "Skip queue + slight discount, Day 15"
+    },
+    {
+      "item": "Okinawa → Seoul flight",
+      "when": "Booked",
+      "priority": "critical",
+      "note": "556 PLN pp"
+    },
+    {
+      "item": "Seoul → WRO flight",
+      "when": "Booked",
+      "priority": "critical",
+      "note": "800 PLN pp"
+    },
+    {
+      "item": "Seoul final night hotel",
+      "when": "Book soon",
+      "priority": "high",
+      "note": "May 1 — 1 night near airport or Myeongdong"
+    },
+    {
+      "item": "Pocket WiFi (Japan)",
+      "when": "1 week before",
+      "priority": "high"
+    },
+    {
+      "item": "Travel insurance (all 7)",
+      "when": "Before departure",
+      "priority": "critical"
+    }
+  ],
+  "budget": {
+    "currency": "PLN",
+    "perPerson": {
+      "Flights (all)": {
+        "amount": 2206,
+        "note": "WRO↔CPH↔Seoul + Seoul→Tokyo + FUK→OKA + OKA→Seoul"
+      },
+      "Shinkansen Pass": {
+        "amount": 1300,
+        "note": "7 or 14-day JR Pass"
+      },
+      "Hotels (15 nights)": {
+        "amount": 771,
+        "note": "5,400 PLN total / 7 people — incredibly cheap for 15 nights!"
+      },
+      "Food": {
+        "amount": 2500,
+        "note": "18 days of eating — mix of street food, markets, restaurants"
+      },
+      "Activities": {
+        "amount": 1500,
+        "note": "Temples, museums, teamLab, Churaumi, boat rides"
+      },
+      "Local transport": {
+        "amount": 500,
+        "note": "T-money Seoul, Suica Tokyo, buses, taxis"
+      },
+      "Shopping & misc": {
+        "amount": 500,
+        "note": "Souvenirs, snacks, emergencies"
+      }
+    },
+    "totalPerPerson": "~9,277 PLN",
+    "totalPerPersonUSD": "~$2,320",
+    "totalGroup": "~64,939 PLN",
+    "totalGroupUSD": "~$16,235",
+    "note": "Hotels are amazingly cheap because 7 people share costs! Flights from CSV: total 2,206 PLN pp."
+  },
+  "packing": [
+    "Layers for 6-26°C range!",
+    "Rain jacket / packable umbrella",
+    "Comfortable walking shoes (20k+ steps some days)",
+    "Swimsuit (Okinawa beach days)",
+    "Reef-safe sunscreen SPF50",
+    "Light summer clothes for Okinawa",
+    "Warm fleece for Fuji/Kamakura mornings",
+    "Power bank + USB-C cables",
+    "Universal adapter (Type A for Japan, Type C/F for Korea)",
+    "Pocket WiFi reservation confirmation",
+    "JR Pass exchange voucher",
+    "Passport + copies (paper + digital)",
+    "Travel insurance docs",
+    "T-money card (Seoul) — buy at airport",
+    "Suica/PASMO card (Japan) — buy at airport",
+    "Cash: ₩100,000 + ¥50,000 in bills",
+    "Small backpack for day trips",
+    "Waterproof phone case (Okinawa)",
+    "Korean/Japanese phrasebook or app (Papago)",
+    "Compression bags for packing"
+  ],
+  "stats": [
+    {
+      "value": 18,
+      "label": "Days"
+    },
+    {
+      "value": 7,
+      "label": "Travelers"
+    },
+    {
+      "value": 2,
+      "label": "Countries"
+    },
+    {
+      "value": 10,
+      "label": "Cities"
+    },
+    {
+      "value": 4,
+      "label": "Domestic flights"
+    },
+    {
+      "value": 15,
+      "label": "Nights total"
+    },
+    {
+      "value": 5,
+      "label": "Hotel bookings"
+    },
+    {
+      "value": 9277,
+      "label": "PLN per person",
+      "suffix": "PLN"
+    }
+  ],
+  "hotels": {
+    "budget": "700-1,200 PLN/room total stay (shared room for 7)",
+    "note": "7 adults sharing accommodations — apartment-style preferred. Prices are total per booking, not per night.",
+    "userPreferences": {
+      "lovedHotel": "",
+      "style": "Modern, central, group-friendly",
+      "interestedIn": "Apartments and hotels that fit 7"
+    },
+    "seoul": {
+      "stayId": "seoul",
+      "location": "Seoul",
+      "nights": 3,
+      "dates": "Apr 17-19, May 1-2",
+      "purpose": "Korea base — arrival + farewell",
+      "options": [
+        {
+          "name": "Bilribeu Indosity Namsan",
+          "nameJp": "",
+          "type": "hotel",
+          "priceEUR": "€280",
+          "priceJPY": "",
+          "style": "Modern near Namsan",
+          "location": "Namsan, Seoul",
+          "neighborhood": "Jung-gu",
+          "highlights": [
+            "Near Namsan Tower",
+            "Walk to Myeongdong",
+            "Group-friendly rooms",
+            "₩1,200,000 total (2 nights)"
+          ],
+          "travellerPick": true,
+          "pickReason": "Already booked! Great location for Namsan + Myeongdong.",
+          "url": "https://www.booking.com/hotel/kr/bilribeu-indeositi-namsan.pl.html",
+          "bookingUrl": "https://www.booking.com/hotel/kr/bilribeu-indeositi-namsan.pl.html"
+        }
+      ]
+    },
+    "tokyo": {
+      "stayId": "tokyo",
+      "location": "Tokyo",
+      "nights": 3,
+      "dates": "Apr 19-22",
+      "purpose": "Tokyo exploration base — Kōtō-ku",
+      "options": [
+        {
+          "name": "Hotel Jō (Kōtō-ku)",
+          "nameJp": "ホテル城 東京都港区",
+          "type": "hotel",
+          "priceEUR": "€230",
+          "priceJPY": "¥1,000/total",
+          "style": "Modern city hotel",
+          "location": "Kōtō-ku, Tokyo",
+          "neighborhood": "Kōtō",
+          "highlights": [
+            "3 nights for the group",
+            "Good transit access",
+            "Near waterfront area",
+            "¥1,000 total (3 nights)"
+          ],
+          "travellerPick": true,
+          "pickReason": "Already booked! Good value for 3 nights in Tokyo.",
+          "url": "https://www.booking.com/hotel/jp/hoteljiang-dong-jing-du-gang-qu.pl.html",
+          "bookingUrl": "https://www.booking.com/hotel/jp/hoteljiang-dong-jing-du-gang-qu.pl.html"
+        }
+      ]
+    },
+    "kyoto": {
+      "stayId": "kyoto",
+      "location": "Kyoto",
+      "nights": 4,
+      "dates": "Apr 22-26",
+      "purpose": "Kansai base — Kyoto, Nara, Osaka day trips",
+      "options": [
+        {
+          "name": "KOKO Residence Nijō-jō",
+          "nameJp": "KOKO レジデンス 京都二条城",
+          "type": "hotel",
+          "priceEUR": "€210",
+          "priceJPY": "¥900/total",
+          "style": "Apartment/residence",
+          "location": "Near Nijō-jō Castle, Kyoto",
+          "neighborhood": "Nakagyō-ku",
+          "highlights": [
+            "4 nights — longest stay",
+            "Near Nijō Castle",
+            "Kitchen for cooking!",
+            "¥900 total (4 nights)",
+            "Apartment-style — great for groups"
+          ],
+          "travellerPick": true,
+          "pickReason": "Already booked! Apartment with kitchen near Nijō-jō. Perfect for 7 people.",
+          "url": "https://www.booking.com/hotel/jp/koko-residence-jing-du-er-tiao-cheng.pl.html",
+          "bookingUrl": "https://www.booking.com/hotel/jp/koko-residence-jing-du-er-tiao-cheng.pl.html"
+        }
+      ]
+    },
+    "fukuoka": {
+      "stayId": "fukuoka",
+      "location": "Fukuoka",
+      "nights": 3,
+      "dates": "Apr 26-29",
+      "purpose": "Kyushu base — Kumamoto, Beppu, Takachiho day trips",
+      "options": [
+        {
+          "name": "Fukuoka Accommodation (TBD)",
+          "nameJp": "",
+          "type": "hotel",
+          "priceEUR": "€185",
+          "priceJPY": "¥800/total",
+          "style": "TBD",
+          "location": "Fukuoka",
+          "neighborhood": "Hakata area (recommended)",
+          "highlights": [
+            "3 nights",
+            "¥800 total",
+            "Near Hakata Station for day trips",
+            "Close to yatai food stalls"
+          ],
+          "travellerPick": false,
+          "pickReason": "Not yet booked — book near Hakata Station for easy day trip access.",
+          "url": ""
+        }
+      ]
+    },
+    "okinawa": {
+      "stayId": "okinawa",
+      "location": "Okinawa",
+      "nights": 2,
+      "dates": "Apr 29 – May 1",
+      "purpose": "Beach & culture — Shuri, Churaumi, relaxation",
+      "options": [
+        {
+          "name": "Southern Beach Hotel & Resort",
+          "nameJp": "サザンビーチホテル＆リゾート",
+          "type": "hotel",
+          "priceEUR": "€160",
+          "priceJPY": "¥700/total",
+          "style": "Beach resort",
+          "location": "Itoman, Okinawa",
+          "neighborhood": "Southern coast",
+          "highlights": [
+            "Beachfront!",
+            "2 nights",
+            "¥700 total",
+            "Pool & ocean views",
+            "South of Naha — quieter"
+          ],
+          "travellerPick": true,
+          "pickReason": "Already booked! Beach resort with pool. Perfect wind-down after Kyushu.",
+          "url": "https://www.booking.com/hotel/jp/southern-beach.pl.html",
+          "bookingUrl": "https://www.booking.com/hotel/jp/southern-beach.pl.html"
+        }
+      ]
+    }
+  },
+  "travels": [
+    {
+      "id": "t1",
+      "day": 1,
+      "from": {
+        "name": "Wrocław",
+        "code": "WRO"
+      },
+      "to": {
+        "name": "Copenhagen",
+        "code": "CPH"
+      },
+      "mode": "plane",
+      "icon": "✈️",
+      "duration": "1.5h",
+      "distance": "660 km",
+      "cost": 350,
+      "costNote": "350 PLN pp",
+      "details": "Layover in Copenhagen",
+      "animation": "fly"
+    },
+    {
+      "id": "t2",
+      "day": 1,
+      "from": {
+        "name": "Copenhagen",
+        "code": "CPH"
+      },
+      "to": {
+        "name": "Seoul",
+        "code": "ICN"
+      },
+      "mode": "plane",
+      "icon": "✈️",
+      "duration": "10h",
+      "distance": "8300 km",
+      "cost": null,
+      "costNote": "Included in ticket",
+      "details": "Overnight flight to Seoul",
+      "animation": "fly"
+    },
+    {
+      "id": "t3",
+      "day": 4,
+      "from": {
+        "name": "Seoul",
+        "code": "ICN"
+      },
+      "to": {
+        "name": "Tokyo",
+        "code": "NRT"
+      },
+      "mode": "plane",
+      "icon": "✈️",
+      "duration": "2h",
+      "distance": "1200 km",
+      "cost": null,
+      "details": "Morning flight",
+      "animation": "fly"
+    },
+    {
+      "id": "t4",
+      "day": 7,
+      "from": {
+        "name": "Tokyo"
+      },
+      "to": {
+        "name": "Kyoto"
+      },
+      "mode": "shinkansen",
+      "icon": "🚅",
+      "line": "Tokaido Shinkansen Hikari",
+      "duration": "2h 15min",
+      "distance": "476 km",
+      "cost": null,
+      "costNote": "JR Pass",
+      "details": "Window seat for Fuji views!",
+      "animation": "slide-right"
+    },
+    {
+      "id": "t5",
+      "day": 11,
+      "from": {
+        "name": "Kyoto"
+      },
+      "to": {
+        "name": "Fukuoka",
+        "area": "via Himeji, Onomichi, Hiroshima"
+      },
+      "mode": "shinkansen",
+      "icon": "🚅",
+      "line": "Sanyo Shinkansen",
+      "duration": "Full day",
+      "distance": "600 km",
+      "cost": null,
+      "costNote": "JR Pass",
+      "details": "Epic 4-city shinkansen day",
+      "animation": "slide-right"
+    },
+    {
+      "id": "t6",
+      "day": 14,
+      "from": {
+        "name": "Fukuoka",
+        "code": "FUK"
+      },
+      "to": {
+        "name": "Naha",
+        "code": "OKA"
+      },
+      "mode": "plane",
+      "icon": "✈️",
+      "duration": "2h",
+      "distance": "880 km",
+      "cost": null,
+      "details": "Afternoon flight to Okinawa",
+      "animation": "fly"
+    },
+    {
+      "id": "t7",
+      "day": 16,
+      "from": {
+        "name": "Naha",
+        "code": "OKA"
+      },
+      "to": {
+        "name": "Seoul",
+        "code": "ICN"
+      },
+      "mode": "plane",
+      "icon": "✈️",
+      "duration": "2h",
+      "distance": "1550 km",
+      "cost": 556,
+      "costNote": "556 PLN pp",
+      "details": "Afternoon flight",
+      "animation": "fly"
+    },
+    {
+      "id": "t8",
+      "day": 17,
+      "from": {
+        "name": "Seoul",
+        "code": "ICN"
+      },
+      "to": {
+        "name": "Wrocław",
+        "code": "WRO"
+      },
+      "mode": "plane",
+      "icon": "✈️",
+      "carrier": "via Copenhagen",
+      "duration": "12h",
+      "distance": "8300 km",
+      "cost": 800,
+      "costNote": "800 PLN pp",
+      "details": "Night flight home",
+      "animation": "fly"
+    }
+  ],
+  "restaurants": {
+    "note": "Restaurant picks for each city — from CSV activities + local knowledge",
+    "allergyCardJp": "",
+    "allergyCardEn": "",
+    "safeFoods": [],
+    "dangerFoods": [],
+    "apps": [
+      "Google Maps",
+      "Tabelog",
+      "MangoPlate (Korea)"
+    ],
+    "byLocation": {
+      "seoul": {
+        "label": "Seoul",
+        "forDays": [
+          2,
+          3,
+          16,
+          17
+        ],
+        "spots": [
+          {
+            "name": "Gwangjang Market",
+            "nameJp": "",
+            "cuisine": "Korean street food",
+            "neighborhood": "Jongno-gu",
+            "price": "₩",
+            "gf": false,
+            "vegan": false,
+            "vegetarian": false,
+            "mustTry": "Bindaetteok (mung bean pancakes), mayak gimbap",
+            "note": "Historic market — legendary street food stalls",
+            "url": ""
+          },
+          {
+            "name": "Myeongdong Street Food",
+            "nameJp": "",
+            "cuisine": "Korean street food",
+            "neighborhood": "Myeongdong",
+            "price": "₩",
+            "gf": false,
+            "vegan": false,
+            "vegetarian": false,
+            "mustTry": "Tteokbokki, hotteok, egg bread",
+            "note": "Tourist area but genuinely great street food",
+            "url": ""
+          },
+          {
+            "name": "Maple Tree House",
+            "nameJp": "",
+            "cuisine": "Korean BBQ",
+            "neighborhood": "Itaewon",
+            "price": "₩₩₩",
+            "gf": false,
+            "vegan": false,
+            "vegetarian": false,
+            "mustTry": "Premium galbi (beef short ribs)",
+            "note": "Upscale KBBQ — worth the splurge for farewell dinner",
+            "url": ""
+          }
+        ]
+      },
+      "tokyo": {
+        "label": "Tokyo",
+        "forDays": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "spots": [
+          {
+            "name": "Afuri Ramen",
+            "nameJp": "阿夫利",
+            "cuisine": "Yuzu shio ramen",
+            "neighborhood": "Various",
+            "price": "¥",
+            "gf": false,
+            "vegan": false,
+            "vegetarian": false,
+            "mustTry": "Yuzu shio ramen — light, citrusy",
+            "note": "Great first ramen in Japan",
+            "url": ""
+          },
+          {
+            "name": "Ueno Ameyoko Market",
+            "nameJp": "アメ横",
+            "cuisine": "Street food",
+            "neighborhood": "Ueno",
+            "price": "¥",
+            "gf": false,
+            "vegan": false,
+            "vegetarian": false,
+            "mustTry": "Fresh fruit, chocolate-covered strawberries, seafood",
+            "note": "Near Ueno Park — perfect for Day 5",
+            "url": ""
+          },
+          {
+            "name": "Shibuya Nonbei Yokocho",
+            "nameJp": "のんべい横丁",
+            "cuisine": "Yakitori, izakaya",
+            "neighborhood": "Shibuya",
+            "price": "¥¥",
+            "gf": false,
+            "vegan": false,
+            "vegetarian": false,
+            "mustTry": "Yakitori + highball",
+            "note": "Tiny atmospheric alley bars near Shibuya station",
+            "url": ""
+          }
+        ]
+      },
+      "kyoto": {
+        "label": "Kyoto",
+        "forDays": [
+          7,
+          8
+        ],
+        "spots": [
+          {
+            "name": "Nishiki Market",
+            "nameJp": "錦市場",
+            "cuisine": "Market food",
+            "neighborhood": "Nakagyō-ku",
+            "price": "¥",
+            "gf": false,
+            "vegan": false,
+            "vegetarian": false,
+            "mustTry": "Pickles, yuba (tofu skin), dashimaki tamago",
+            "note": "The Kitchen of Kyoto — essential grazing",
+            "url": ""
+          },
+          {
+            "name": "Pontocho Alley",
+            "nameJp": "先斗町",
+            "cuisine": "Various",
+            "neighborhood": "Pontocho",
+            "price": "¥¥",
+            "gf": false,
+            "vegan": false,
+            "vegetarian": false,
+            "mustTry": "River-view dining — any restaurant here",
+            "note": "Atmospheric alley along Kamo River. Pick any place with terrace.",
+            "url": ""
+          }
+        ]
+      },
+      "osaka": {
+        "label": "Osaka",
+        "forDays": [
+          10
+        ],
+        "spots": [
+          {
+            "name": "Kuromon Market",
+            "nameJp": "黒門市場",
+            "cuisine": "Fresh seafood",
+            "neighborhood": "Nippombashi",
+            "price": "¥¥",
+            "gf": false,
+            "vegan": false,
+            "vegetarian": false,
+            "mustTry": "Fresh uni, wagyu skewers, king crab",
+            "note": "Osaka's kitchen — eat everything",
+            "url": ""
+          },
+          {
+            "name": "Daruma Kushikatsu",
+            "nameJp": "だるま",
+            "cuisine": "Kushikatsu",
+            "neighborhood": "Shinsekai",
+            "price": "¥",
+            "gf": false,
+            "vegan": false,
+            "vegetarian": false,
+            "mustTry": "Kushikatsu — deep-fried skewers. NO double dipping!",
+            "note": "Iconic Shinsekai chain — look for the angry chef statue",
+            "url": ""
+          },
+          {
+            "name": "Dōtonbori Street Food",
+            "nameJp": "道頓堀",
+            "cuisine": "Street food",
+            "neighborhood": "Dōtonbori",
+            "price": "¥",
+            "gf": false,
+            "vegan": false,
+            "vegetarian": false,
+            "mustTry": "Takoyaki at Kukuru, okonomiyaki at Mizuno",
+            "note": "The neon-lit food street. Come hungry.",
+            "url": ""
+          }
+        ]
+      },
+      "fukuoka": {
+        "label": "Fukuoka / Kyushu",
+        "forDays": [
+          11,
+          12,
+          13,
+          14
+        ],
+        "spots": [
+          {
+            "name": "Nakasu Yatai",
+            "nameJp": "中洲屋台",
+            "cuisine": "Hakata ramen",
+            "neighborhood": "Nakasu riverside",
+            "price": "¥",
+            "gf": false,
+            "vegan": false,
+            "vegetarian": false,
+            "mustTry": "Hakata tonkotsu ramen at a yatai stall",
+            "note": "Iconic open-air food stalls along the river. Sit at the counter!",
+            "url": ""
+          },
+          {
+            "name": "Beppu Hell-Steamed Food",
+            "nameJp": "地獄蒸し",
+            "cuisine": "Steamed food",
+            "neighborhood": "Beppu",
+            "price": "¥",
+            "gf": false,
+            "vegan": false,
+            "vegetarian": false,
+            "mustTry": "Jigoku-mushi — food steamed in volcanic hot spring steam",
+            "note": "Only in Beppu! Eggs, veggies, seafood cooked by nature.",
+            "url": ""
+          }
+        ]
+      },
+      "okinawa": {
+        "label": "Okinawa",
+        "forDays": [
+          14,
+          15
+        ],
+        "spots": [
+          {
+            "name": "Makishi Public Market",
+            "nameJp": "牧志公設市場",
+            "cuisine": "Fresh seafood",
+            "neighborhood": "Naha",
+            "price": "¥¥",
+            "gf": false,
+            "vegan": false,
+            "vegetarian": false,
+            "mustTry": "Pick fish downstairs, they cook it upstairs",
+            "note": "Unique Okinawan market experience",
+            "url": ""
+          },
+          {
+            "name": "Yunangi",
+            "nameJp": "ゆうなんぎい",
+            "cuisine": "Okinawan",
+            "neighborhood": "Naha",
+            "price": "¥¥",
+            "gf": false,
+            "vegan": false,
+            "vegetarian": false,
+            "mustTry": "Goya champuru, rafute pork belly, umibudo (sea grapes)",
+            "note": "Best traditional Okinawan cuisine in Naha",
+            "url": ""
+          }
+        ]
+      }
+    }
+  },
+  "pins": {
+    "source": "csv-import",
+    "exportDate": "2026-02-15",
+    "stats": {
+      "total": 0,
+      "matched": 0,
+      "nearRoute": 0,
+      "offRoute": 0
+    },
+    "categories": [],
+    "regions": [],
+    "statusDescriptions": {
+      "matched": "",
+      "nearRoute": "",
+      "offRoute": ""
+    },
+    "items": []
+  },
+  "capabilities": {
+    "hasCountdown": true,
+    "hasCurrencyConverter": true,
+    "hasWeatherOverlay": true,
+    "hasPackingChecklist": true,
+    "hasHotelSelection": true,
+    "hasStickers": false,
+    "hasLuggageTags": false
+  },
+  "theme": {
+    "accent": "#E11D48",
+    "accentAlt": "#F97316"
+  },
+  "weather": [
+    {
+      "day": 1,
+      "location": "Departure from Wrocław",
+      "highC": 15,
+      "lowC": 8,
+      "condition": "Variable",
+      "rainChance": 30,
+      "humidity": 55,
+      "sunrise": "06:00",
+      "sunset": "20:00",
+      "tip": "Airport weather — dress in layers.",
+      "icon": "✈️"
+    },
+    {
+      "day": 2,
+      "location": "Arrival in Seoul",
+      "highC": 19,
+      "lowC": 9,
+      "condition": "Mostly sunny",
+      "rainChance": 20,
+      "humidity": 50,
+      "sunrise": "05:50",
+      "sunset": "19:10",
+      "tip": "Spring in Seoul — cherry blossoms possible!",
+      "icon": "🌸"
+    },
+    {
+      "day": 3,
+      "location": "Seoul",
+      "highC": 19,
+      "lowC": 9,
+      "condition": "Mostly sunny",
+      "rainChance": 20,
+      "humidity": 50,
+      "sunrise": "05:50",
+      "sunset": "19:10",
+      "tip": "Spring in Seoul — cherry blossoms possible!",
+      "icon": "🌸"
+    },
+    {
+      "day": 4,
+      "location": "Seoul",
+      "highC": 21,
+      "lowC": 13,
+      "condition": "Partly cloudy",
+      "rainChance": 25,
+      "humidity": 55,
+      "sunrise": "05:10",
+      "sunset": "18:20",
+      "tip": "Late April Tokyo — warm but can be rainy. Pack an umbrella.",
+      "icon": "🌤️"
+    },
+    {
+      "day": 5,
+      "location": "Tokyo",
+      "highC": 21,
+      "lowC": 13,
+      "condition": "Partly cloudy",
+      "rainChance": 25,
+      "humidity": 55,
+      "sunrise": "05:10",
+      "sunset": "18:20",
+      "tip": "Late April Tokyo — warm but can be rainy. Pack an umbrella.",
+      "icon": "🌤️"
+    },
+    {
+      "day": 6,
+      "location": "Kamakura & Mount Fuji",
+      "highC": 17,
+      "lowC": 6,
+      "condition": "Clear mornings",
+      "rainChance": 20,
+      "humidity": 50,
+      "sunrise": "05:08",
+      "sunset": "18:22",
+      "tip": "Fuji area is 5-6°C cooler. Bring a warm layer.",
+      "icon": "🏔️"
+    },
+    {
+      "day": 7,
+      "location": "Tokyo Morning",
+      "highC": 22,
+      "lowC": 12,
+      "condition": "Sunny",
+      "rainChance": 20,
+      "humidity": 55,
+      "sunrise": "05:27",
+      "sunset": "18:36",
+      "tip": "Perfect temple weather. Late cherry blossoms possible.",
+      "icon": "☀️"
+    },
+    {
+      "day": 8,
+      "location": "Kyoto",
+      "highC": 22,
+      "lowC": 12,
+      "condition": "Sunny",
+      "rainChance": 20,
+      "humidity": 55,
+      "sunrise": "05:27",
+      "sunset": "18:36",
+      "tip": "Perfect temple weather. Late cherry blossoms possible.",
+      "icon": "☀️"
+    },
+    {
+      "day": 9,
+      "location": "Nara",
+      "highC": 21,
+      "lowC": 11,
+      "condition": "Sunny",
+      "rainChance": 15,
+      "humidity": 52,
+      "sunrise": "05:26",
+      "sunset": "18:35",
+      "tip": "Great hiking weather for Mount Wakakusa.",
+      "icon": "☀️"
+    },
+    {
+      "day": 10,
+      "location": "Osaka",
+      "highC": 22,
+      "lowC": 13,
+      "condition": "Partly cloudy",
+      "rainChance": 25,
+      "humidity": 58,
+      "sunrise": "05:25",
+      "sunset": "18:35",
+      "tip": "Warm enough for just a t-shirt during the day.",
+      "icon": "🌤️"
+    },
+    {
+      "day": 11,
+      "location": "Epic West",
+      "highC": 22,
+      "lowC": 13,
+      "condition": "Partly cloudy",
+      "rainChance": 25,
+      "humidity": 60,
+      "sunrise": "05:33",
+      "sunset": "18:43",
+      "tip": "Miyajima can be breezy.",
+      "icon": "⛅"
+    },
+    {
+      "day": 12,
+      "location": "Kyushu Adventures",
+      "highC": 22,
+      "lowC": 14,
+      "condition": "Warm",
+      "rainChance": 30,
+      "humidity": 62,
+      "sunrise": "05:40",
+      "sunset": "18:50",
+      "tip": "Evening yatai stalls are rain or shine.",
+      "icon": "🌤️"
+    },
+    {
+      "day": 13,
+      "location": "Takachiho Gorge & Mount Aso",
+      "highC": 23,
+      "lowC": 13,
+      "condition": "Sunny",
+      "rainChance": 20,
+      "humidity": 58,
+      "sunrise": "05:39",
+      "sunset": "18:48",
+      "tip": "Mt Aso can be windy. Check volcanic activity alerts.",
+      "icon": "☀️"
+    },
+    {
+      "day": 14,
+      "location": "Fukuoka Chill",
+      "highC": 26,
+      "lowC": 21,
+      "condition": "Tropical",
+      "rainChance": 35,
+      "humidity": 75,
+      "sunrise": "06:10",
+      "sunset": "18:50",
+      "tip": "Subtropical! Sunscreen essential. Quick rain showers pass fast.",
+      "icon": "🌴"
+    },
+    {
+      "day": 15,
+      "location": "Okinawa",
+      "highC": 26,
+      "lowC": 21,
+      "condition": "Tropical",
+      "rainChance": 35,
+      "humidity": 75,
+      "sunrise": "06:10",
+      "sunset": "18:50",
+      "tip": "Subtropical! Sunscreen essential. Quick rain showers pass fast.",
+      "icon": "🌴"
+    },
+    {
+      "day": 16,
+      "location": "Okinawa",
+      "highC": 19,
+      "lowC": 9,
+      "condition": "Mostly sunny",
+      "rainChance": 20,
+      "humidity": 50,
+      "sunrise": "05:50",
+      "sunset": "19:10",
+      "tip": "Spring in Seoul — cherry blossoms possible!",
+      "icon": "🌸"
+    },
+    {
+      "day": 17,
+      "location": "Seoul Last Day & Departure",
+      "highC": 19,
+      "lowC": 9,
+      "condition": "Mostly sunny",
+      "rainChance": 20,
+      "humidity": 50,
+      "sunrise": "05:50",
+      "sunset": "19:10",
+      "tip": "Spring in Seoul — cherry blossoms possible!",
+      "icon": "🌸"
+    },
+    {
+      "day": 18,
+      "location": "Welcome Home",
+      "highC": 15,
+      "lowC": 8,
+      "condition": "Variable",
+      "rainChance": 30,
+      "humidity": 55,
+      "sunrise": "06:00",
+      "sunset": "20:00",
+      "tip": "Airport weather — dress in layers.",
+      "icon": "✈️"
+    }
+  ],
+  "currency": {
+    "currencies": [
+      "PLN",
+      "KRW",
+      "JPY",
+      "EUR",
+      "USD"
+    ],
+    "symbols": {
+      "PLN": "zł",
+      "KRW": "₩",
+      "JPY": "¥",
+      "EUR": "€",
+      "USD": "$"
+    },
+    "rates": {
+      "PLN": {
+        "KRW": 345.0,
+        "JPY": 37.0,
+        "EUR": 0.233,
+        "USD": 0.25
+      },
+      "KRW": {
+        "PLN": 0.0029,
+        "JPY": 0.107,
+        "EUR": 0.00068,
+        "USD": 0.00073
+      },
+      "JPY": {
+        "PLN": 0.027,
+        "KRW": 9.35,
+        "EUR": 0.0063,
+        "USD": 0.0068
+      },
+      "EUR": {
+        "PLN": 4.3,
+        "KRW": 1475.0,
+        "JPY": 159.0,
+        "USD": 1.08
+      },
+      "USD": {
+        "PLN": 4.0,
+        "KRW": 1370.0,
+        "JPY": 148.0,
+        "EUR": 0.93
+      }
+    },
+    "defaultFrom": "PLN",
+    "defaultAmount": 100,
+    "rateNote": "Rates approximate, March 2026. KRW added for Korea days."
+  }
+}
