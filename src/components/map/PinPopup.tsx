@@ -26,9 +26,9 @@ export function PinPopup({ pin }: { pin: Pin }) {
     <div style={{ minWidth: 200, fontFamily: "Inter, sans-serif" }}>
       <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 4 }}>
         <span style={{ fontSize: 16 }}>{icon}</span>
-        <span style={{ fontSize: 14, fontWeight: 500, color: "#fff" }}>{pin.name}</span>
+        <span style={{ fontSize: 14, fontWeight: 500, color: "var(--popup-text)" }}>{pin.name}</span>
       </div>
-      <div style={{ fontSize: 12, color: "#888", marginBottom: 8, display: "flex", alignItems: "center", gap: 6 }}>
+      <div style={{ fontSize: 12, color: "var(--popup-muted)", marginBottom: 8, display: "flex", alignItems: "center", gap: 6 }}>
         <span>{pin.category} &middot; {pin.region}</span>
         {pin.source === "itinerary" && (
           <span style={{ fontSize: 10, fontWeight: 600, color: "#BC002D", background: "rgba(188,0,45,0.12)", padding: "1px 5px", borderRadius: 3, letterSpacing: "0.04em" }}>
@@ -48,7 +48,7 @@ export function PinPopup({ pin }: { pin: Pin }) {
             {"\u{1F7E1}"} Could visit on:
           </div>
           {pin.possibleDayLabels.map((label, i) => (
-            <div key={i} style={{ fontSize: 12, color: "#aaa", paddingLeft: 12 }}>
+            <div key={i} style={{ fontSize: 12, color: "var(--popup-dim)", paddingLeft: 12 }}>
               {label}
             </div>
           ))}
@@ -56,10 +56,10 @@ export function PinPopup({ pin }: { pin: Pin }) {
       )}
       {pin.status === "offRoute" && (
         <div style={{ marginBottom: 6 }}>
-          <div style={{ fontSize: 12, color: "#888" }}>
+          <div style={{ fontSize: 12, color: "var(--popup-muted)" }}>
             {"\u{274C}"} Not on this trip&apos;s route
           </div>
-          <div style={{ fontSize: 11, color: "#666", paddingLeft: 12 }}>
+          <div style={{ fontSize: 11, color: "var(--popup-subtle)", paddingLeft: 12 }}>
             Region: {pin.region}
           </div>
         </div>
@@ -72,7 +72,7 @@ export function PinPopup({ pin }: { pin: Pin }) {
       )}
 
       {pin.note && (
-        <div style={{ fontSize: 12, fontWeight: 300, fontStyle: "italic", color: "#999", marginBottom: 6, borderLeft: "2px solid #333", paddingLeft: 8 }}>
+        <div style={{ fontSize: 12, fontWeight: 300, fontStyle: "italic", color: "var(--popup-subtle)", marginBottom: 6, borderLeft: "2px solid var(--popup-border)", paddingLeft: 8 }}>
           &ldquo;{pin.note}&rdquo;
         </div>
       )}
@@ -98,12 +98,12 @@ export function HotelPinPopup({ pin }: { pin: Pin }) {
     <div style={{ minWidth: 200, fontFamily: "Inter, sans-serif" }}>
       <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 4 }}>
         <span style={{ fontSize: 16 }}>{icon}</span>
-        <span style={{ fontSize: 14, fontWeight: 500, color: "#fff" }}>{pin.name}</span>
+        <span style={{ fontSize: 14, fontWeight: 500, color: "var(--popup-text)" }}>{pin.name}</span>
       </div>
       {pin.nameJp && (
-        <div style={{ fontSize: 12, color: "#aaa", marginBottom: 4 }}>{pin.nameJp}</div>
+        <div style={{ fontSize: 12, color: "var(--popup-dim)", marginBottom: 4 }}>{pin.nameJp}</div>
       )}
-      <div style={{ fontSize: 12, color: "#888", marginBottom: 8, display: "flex", alignItems: "center", gap: 6 }}>
+      <div style={{ fontSize: 12, color: "var(--popup-muted)", marginBottom: 8, display: "flex", alignItems: "center", gap: 6 }}>
         <span>{pin.category} &middot; {pin.region}</span>
         {pin.chosen && (
           <span style={{ fontSize: 10, fontWeight: 600, color: "#c4956a", background: "rgba(196,149,106,0.15)", padding: "1px 5px", borderRadius: 3, letterSpacing: "0.04em" }}>
@@ -113,7 +113,7 @@ export function HotelPinPopup({ pin }: { pin: Pin }) {
       </div>
 
       {pin.hotelLocation && (
-        <div style={{ fontSize: 12, color: "#aaa", marginBottom: 6 }}>
+        <div style={{ fontSize: 12, color: "var(--popup-dim)", marginBottom: 6 }}>
           {pin.hotelLocation}
         </div>
       )}
@@ -131,7 +131,7 @@ export function HotelPinPopup({ pin }: { pin: Pin }) {
       )}
 
       {pin.note && (
-        <div style={{ fontSize: 12, fontWeight: 300, fontStyle: "italic", color: "#999", marginBottom: 6, borderLeft: "2px solid #333", paddingLeft: 8 }}>
+        <div style={{ fontSize: 12, fontWeight: 300, fontStyle: "italic", color: "var(--popup-subtle)", marginBottom: 6, borderLeft: "2px solid var(--popup-border)", paddingLeft: 8 }}>
           &ldquo;{pin.note}&rdquo;
         </div>
       )}

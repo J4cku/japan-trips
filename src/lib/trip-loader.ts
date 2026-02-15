@@ -50,7 +50,7 @@ function normalize(raw: any): TripData {
     capabilities: r.capabilities ?? undefined,
     theme: r.theme ?? undefined,
     stickers: r.stickers ?? undefined,
-    luggageTags: r.luggageTags ?? undefined,
+    luggageTags: normalizeLuggageTags(r.luggageTags),
     weather: r.weather ?? undefined,
     currency: r.currency ?? undefined,
     polaroids: r.polaroids ?? undefined,
@@ -328,6 +328,38 @@ function normalizeTravels(travels: any[]): Travel[] {
       animation: t.animation || "",
     };
   });
+}
+
+function normalizeLuggageTags(lt: any): any {
+  if (!lt) return undefined;
+  const result = { ...lt };
+  // Normalize day keys: "day1" → "01", "day2" → "02", etc.
+  if (result.days && typeof result.days === "object") {
+    const normalized: Record<string, any> = {};
+    for (const [key, val] of Object.entries(result.days)) {
+      const m = key.match(/^day(\d+)$/);
+      if (m) {
+        normalized[m[1].padStart(2, "0")] = val;
+      } else {
+        normalized[key] = val;
+      }
+    }
+    result.days = normalized;
+  }
+  // Normalize hotelKeys the same way
+  if (result.hotelKeys && typeof result.hotelKeys === "object") {
+    const normalized: Record<string, any> = {};
+    for (const [key, val] of Object.entries(result.hotelKeys)) {
+      const m = key.match(/^day(\d+)$/);
+      if (m) {
+        normalized[m[1].padStart(2, "0")] = val;
+      } else {
+        normalized[key] = val;
+      }
+    }
+    result.hotelKeys = normalized;
+  }
+  return result;
 }
 
 export async function loadTripData(slug: string): Promise<TripData> {

@@ -5483,5 +5483,203 @@
       "day15": "Southern Beach Hotel & Resort, Okinawa — ¥700 (2 nights, Apr 29-May 1)",
       "day16": "Seoul Hotel (TBD) — 1 night, May 1-2"
     }
+  },
+  "routes": {
+    "main": {
+      "label": "Korea & Japan Route",
+      "color": "#BC002D",
+      "opacity": 0.6,
+      "weight": 2.5,
+      "dashArray": "6,4",
+      "coordinates": [
+        {
+          "lat": 37.5665,
+          "lng": 126.978,
+          "label": "Seoul"
+        },
+        {
+          "lat": 35.6812,
+          "lng": 139.7649,
+          "label": "Tokyo"
+        },
+        {
+          "lat": 35.3205,
+          "lng": 139.5618,
+          "label": "Kamakura"
+        },
+        {
+          "lat": 35.5021,
+          "lng": 138.7665,
+          "label": "Kawaguchiko"
+        },
+        {
+          "lat": 35.0116,
+          "lng": 135.7681,
+          "label": "Kyoto"
+        },
+        {
+          "lat": 34.6851,
+          "lng": 135.8048,
+          "label": "Nara"
+        },
+        {
+          "lat": 34.6937,
+          "lng": 135.5023,
+          "label": "Osaka"
+        },
+        {
+          "lat": 34.8394,
+          "lng": 134.6939,
+          "label": "Himeji"
+        },
+        {
+          "lat": 34.4089,
+          "lng": 133.2052,
+          "label": "Onomichi"
+        },
+        {
+          "lat": 34.3853,
+          "lng": 132.4553,
+          "label": "Hiroshima"
+        },
+        {
+          "lat": 33.5902,
+          "lng": 130.4017,
+          "label": "Fukuoka"
+        },
+        {
+          "lat": 32.8032,
+          "lng": 130.7079,
+          "label": "Kumamoto"
+        },
+        {
+          "lat": 33.2846,
+          "lng": 131.4914,
+          "label": "Beppu"
+        },
+        {
+          "lat": 32.7133,
+          "lng": 131.306,
+          "label": "Takachiho"
+        },
+        {
+          "lat": 26.3344,
+          "lng": 127.8056,
+          "label": "Okinawa"
+        },
+        {
+          "lat": 37.5665,
+          "lng": 126.978,
+          "label": "Seoul (return)"
+        }
+      ]
+    },
+    "dayTrips": [
+      {
+        "label": "Kamakura day trip",
+        "day": 5,
+        "from": {
+          "lat": 35.6812,
+          "lng": 139.7649
+        },
+        "to": {
+          "lat": 35.3205,
+          "lng": 139.5618
+        }
+      },
+      {
+        "label": "Kawaguchiko day trip",
+        "day": 6,
+        "from": {
+          "lat": 35.6812,
+          "lng": 139.7649
+        },
+        "to": {
+          "lat": 35.5021,
+          "lng": 138.7665
+        }
+      },
+      {
+        "label": "Nara day trip",
+        "day": 9,
+        "from": {
+          "lat": 35.0116,
+          "lng": 135.7681
+        },
+        "to": {
+          "lat": 34.6851,
+          "lng": 135.8048
+        }
+      },
+      {
+        "label": "Himeji day trip",
+        "day": 11,
+        "from": {
+          "lat": 35.0116,
+          "lng": 135.7681
+        },
+        "to": {
+          "lat": 34.8394,
+          "lng": 134.6939
+        }
+      },
+      {
+        "label": "Kumamoto day trip",
+        "day": 13,
+        "from": {
+          "lat": 33.5902,
+          "lng": 130.4017
+        },
+        "to": {
+          "lat": 32.8032,
+          "lng": 130.7079
+        }
+      },
+      {
+        "label": "Beppu day trip",
+        "day": 14,
+        "from": {
+          "lat": 33.5902,
+          "lng": 130.4017
+        },
+        "to": {
+          "lat": 33.2846,
+          "lng": 131.4914
+        }
+      },
+      {
+        "label": "Takachiho day trip",
+        "day": 14,
+        "from": {
+          "lat": 33.5902,
+          "lng": 130.4017
+        },
+        "to": {
+          "lat": 32.7133,
+          "lng": 131.306
+        }
+      }
+    ]
+  },
+  "mapConfig": {
+    "defaultCenter": [
+      34.0,
+      134.0
+    ],
+    "defaultZoom": 5,
+    "minZoom": 4,
+    "maxZoom": 18,
+    "maxBounds": [
+      [
+        20.0,
+        120.0
+      ],
+      [
+        45.0,
+        150.0
+      ]
+    ],
+    "maxBoundsViscosity": 0.8,
+    "fitBoundsFromPins": true
   }
 }
